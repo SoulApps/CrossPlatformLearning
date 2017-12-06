@@ -1,0 +1,6 @@
+DNI
+NOMBRE
+APELLIDOS
+EDAD
+
+strnatcasecmp

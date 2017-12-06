@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:title="Confirmación al guardar"
+        android:key="confirmar"
+        app:defaultValue="true"
+        android:summaryOff="No"
+        android:summaryOn="Sí" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:title="Sonido al pulsar un libro"
+        android:key="sonido"
+        app:defaultValue="true"
+        android:summaryOff="No"
+        android:summaryOn="Sí" />
+</PreferenceScreen>

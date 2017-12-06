@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0068)http://www.chuidiang.com/java/mysql/PreparedStatement-java-mysql.php -->
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/plantilla_php.dwt.php" codeOutsideHTMLIsLocked="false" --><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Uso de PreparedStatement con java y MySQL</title>
+<meta name="keywords" content="java, mysql, base datos, prepared statement, statement, conector, driver, jdbc">
+<meta name="description" content="Prepared Statement con java y MySQL, comparativa con Statement y ejemplos de uso">
+
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<link href="./Uso de PreparedStatement con java y MySQL_files/estilo_general.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" charset="utf-8" async="" src="./Uso de PreparedStatement con java y MySQL_files/button.5546439b5d743401ca910708312f6e81.js.descarga"></script></head>
+<body>
+<script src="./Uso de PreparedStatement con java y MySQL_files/cb=gapi.loaded_1" async=""></script><script src="./Uso de PreparedStatement con java y MySQL_files/cb=gapi.loaded_0" async=""></script><script type="text/javascript" async="" src="./Uso de PreparedStatement con java y MySQL_files/plusone.js.descarga" gapi_processed="true"></script><script type="text/javascript">window.___gcfg = {lang: 'es'};(function() {var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;po.src = 'https://apis.google.com/js/plusone.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);})();</script><div id="cabecera"><h1><a href="http://www.chuidiang.com/">Ejemplos java y C/linux</a> <div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 106px; height: 24px;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 106px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;" tabindex="0" vspace="0" width="100%" id="I0_1479921113617" name="I0_1479921113617" src="./Uso de PreparedStatement con java y MySQL_files/fastbutton.html" data-gapiattached="true" title="+1"></iframe></div> <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="./Uso de PreparedStatement con java y MySQL_files/tweet_button.f7908d4abf5ce27173c69bdbb93aedb6.es.html" style="position: static; visibility: visible; width: 69px; height: 20px;"></iframe><script type="text/javascript" src="./Uso de PreparedStatement con java y MySQL_files/widgets.js.descarga"></script></h1></div><div id="barra_izquierda">	<h2>Tutoriales</h2>
+	<ul>
+		<li><a href="http://www.chuidiang.com/java/index.php">Java</a></li>
+		<li><a href="http://www.chuidiang.com/clinux/index.php">C/C++ de Linux</a></li>
+		<li><a href="http://www.chuidiang.com/ood/index.php">Metodologías y diseño orientado a objetos</a></li>
+		<li><a href="http://www.chuidiang.com/css/index.php">CSS</a></li>
+	</ul><h2>Enlaces</h2>
+	<ul>
+		<li><a href="http://blog.chuidiang.com/">Diario de Programación</a></li>
+		<li><a href="http://chuidiang.org/">Más de Java</a></li>
+		<li><a href="http://chuwiki.chuidiang.org/">Chuwiki</a></li>
+		<li><a href="http://micro-blog.chuidiang.org/">Micro entradas</a></li>
+		<li><a href="http://foro.chuidiang.com/">Foro de Java y C++</a></li>
+		<li><a href="http://proyectos.chuidiang.com/">Mis proyectos</a></li>
+		<li><a href="http://www.chuidiang.com/varios/index.php">Pasatiempos</a></li>
+	</ul><h2>Licencia</h2>
+	<div class="postit"><!--Creative Commons License-->
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/es/deed.es">
+<img alt="Creative Commons License" style="border-width: 0" src="./Uso de PreparedStatement con java y MySQL_files/88x31.png">
+</a>
+<br>Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/es/deed.es">licencia de Creative Commons</a>.<!--/Creative Commons License--><!-- <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+       <Work rdf:about="">
+               <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/es/" />
+       <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+       </Work>
+       <License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/es/"><permits rdf:resource="http://web.resource.org/cc/Reproduction"/><permits rdf:resource="http://web.resource.org/cc/Distribution"/><requires rdf:resource="http://web.resource.org/cc/Notice"/><requires rdf:resource="http://web.resource.org/cc/Attribution"/><prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/><requires rdf:resource="http://web.resource.org/cc/ShareAlike"/></License></rdf:RDF> -->
+	   <br>Para reconocer la autoría debes poner el enlace <a href="http://www.chuidiang.com/">http://www.chuidiang.com</a>
+</div></div>  <div id="contenedor">
+  	<div id="contenido"> 
+		<h3><!-- InstanceBeginEditable name="TituloArticulo" -->Uso de PreparedStatement con Java y MySQL <!-- InstanceEndEditable --></h3>
+	<!-- InstanceBeginEditable name="ParrafoInicial" -->
+	<p>Cuando <a href="http://www.chuidiang.com/java/mysql/mysql-java-basico.php">trabajamos con una base de datos</a> es posible que haya sentencias <em>SQL</em> que tengamos que ejecutar varias veces durante la sesión, aunque sea con distintos parámetros. Por ejemplo, durante una sesión con base de datos podemos querer insertar varios registros en una tabla. Cada vez los datos que insertamos serán distintos, pero la sentencia <em>SQL</em> será la misma: Un <em>INSERT</em> sobre determinada tabla que será simpre igual, salvo los valores concretos que queramos insertar.</p>
+	<p>Casi todas las bases de datos tienen previsto un mecanismo para que en estos casos la ejecución de esas sentencias repetidas sea más rápida. Si tenemos una tabla person con un id, una edad, un nombre, un apellido y hacemos, por ejemplo, varios <em>INSERT</em> así</p>
+	<p class="codigo">mysql&gt; INSERT INTO person VALUES (null, 23, 'Pedro', 'Perez'); <br>
+	  mysql&gt; INSERT INTO person VALUES (null, 33, 'Rodrigo', 'Rodriquez');</p>
+	<p>en cada caso la base de datos deberá analizar la sentencia <em>SQL</em>, comprobar que es correcta, convertir los datos al tipo adecuado (por ejemplo, los enteros a int) y ejecutar la sentencia.</p>
+	<p>El mecanismo que preven las bases de datos para hacer más eficiente este proceso es que le indiquemos, previamente, el tipo de sentencia que vamos a usar, de forma que la base de datos la "<em>precompila</em>" y la guarda en condiciones de ser ejecutada inmediatamente, sin necesidad de analizarla en cada caso. Esto es lo que se conoce como una <em>prepared</em> <em>statement</em>. En el caso de <em>mysql</em>, se haría de esta forma</p>
+	<p class="codigo">mysql&gt; PREPARE insertar FROM "INSERT INTO person VALUES (null, ?, ?, ?)";<br>
+	  mysql&gt; SET @edad=23;<br>
+	  mysql&gt; SET @nombre='Pedro'; <br>
+	  mysql&gt; SET @apellido='Perez';<br>
+	  mysql&gt; EXECUTE insertar USING @edad,@nombre,@apellido<br>
+	  mysql&gt; SET @edad=33;<br>
+mysql&gt; SET @nombre='Rodrigo'; <br>
+mysql&gt; SET @apellido='Rodriguez';<br>
+mysql&gt; EXECUTE insertar USING @edad,@nombre,@apellido;<br>
+mysql&gt; DEALLOCATE PREPARE insertar;</p>
+	<p>donde hemos preparado una <em>prepared</em> <em>statement</em> de nombre <em>insertar</em> con la <em>SQL</em> del <em>INSERT</em>, en la que hemos reemplazado los valores concretos por interrogantes. Fíjate que no hemos puesto comillas entre los interrogantes. Hemos hecho dos inserciones dando valores a unas variables <em>@edad</em>, <em>@nombre</em> y <em>@apellido</em>, que son las que se usarán en el <em>EXCECUTE</em> de la <em>prepared</em> <em>statement</em>. Una vez finalizadas las inserciones, avisamos a la base de datos que no vamos a usar más esta <em>prepared</em> <em>statement</em> con un <em>DEALLOCATE</em>. </p>
+	<p>La ejecución de los <em>insert</em> realizados de esta manera es, teóricamente, más eficiente que los realizados de la forma tradicional, escribiendo el <em>INSERT</em> directamente. Existe otra <a href="http://www.chuidiang.com/java/mysql/PreparedStatement-java-mysql.php#seguridad">ventaja adicional en el tema de seguridad</a>, pero eso afecta más al programa <em>java</em>. Puedes verla en el enlace. </p>
+	<!-- InstanceEndEditable -->
+		<!-- InstanceBeginEditable name="RestoArticulo" -->
+	<h4>PreparedStatement desde java. Establecer la conexión. </h4>
+	<p>Si la base de datos soporta <em>prepared</em> <em>statement</em> y el <em>driver</em>/<em>conector</em> que usemos para hablar con esa base de datos desde <em>java</em> los soporta también, entonces podemos usar los <em>prepared</em> <em>statement</em> desde <em>java</em>.</p>
+	<p>Si la base de datos no los soporta o el <em>driver</em>/<em>conector</em> no los soporta, podemos desde <em>java</em> hacer el código igualmente. A la hora de codificar podemos usar los <em>PreparedStatement</em> independientemente de que la base de datos y/o el conector los soporten o no, pero no conseguiremos los beneficios deseados. Aunque usemos <em>PreparedStatement</em> desde java, por debajo acabarán traduciéndose a <em>statement</em> normal. Si quieres asegurarte de conseguir todos los beneficios, debes verificar si tu base de datos y el <em>driver</em> de conexión con ella soportan los <em>prepared</em> <em>statement</em>. En el caso de <em>MySQL</em>, las versiones modernas lo hacen. </p>
+	<p>Lo primero de todo es establecer la conexión. En el caso de <em>MySQL</em> debemos además poner un pequeño parámetro adicional para configurar el driver para que use las <em>prepared</em> <em>statement</em> en el servidor. Este parámetro es <em>useServerPrepStmts=true</em>, por lo que la cadena de conexión completa sería</p>
+	<p class="codigo"> try {<br>
+&nbsp;&nbsp;&nbsp;Class.forName("com.mysql.jdbc.Driver");<br>
+<br>
+&nbsp;&nbsp;&nbsp;<span class="comentario_codigo">// Es necesario useServerPrepStmts=true para que los PreparedStatement<br>
+&nbsp;&nbsp;&nbsp;// se hagan en el servidor de bd. Si no lo ponemos, funciona todo<br>
+&nbsp;&nbsp;&nbsp;// igual, pero los PreparedStatement se convertirán internamente a<br>
+&nbsp;&nbsp;&nbsp;// Statements.</span><br>
+  &nbsp;&nbsp;&nbsp;Connection conexion = DriverManager.getConnection(<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"jdbc:mysql://servidor/basedatos?<strong>useServerPrepStmts=true</strong>",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"usuario", "password");<br>
+&nbsp;&nbsp;&nbsp;...
+<br>
+  } catch (Exception e) {<br>
+  &nbsp;&nbsp;&nbsp;e.printStackTrace();<br>
+  }</p>
+	<h4>Crear el PreparedStatement </h4>
+	<p>Una vez establecida la conexión, podemos crear el <em>PreparedStatement</em> llamando al método <em>prepareStatement()</em> de la <em>Connection</em>. Puesto que los <em>PreparedStatement</em> son importantes cuando queremos utilizarlos varias veces para ganar en eficiencia, es importante guardar este <em>PreparedStatement</em> en algún sitio al que podamos acceder cuando lo necesitemos. Si cada vez que vamos a usarlo creamos un <em>PreparedStatement</em> nuevo, tampoco conseguiremos la mejora de eficiencia. Un buen sitio para guardar este <em>PreparedStatement</em> puede ser un atributo de la clase. </p>
+	<p class="codigo">public class UnaClase {<br>
+	  &nbsp;&nbsp;&nbsp;// Aqui guardamos un unico PreparedStatement para insertar <br>
+	  &nbsp;&nbsp;&nbsp;PreparedStatement psInsertar = null;<br>
+	  &nbsp;&nbsp;&nbsp;...<br>
+	  &nbsp;&nbsp;&nbsp;public void unMetodoDeInsertar () {<br>
+     &nbsp;&nbsp;&nbsp;try {<br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Creamos el PreparedStatement si no estaba ya creado. 
+     <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (null == psInsertar) { <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;psInsertar = conexion.prepareStatement(<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"insert into person values (null,?,?,?)");<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>
+	  &nbsp;&nbsp;&nbsp;} catch (SQLException e) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e.printStackTrace();<br>
+&nbsp;&nbsp;&nbsp;}</p>
+	<h4><a name="seguridad" id="seguridad"></a>Usar el PreparedStatement: Una pequeña ventaja en la seguridad</h4>
+	<p>Una vez creado y guardado a buen recaudo, podemos usarlo siempre que nos haga falta. Para ello, primero debemos darle valor a los parámetros que dejamos como interrogantes. Usaremos los método <em>set()</em> de que dispone <em>PreparedStatement</em>, teniendo en cuenta que el primer interrogante que aparece en la <em>SQL</em> es el parámetro 1, el segundo el 2, etc. La inserción quedaría entonces</p>
+	<p class="codigo">psInsertar.setInt(1, 23); // La edad, el primer interrogante, es un entero. <br>
+	  psInsertar.setString(2, "Pedro"); // El String nombre es el segundo interrogante<br>
+	  psInsertar.setString(3, "Perez"); // Y el tercer interrogante, un String apellido.<br>
+	  psInsertar.exequteUpdate(); // Se ejecuta la inserción.</p>
+	<p>Precisamente por esta forma de meter los datos, conseguimos una pequeña ventaja en el tema de seguridad. Imagínate que el nombre viene de un campo de texto que el usuario rellena. Si el usuario pone, por ejemplo, un nombre como "<em>0'Donnell</em>", con una comilla simple entre medias, nos estropearía una <em>Statement</em> normal que montásemos a base de concatenar cadenas</p>
+	<p class="codigo">String sql = "insert into person values (null, " +<br>
+	  &nbsp;&nbsp;&nbsp;edad + ",'" + nombre + "','" + apellido + "')";</p>
+	<p>Hemos ido sumando cadenas y hemos metido la variable <em>nombre</em> entre comillas simples, pero como nombre a su vez tiene comillas simples, el resultado de todo esto sería un <em>String</em> así</p>
+	<p class="codigo">insert into person values (null, 23, 'O'Donnell', 'Perez')</p>
+	<p>que dará un error al usarlo, porque la comilla de <em>O'Donnell</em> se interpreta con fin de la cadena nombre y detrás debería ir, en una <em>SQL</em> correctamente formada, una coma para separar el campo apellido, y no una D mayúscula. Es más, un usuario con concimientos y mal intencionado, podría incluso conseguir que se ejecutase un trozo de <em>SQL</em> malicioso. </p>
+	<p>Si usamos <em>Statement</em> normal y componemos nosotros las <em>SQL</em>, es nuestra responsabilidad revisar las cadenas que nos llegan desde el usuario y "<em>escapar</em>" anteponiendo un \ en todos aquellos caracteres susceptibles de estropearnos la sentencia <em>SQL</em>.</p>
+	<p>Esto no pasa, sin embargo, con los <em>PreparedStatement</em>. Al crear la <em>PreparedStatement</em>, ya indicamos cómo es la <em>SQL</em> y qué campos tiene. Al meter dichos campos con métodos específicos, <em>setInt()</em>, <em>setString()</em>, etc, la <em>PreparedStatement</em> ya sabe cuales son exactamente los valores de los campos y cual exactamente la <em>SQL</em>, por lo que el nombre "<em>O'Donnell</em>" nos nos causaría ningún problema en la inserción.</p>
+	<h4>Obtener las claves recién creadas</h4>
+	<p>Al hacer un <em>insert</em>, si tenemos así configurada la tabla de base de datos, es posible que la clave primaria de la tabla se autogenere al hacer el <em>insert</em>. Con <em>PreparedStatement</em> podemos obtener esa clave recién generada al hacer el <em>insert</em>. Para ello, al crear la <em>PreparedStatement</em>, debemo dar un parámetro más indicando que tenemos interés en recuperar dicha clave.</p>
+	<p class="codigo">PreparedStatement ps = conexion.prepareStatement(<br>
+&nbsp;&nbsp;&nbsp;"insert into person values (null,?,?,?)",<br>
+&nbsp;&nbsp;&nbsp;<strong>PreparedStatement.RETURN_GENERATED_KEYS</strong>);</p>
+	<p>Listo.. Una vez que hagamos un <em>insert</em>, podremos obtener la clave generada. En este ejemplo, la clave es ese campo <em>null</em> que hemos puesto en el <em>insert</em>. Al ser <em>null</em> y ser el campo en base de datos una clave autogenerada, <em>MySQL</em> generará un valor distinto cada vez. Para obtener ese valor</p>
+	<p class="codigo"> ps.setInt(1, 22);<br>
+ps.setString(2, "Juan");<br>
+ps.setString(3, "Perez");<br>
+ps.executeUpdate();<br>
+<br>
+// Se obtiene la clave generada<br>
+  ResultSet rs = ps.getGeneratedKeys();<br>
+  while (rs.next()) {<br>
+  &nbsp;&nbsp;&nbsp;int claveGenerada = rs.getInt(1);<br>
+  &nbsp;&nbsp;&nbsp;System.out.println("Clave generada = " + claveGenerada);<br>
+  }</p>
+	<p>Con el método <em>getGeneratedKeys()</em> obtenemos un <em>ResultSet</em> con las claves generadas. Puesto que sólo hemos hecho una inserción, ese <em>ResultSet</em> sólo tendrá una fila (el bucle while sólo se ejecutará una vez). Como la clave es un simple entero, estará en la columna 1 del <em>ResultSet</em> (<em>rs.getInt(1)</em>).</p>
+	<h4>Ejemplo completo</h4>
+	<p>Puedes ver el ejemplo completo de este tutorial en <a href="http://code.google.com/p/chuidiang-ejemplos/source/browse/trunk/ejemplos-java-mysql/src/main/java/com/chuidiang/ejemplos/preparedstatement_mysql/EjemploPreparedStatement.java">EjemploPreparedStatement.java</a></p>
+	<!-- InstanceEndEditable -->
+	<h4>Estadísticas y comentarios</h4><h5>Numero de visitas desde el 4 Feb 2007:</h5><ul><li>Esta pagina este mes: 1470</li><li>Total de esta pagina: 101816</li><li>Total del sitio: 17140898</li></ul></div>
+	  </div><iframe name="oauth2relay336069002" id="oauth2relay336069002" src="./Uso de PreparedStatement con java y MySQL_files/postmessageRelay.html" tabindex="-1" aria-hidden="true" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe>
+  	<div id="pie"><script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-256265-1";
+urchinTracker();
+</script></div>
+<!-- InstanceEnd -->
+<iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./Uso de PreparedStatement con java y MySQL_files/saved_resource.html"></iframe></body></html>

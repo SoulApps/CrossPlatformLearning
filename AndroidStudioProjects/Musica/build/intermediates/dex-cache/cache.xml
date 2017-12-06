@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_5284281a727b0c946e5d9f62e61fdfb4b62f15e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7c0ca3772348f721cecc85dbb7c0cba27f0605d">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_49e0e6d0d4ad62561e5072db3d006e3e7a1ec85a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_a3533405f194969faddf921ebb9c16a42f1b6b84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_977de8f6274da452056c8934dae0d650d8b15d52\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_f2ce8377b5feddc9a613554d769c658c42b19ad0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_96139f0249d9588105e4d5b25fd4519bbbaccee0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_6368335b97c74267ac8aa561b68185ae61635021\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_d93b061311dc11f494bf7126a07166d1d83d4ba5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a80330f9b107e27b7121812c74728f0cca135c71">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b70fa2ef9b2aed2e71a204cbe84eef55f8264892\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_76f2db71357b33fde969712d5d94efd178ba218d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_bece2a73729479d8d42a0a815e4345e17608c860\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\Musica\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_98591600b55b57eccd4f1015f4cc80efe21bf6dc\classes.dex" />
+    </item>
+
+</items>

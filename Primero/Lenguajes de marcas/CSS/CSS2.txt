@@ -1,0 +1,39 @@
+<html>
+<head>
+<style type="text/css">
+
+selector{propiedad:valor;propiedad:valor}
+
+
+
+
+h1{font-family:Verdana;color:red;}
+h1,h3,p{font-family:Verdana;color:yellow;}
+
+#pr1{font-family:Arial;color:green;}
+#pr2{font-family:Arial;color:red;}
+
+
+p.tipo2{font-family:Verdana;color:yellow}
+.tipo2{font-family{font-family:Verdana;color:yellow}
+body{font-family:Verdana;color:red;}
+
+
+
+
+
+</style>
+</head>
+
+
+<body>
+</body>
+	<h1></h1>
+	<h3></h3>
+	<p></p>
+	<p id="pr1"></p>
+	<p id="pr2"></p>
+	
+	<p class="tipo1"></p>
+	<p class="tipo2"></p>
+</html>

@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\.android\build-cache\eb749e396e2e7995548438a2c16bad4eb437f000\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d79c575e1d97b0298746a4c032a0c1dc201c2f82">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_306f8188b199c730b5285e51492d622b2cf51fd0\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\5958872f681ad363adf5a912be7e8597d80f26c2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_4910c91d1776fdc3762169b447aa43a9ef0879f8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\.android\build-cache\64a5a2d7708d0d12dd1adecd9c5e532146364d76\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69e74a8b1cbf5b8ee0fc0cca6bab1ac6c45efef8">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5524569fd9bb8a0fb5235002411a307265138c1c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\f250df99dd552a67bc11474053018655169d1fb7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_a3b8753eb5afaf51e1ebf7ffe369ed80602bdb16.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\.android\build-cache\7448ee8892f00739eee56ed96f25803bfa9e0148\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="900a290779cdb4eb2e63b6f7806fd9f30ce4f60d">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_57a92f2cd2bc8fd4cb5920c52c1697584a4c2156\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\18b5e26379183095c752d3541ca138aeae8e0794\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f0a85e6000998ac322ddd50750e8cf91601a84b">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_8c40f7c460827028953af6cedebf3a5d0d1df317.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\f2f125bab701e7f53dda88ed4635fbf7d702742b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f83a631abfdb790591a720e0cfb5f41329831c3">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_0e0d7f83073c88695c03f61fb951578ef61183bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\8f08608275229a017012ddebde5966dbebff855b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_4dba8a2ecd9f26d0d12488d6a9f32ba419acf1b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\a9a3ae4efa98d01c985116af0e7f78f4ae15b96b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_d029e728d0ab72db62a02d58eb12769539d20556.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\8999a8028134ffc6d54f15c27973b32a1287f9b7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_674186e265f1a05e3dc0c94599edb9b55acc576d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\6bb686d432baaeae83ec043397c44bb5259c9705\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a534044236cf81b002604643d23e7ca56bd1ee0">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\release\classes_bf2be7940034541a6e6f092d15ff21e3451c461e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\c66fcaf83ab04a5e048686f4fb37be684dc7c9f5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_74489ad2686c918e5b496db772af1e9da761094f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\3604fc09614e7f299c75abae6acab1aabab36d49\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_df926d34e63d991dfb05cf11a1c7a27e8d52949d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\1f4814944ad84b68b26be32fa90a56878266f602\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec94bba6a9bbd3461d90830e0a0752a6487f5484">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\release\classes_5f2e1bd1887cf3560d2459070a59955a2c2f430e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\.android\build-cache\1f4814944ad84b68b26be32fa90a56878266f602\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec94bba6a9bbd3461d90830e0a0752a6487f5484">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5f2e1bd1887cf3560d2459070a59955a2c2f430e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\485faa4d58aba8880312224e52deb51773ce16ad\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_6e203ef195e3538af7b5ad4232d502245a64316c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\330d11e6788ebb6f6e5a3dc45fe107726cae5e79\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d79c575e1d97b0298746a4c032a0c1dc201c2f82">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_78d216748cd91e19d19a1fabb7d45aadc481999a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_af40f2902840d7519caf7ce27ccfdf28474e0fef\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\deb7aa38368dacf689842e43d501f0c579612fb6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da832806828ba407284c0c4b1d87b8f9ed9f2520">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\release\classes_92bc43a588a177ed4186dacd591e72a4f5391285.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.5.1\bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc\butterknife-annotations-8.5.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.5.1_baa0e36cf3dbb23113e02b266befc4e44bcdec79.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01a7a7f609a8894df45fbd549e6abb276daa0069">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_7251e2e2ca9751294f9f9432475f0330d4f5752c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.2.0\41e67dba73c3347e4503761642c39d0e06ca1f2\retrofit-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="041e67dba73c3347e4503761642c39d0e06ca1f2">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\retrofit-2.2.0_149be3125f77b0c938338e7f6ae8334c0acc4310.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\d20b582424634f03c7e0d046dac2f25afdc88191\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69e74a8b1cbf5b8ee0fc0cca6bab1ac6c45efef8">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_573ed97cd91a87b9d035e23ea02da78b4115f857.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\eda7efacf45e2f7b72797b87d02efcbb15f169cd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec94bba6a9bbd3461d90830e0a0752a6487f5484">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_4fdad4ba0438e48ea821d1f219505be89cd6dffa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_e949529cae1e88cd51f2ca45714bddc1c510c1e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_f4e0de7a4d20336bc0f7bd7f7b6b2592a611e413.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\.android\build-cache\7dc5a776a1d56fe548a2e52dfc91104028d17df6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f83a631abfdb790591a720e0cfb5f41329831c3">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4160a6442f6c249174ed76b2986f00785a45cf6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\00e4e2e68cc2e5433929e6685dff311028828a06\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_a8b51860817f76c08c5a9b8121e8c3412ae690d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\d34b0ee7711c63d9a363a41b126fe874654b4755\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_7a1280b4f7b33d7d09f657ced7fa33cd04195036.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\7fa4939b9da141aa9808114d6f71f425ee4ba6b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a43729dd397e849f2a8bdc5d57a2f3170efb3ed">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\release\classes_8c7d7151f26a05ffe5fb576320e98ac213d2d2ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\3ea62bb1efa6243d24d839168f02dffdc17c8a51\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="900a290779cdb4eb2e63b6f7806fd9f30ce4f60d">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_8f25a045765446ba42440c8568f06716459de3b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\9553a56a2976bbc8012f13d093df1b9769e2b496\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f0a85e6000998ac322ddd50750e8cf91601a84b">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\release\classes_653c5a1d7ba202803064dbd7d1a9cb2463e61504.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\f2743121065bf73e2788c0d8b4a1191ae899fa01\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da832806828ba407284c0c4b1d87b8f9ed9f2520">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_9331c472fcc313c971e26615da227cd3cc293326.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\.android\build-cache\6bb686d432baaeae83ec043397c44bb5259c9705\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a534044236cf81b002604643d23e7ca56bd1ee0">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bf2be7940034541a6e6f092d15ff21e3451c461e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\16f4633d34b9321bed618f1f844d27eec7ae8684\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_2e076854d9dff8747b9bea464cfe660610378b10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\12551fd9d7da38acfca1d2f16f894b062a9ebac2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a43729dd397e849f2a8bdc5d57a2f3170efb3ed">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_75ba3108ed383c21b0c5841933530e45ca838cfb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\5a3ad8569df1768cb5defde0d46aa7d389b768d4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_a917b502fc03edc25d6129716389c90c51f782db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\64a5a2d7708d0d12dd1adecd9c5e532146364d76\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69e74a8b1cbf5b8ee0fc0cca6bab1ac6c45efef8">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\release\classes_5524569fd9bb8a0fb5235002411a307265138c1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.2.0\a09926806199499a20b2f5168779499abfa33342\converter-gson-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a09926806199499a20b2f5168779499abfa33342">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\converter-gson-2.2.0_c6fe3f6fca0d68f5f06f36f40207217171f6c71f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\a91512066af200a29cc16c39825cb17f9713caa2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_539dea1f5542dce1d7810efe428ae7d7878292cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\gson-2.8.0_ce9fde4e3fc063841be04bff3f6fb57c22605125.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\eb749e396e2e7995548438a2c16bad4eb437f000\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d79c575e1d97b0298746a4c032a0c1dc201c2f82">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\release\classes_306f8188b199c730b5285e51492d622b2cf51fd0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\c9580f247977e29dad9adcc3cae4063278f81802\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_27bdcd375785ace2cf6e6076e3187d9fd8b1b8b4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\.android\build-cache\deb7aa38368dacf689842e43d501f0c579612fb6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da832806828ba407284c0c4b1d87b8f9ed9f2520">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_92bc43a588a177ed4186dacd591e72a4f5391285\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\okio-1.11.0_80c88de8e0e2faa9efa208d4d6d5f82a8e41e41a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\b93595cfc01e5f0a710a89f5b08c56914e5435e3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_a76a777f67760a4a9d31f6c8a071ac4919faf232.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\7448ee8892f00739eee56ed96f25803bfa9e0148\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="900a290779cdb4eb2e63b6f7806fd9f30ce4f60d">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\release\classes_57a92f2cd2bc8fd4cb5920c52c1697584a4c2156.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\7dc5a776a1d56fe548a2e52dfc91104028d17df6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f83a631abfdb790591a720e0cfb5f41329831c3">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\release\classes_4160a6442f6c249174ed76b2986f00785a45cf6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\1e9a5ba1579c46d4409caf713624975e48d97ad3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a534044236cf81b002604643d23e7ca56bd1ee0">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_1b58c9acf384ea68d1432f8b2ce56f77126260fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\30ee2181089904b82bc627e138ceacfc909f7ae2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d237556caead5b93d97e18a071059a2c0045978e">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_f89adb49c161190bb82c3b4af0ec31f62a6a4158.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\.android\build-cache\7fa4939b9da141aa9808114d6f71f425ee4ba6b8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a43729dd397e849f2a8bdc5d57a2f3170efb3ed">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8c7d7151f26a05ffe5fb576320e98ac213d2d2ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.android\build-cache\63fde55f25e96f64b4ec18b2fa351aed4984da16\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="536228b2496030d983d01856aa56b4d71b57d0db">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\classes_b993ed4a565ad6d06aa44bdaa03fb93eef7f8886.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\.android\build-cache\9553a56a2976bbc8012f13d093df1b9769e2b496\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f0a85e6000998ac322ddd50750e8cf91601a84b">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_653c5a1d7ba202803064dbd7d1a9cb2463e61504\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_aad8b00b5fee4c7863b27ed52c3429bb52ddb58d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\IESSaladillo\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_20731965a775a620453c4d55b9f5e9aafb382382.jar" />
+    </item>
+
+</items>

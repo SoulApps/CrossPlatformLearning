@@ -1,0 +1,14 @@
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoVB\HolaMundoVB\bin\Debug\HolaMundoVB.exe.config
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoVB\HolaMundoVB\bin\Debug\HolaMundoVB.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoVB\HolaMundoVB\bin\Debug\HolaMundoVB.pdb
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoVB\HolaMundoVB\bin\Debug\HolaMundoVB.xml
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoVB\HolaMundoVB\obj\Debug\HolaMundoVB.vbprojResolveAssemblyReference.cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoVB\HolaMundoVB\obj\Debug\HolaMundoVB.Resources.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoVB\HolaMundoVB\obj\Debug\HolaMundoVB.vbproj.GenerateResource.Cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoVB\HolaMundoVB\obj\Debug\HolaMundoVB.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoVB\HolaMundoVB\obj\Debug\HolaMundoVB.xml
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoVB\HolaMundoVB\obj\Debug\HolaMundoVB.pdb
+C:\Users\ale_z\GitHub\Visual Studio 2015\Projects\HolaMundoVB\HolaMundoVB\bin\Debug\HolaMundoVB.exe.config
+C:\Users\ale_z\GitHub\Visual Studio 2015\Projects\HolaMundoVB\HolaMundoVB\obj\Debug\HolaMundoVB.exe
+C:\Users\ale_z\GitHub\Visual Studio 2015\Projects\HolaMundoVB\HolaMundoVB\obj\Debug\HolaMundoVB.xml
+C:\Users\ale_z\GitHub\Visual Studio 2015\Projects\HolaMundoVB\HolaMundoVB\obj\Debug\HolaMundoVB.pdb

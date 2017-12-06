@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!ELEMENT mensaje (cabecera,cuerpo)>
+<!ATTLIST mensaje prioridad(max|alta|normal|baja)"normal">
+<!ELEMENT cabecera(fecha,de,a+,cc*,asunto?)>
+<!ELEMENT cuerpo (saludo?,(p|cita)+,despedida?,firmante?)>
+<!ELEMENT de (#pcdata)>

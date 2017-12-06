@@ -1,0 +1,7 @@
+#Thu Nov 24 15:11:11 CET 2016
+base.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\BotonesDrawable\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_6fe09f24d98c85da10904f801ca9c01e8ba8be98
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\BotonesDrawable\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_755556bde05d99971c457d29fd7713a92113021e\\classes.dex
+base.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\BotonesDrawable\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_755556bde05d99971c457d29fd7713a92113021e
+file.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\BotonesDrawable\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_6fe09f24d98c85da10904f801ca9c01e8ba8be98\\classes.dex

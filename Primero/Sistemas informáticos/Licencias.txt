@@ -1,0 +1,25 @@
+LICENCIAS DE SOFTWARE:
+-SOFTWARE PROPIETARIO:
+	-Solo se puede utilizar el software propietario disponiendo de su licencia.
+	-El software propietario no se puede modificar.
+	-El software propietario no se puede copiar.
+	-El software propietario solo lo puede distribuir los distribuidores autorizados.
+	  El tipo de distribución depende del tipo de licencia:
+		-Licencias para usuarios finales (Retail).
+		-Licencias para un solo usuario final (EULA).
+		-Licencias para software preinstalado (OEM).
+		-Licencias por volumen.
+		-Licencia gratuitas (Freeware).
+		-Licencias limitadas (Shareware)(Son gratis pero para tener todo el contenido hay que pagar).
+
+-SOFTWARE LIBRE:
+	-Cualquiera puede utilizar el software libre con cualquier propósito.
+	-Cualquiera puede estudiar como funciona y modificarlo.
+	-Cualquiera puede copiar el sofware libre.
+	-Es el software que cualquiera puede distribuirlo dependiendo del tipo de licencia:
+		-Licencias libre robustas (GNU)-> No permiten cambiar la licencia del programador.
+		-Licencias libres permisivas (BSD)-> Permiten cambiar la licencia del programador.
+
+-DOMINO PÚBLICO:
+	-Cuando expiran las licencias libres o propietarias, o simplemente no hay licencia, se dice que el software es de dominio público.
+	

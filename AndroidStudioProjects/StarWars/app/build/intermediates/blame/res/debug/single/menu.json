@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\res\\merged\\debug\\menu\\chuck_main.xml",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\exploded-aar\\com.readystatesoftware.chuck\\library\\1.0.2\\res\\menu\\chuck_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\res\\merged\\debug\\menu\\chuck_transaction.xml",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\exploded-aar\\com.readystatesoftware.chuck\\library\\1.0.2\\res\\menu\\chuck_transaction.xml"
+    }
+]

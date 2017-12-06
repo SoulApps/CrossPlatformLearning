@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_51d5e74cd4a1ad8383b2ec0bce05c97a28c07e54\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_041cb53dd47a409da3bcfba27c4d58cf838dd0d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_a4203a44b1d88106655794fd40106c70ddbb905f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_21b0e1dd8ebe4446e78507f79d8424a7264abd97\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="818f76d2c05c08745810203fc545dc6b03e32b96">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_35780c1ad7aae1aba18c7266aa2100842e3236e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_aa4befd9009ac9de2abb2785565e6bed3f531dc7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_ba2c8b6cdb9068db95a07483dcdaa474c611c2be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_9beb65c39690f46d50fe0a418664f7e4830c2396\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_1879290ca532ff2e648e093b18cdac16c7f51742\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_08ef2240efc1633fd9d53209df6a74d055a75871\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_3748de7cec7024659436c900839044e30122538b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_e70eefaa3f5d84ee3f7091300597e7c4730efe96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f98a6e9cf7d31f72f31baecdc12fbca8c9a00e28">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c6c0e9d641bf1ed167a2f27b5aaaf3caf64e8ee1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_7bea72f8681f8240d892ae39b0fdfbc7d9a7e324\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_f0f937c35643362b463174ef62b3f68ce8d06337\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_368b37ac7bda1d9080c024f5414692f709cb9e19\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\ArrayAdapterCompra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_4c5ace6b2161365c5b8b7008b3a1a9eec177e60d\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,7 @@
+#Fri Nov 18 10:01:59 CET 2016
+base.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\App014-ListaDeAlumnos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9335580f0ad050a3bfb14e6b5edac8de14a73647
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\App014-ListaDeAlumnos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_6a8d21393fe2a3bf45dd34292bf913b8aefcd698\\classes.dex
+base.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\App014-ListaDeAlumnos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_6a8d21393fe2a3bf45dd34292bf913b8aefcd698
+file.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\App014-ListaDeAlumnos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9335580f0ad050a3bfb14e6b5edac8de14a73647\\classes.dex

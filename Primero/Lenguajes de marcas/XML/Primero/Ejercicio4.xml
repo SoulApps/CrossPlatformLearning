@@ -1,0 +1,16 @@
+<vehiculos>
+	<vehiculo n="1">
+		<marca>skoda</marca>
+		<modelo>octavia</modelo>
+		<tipodevehiculo>berlina</tipodevehiculo>
+		<tipodecombustible>diesel</tipodecombustible>
+		<potencia></potencia>
+		<ano>2010</ano>
+		<numerodepuertas>5</numerodepuertas>
+		<colorinterior>negro</colorinterior>
+		<colorexterior>gris</colorexterior>
+		<tipodecambio>manual</tipodecambio>
+		<precio moneda="euros">5000</precio>
+		<tipodevendedor>profesional</tipodevendedor>
+	</vehiculo>
+</vehiculos>

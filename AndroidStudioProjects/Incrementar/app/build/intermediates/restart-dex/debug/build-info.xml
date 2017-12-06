@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="23"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="132818592231319"
+    token="5723828076031303684"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        timestamp="130700067816115"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Incrementar\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="131470952885767"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Incrementar\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="132803264672600"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Incrementar\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="132818592231319"
+        verifier="COLD_SWAP_REQUESTED" />
+
+</instant-run>

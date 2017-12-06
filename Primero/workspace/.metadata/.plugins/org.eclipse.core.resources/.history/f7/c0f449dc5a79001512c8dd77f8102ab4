@@ -1,0 +1,46 @@
+package estructurada;
+
+import java.util.Scanner;
+
+public class Ejercicio252 {
+
+	public static void main(String[] args) {
+
+		// Declaración
+		int num = 0, resultado = 0, i = 0, cifras = 0, contadorCifras, p, potencia = 0;
+		boolean error = true;
+		String mensajeBienvenida = "Introduzca un número positivo.";
+		String mensajeError = "¡El dato introducido debe ser un número positivo!";
+
+		Scanner teclado = new Scanner(System.in);
+
+		// 1.-Petición de un número positivo.
+		do {
+			System.out.println(mensajeBienvenida);
+			num = teclado.nextInt();
+
+			if (num <= 0) { // Incluimos el 0 porque con 0 no se puede hacer las
+							// operaciones
+				System.out.println(mensajeError);
+				error = false;
+			} else
+				error = true;
+		} while (!error);
+
+		teclado.close();
+
+		contadorCifras = num;
+
+		while (contadorCifras != 0) {
+			resultado %= 10;
+			contadorCifras /= 10;
+			cifras++;
+		}
+		for (i = 0; i < cifras; i++) {
+			p = (int) Math.pow(1, i);
+			potencia = resultado * p;
+		}
+		System.out.println(potencia);
+	}
+
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\mundo.png",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\src\\main\\res\\mipmap-mdpi\\mundo.png"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\flecha_abajo.png",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\src\\main\\res\\mipmap-mdpi\\flecha_abajo.png"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\puntos.png",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\src\\main\\res\\mipmap-mdpi\\puntos.png"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\icono_nuevo.png",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\src\\main\\res\\mipmap-mdpi\\icono_nuevo.png"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\persona.png",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\src\\main\\res\\mipmap-mdpi\\persona.png"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\flecha_arriba.png",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\src\\main\\res\\mipmap-mdpi\\flecha_arriba.png"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\lista_vacia.png",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\src\\main\\res\\mipmap-mdpi\\lista_vacia.png"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\camara.png",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\src\\main\\res\\mipmap-mdpi\\camara.png"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\anhadir.png",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\src\\main\\res\\mipmap-mdpi\\anhadir.png"
+    }
+]

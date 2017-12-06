@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.saladillo.alejandro.vistasbasicas.MainActivity">
+
+    <CheckBox
+        android:text="@string/repetidor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblEdad"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/chkRepetidor" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmail"
+        android:layout_alignLeft="@+id/lblEmail"
+        android:layout_alignStart="@+id/lblEmail"
+        android:layout_marginTop="26dp"
+        android:id="@+id/rdgSexo" >
+
+        <RadioButton
+            android:id="@+id/rdbHombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/h" />
+        <RadioButton
+            android:id="@+id/rdbMujer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/m" />
+    </RadioGroup>
+
+    <TextView
+        android:text="@string/sexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmail"
+        android:layout_alignLeft="@+id/rdgSexo"
+        android:layout_alignStart="@+id/rdgSexo"
+        android:layout_marginTop="11dp"
+        android:id="@+id/lblSexo" />
+
+    <TextView
+        android:text="@string/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:id="@+id/lblEmail"
+        android:layout_above="@+id/rdgSexo"
+        android:layout_alignLeft="@+id/lblEdad"
+        android:layout_alignStart="@+id/lblEdad" />
+
+    <TextView
+        android:text="@string/edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/lblEdad"
+        android:layout_below="@+id/imgBaldomero"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alto_foto"
+        app:srcCompat="@drawable/baldomero"
+        android:id="@+id/imgBaldomero"
+        android:contentDescription="@string/desc_imagen_de_baldomero"
+        android:scaleType="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="3"
+        android:maxLength="3"
+        android:maxLines="1"
+        android:id="@+id/txtEdad"
+        android:layout_alignTop="@+id/lblEdad"
+        android:layout_alignLeft="@+id/txtEmail"
+        android:layout_alignStart="@+id/txtEmail"
+        android:layout_toStartOf="@+id/lblPareja"
+        android:layout_alignRight="@+id/btnAceptar"
+        android:layout_alignEnd="@+id/btnAceptar"
+        android:layout_toLeftOf="@+id/lblPareja" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="5"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:id="@+id/txtEmail"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/txtEdad"
+        android:layout_toRightOf="@+id/chkCasado"
+        android:layout_toStartOf="@+id/chkCasado"
+        android:layout_toLeftOf="@+id/lblEmail"
+        android:layout_toEndOf="@+id/lblEmail"
+        android:imeOptions="actionSend" />
+
+    <TextView
+        android:text="@string/baldomero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgBaldomero"
+        android:layout_alignLeft="@+id/btnAceptar"
+        android:layout_alignStart="@+id/btnAceptar"
+        android:id="@+id/lblBaldomero" />
+
+    <Button
+        android:text="@string/aceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAceptar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/swtJamon"
+        android:layout_alignStart="@+id/swtJamon"
+        android:enabled="false" />
+
+    <CheckBox
+        android:text="@string/casado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rdgSexo"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/chkCasado" />
+
+    <TextView
+        android:text="@string/pareja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/lblPareja"
+        android:layout_below="@+id/rdgSexo"
+        android:layout_alignRight="@+id/lblBaldomero"
+        android:layout_alignEnd="@+id/lblBaldomero" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:visibility="invisible"
+        android:ems="10"
+        android:id="@+id/txtPareja"
+        tools:text="pareja"
+        android:layout_alignTop="@+id/lblPareja"
+        android:layout_alignLeft="@+id/chkCasado"
+        android:layout_alignStart="@+id/chkCasado" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:text="@string/jamon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/swtJamon"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_below="@+id/txtPareja"
+        android:layout_toLeftOf="@+id/chkRepetidor"
+        android:layout_toStartOf="@+id/chkRepetidor"
+        android:layout_marginTop="13dp" />
+
+</RelativeLayout>

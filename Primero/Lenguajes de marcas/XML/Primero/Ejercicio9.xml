@@ -1,0 +1,55 @@
+<universidad>
+	<alumnos>
+		<alumno n="1">
+			<dni_o_pasaporte>8124563A</dni_o_pasaporte>
+			<nombre>Pedro</nombre>
+			<apellido_o_apellidos>Parque Fotografo</apellido_o_apellidos>
+			<fecha_de_nacimiento>21/12/1991</fecha_de_nacimiento>
+			<direccion_postal>
+				<nombre>C/Camino Roto</nombre>
+				<numero>666</numero>
+				<codigo_postal>66666</codigo_postal>
+				<poblacion>Ciudad Demoniaca</poblacion>
+			</direccion_postal>
+			<telefono n="1">645323754</telefono>
+			<email n="1">spidermon@yahoo.com</email>
+			<asignaturas>
+				<asignatura codigo="1"/>
+					<nota>8</nota>
+			</asignaturas>
+		</alumno>
+	</alumnos>
+	<profesores>
+		<profesor n="1">
+			<dni_o_pasaporte>53794789K</dni_o_pasaporte>
+			<nombre>Benigno</nombre>
+			<apellido_o_apellidos>Desierto Lopez</apellido_o_apellidos>
+			<fecha_de_nacimiento>31/09/1961</fecha_de_nacimiento>
+			<direccion_postal>
+				<nombre>C/Duque Borracho</nombre>
+				<numero>6</numero>
+				<codigo_postal>12345</codigo_postal>
+				<poblacion>Madrid</poblacion>
+			</direccion_postal>
+			<telefono n="1">654852741</telefono>
+			<email n="1">profesorgracioso@hotmail.com</email>
+			<despacho>45</despacho>
+			<horario_de_tutorias>
+				<hora_inicio>14:00</hora_inicio>
+				<hora_fin>14:30</hora_fin>
+				<dia n="1">Lunes</dia>
+				<dia n="2">Martes</dia>
+			</horario_de_tutorias>
+			<asignaturas>
+				<asignatura codigo="1"/>
+			</asignaturas>
+		</profesor>
+	</profesores>
+		<asignatura codigo="1">
+			<nombre>Lenguaje de marcas</nombre>		
+			<numero_de_creditos>10</numero_de_creditos>
+			<carrera>Informatica</carrera>
+			<curso>1</curso>
+			<tipo>Obligatorio</tipo>
+		</asignatura>
+</universidad>

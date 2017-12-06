@@ -1,0 +1,117 @@
+
+
+<tienda>
+   <nombre>La tiendecilla  </nombre>
+   <telefono>953 87 12 23  </telefono>
+   <url etiqueta="URL: ">http://www.tiendecilla.es  </url>
+   <correo prefijo="mailto:" etiqueta="Informacion: ">info@tiendecilla.es  </correo>
+
+<productos>
+  
+   <producto>
+     <codigo>92  </codigo>
+     <cantidad>10  </cantidad>
+     <articulo>Radio-Casette  </articulo>
+     <seccion>Electronica  </seccion>
+     <marca>Sony  </marca>
+     <modelo>MKJ-800  </modelo>
+     <caracteristicas>
+	      <linea>Auto-reverse      </linea>
+	      <linea>Dolby-sorround      </linea>
+	      <linea>Doble pletina      </linea>
+	      <linea>Ecualizador de cinco bandas      </linea>
+	      <linea>Garantía de 9 meses     </linea>
+     </caracteristicas>
+	 <opcion1 nombre="color" >
+	      <opcion valor="negro"/>
+     </opcion1>
+	   <opcion2 nombre="forma">
+	      <opcion valor="rectangular"/>
+     </opcion2>
+     <precio moneda="euro">90  </precio>
+   </producto>
+   
+   <producto>
+     <codigo>103  </codigo>
+     <cantidad>50  </cantidad>
+     <articulo>Reloj Cocina  </articulo>
+     <seccion>Electronica  </seccion>
+     <marca>Kenwood  </marca>
+     <modelo>Blue ONE  </modelo>
+     <caracteristicas>
+	      <linea>Varios diseños      </linea>
+		  <linea>Garantía de 6 meses     </linea>
+     </caracteristicas>
+     <opcion1 nombre="color">
+	      <opcion valor="rojo"/>
+	      <opcion valor="azul"/>
+	      <opcion valor="blanco"/>
+     </opcion1>
+     <opcion2 nombre="forma">
+	      <opcion valor="cuadrado"/>
+	      <opcion valor="redondo"/>    
+     </opcion2>
+     <precio moneda="euro">30  </precio>
+   </producto>
+   
+   <producto>
+     <codigo>75  </codigo>
+     <cantidad>10  </cantidad>
+     <articulo>Portatil  </articulo>
+     <seccion>Informatica  </seccion>
+     <marca>LG  </marca>
+     <caracteristicas>
+	  	      <linea>Garantía de 18 meses </linea>
+     </caracteristicas>
+	 <opcion1 nombre="color" >
+	      <opcion valor="negro"/>
+     </opcion1>
+	   <opcion2 nombre="forma">
+	      <opcion valor="rectangular"/>
+     </opcion2>
+     <precio moneda="euro">1200 </precio>
+   </producto>
+   
+     <producto>
+        <codigo>125  </codigo>
+     <cantidad>30  </cantidad>
+     <articulo>Televisor  </articulo>
+     <seccion>Electronica  </seccion>
+     <marca>Philips  </marca>
+     <modelo>TVL7645  </modelo>
+     <caracteristicas>
+	      <linea>Alta Definicion </linea>
+		  <linea>Buena resolucion </linea>
+		  <linea>Varios formatos de reproduccion </linea>
+		  <linea>Funciones de grabacion USB </linea>
+          <linea>Garantía de 24 meses </linea>		  
+     </caracteristicas>
+     <opcion1 nombre="color" >
+	      <opcion valor="negro"/>
+	      <opcion valor="gris"/>
+     </opcion1>
+        <precio moneda="euro">400  </precio>
+   </producto>
+   
+   <producto>
+     <codigo>80  </codigo>
+     <cantidad>12  </cantidad>
+     <articulo>Tablet  </articulo>
+     <seccion>Informatica  </seccion>
+     <marca>Samsung  </marca>
+     <caracteristicas>
+	      <linea>Alta_calidad</linea>
+	      <linea>Garantía de 12 meses </linea>
+     </caracteristicas>
+	 <opcion1 nombre="color" >
+	      <opcion valor="negro"/>
+     </opcion1>
+	   <opcion2 nombre="forma">
+	      <opcion valor="rectangular"/>
+     </opcion2>
+     <precio moneda="euro">150  </precio>
+   </producto>
+   
+</productos>
+  
+</tienda>

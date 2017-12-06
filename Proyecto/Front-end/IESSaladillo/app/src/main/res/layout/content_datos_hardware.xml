@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_contenido"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="es.iessaladillo.iessaladillo.DatosHardwareActivity"
+    tools:showIn="@layout/activity_datos_hardware">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/codBarras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/descripcion">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtCodBarras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_cod_barras"
+            android:textColor="@color/negro"
+            android:textAlignment="center"
+            android:maxLines="1"
+            android:ems="20"
+            tools:text="423435343434434343622" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/descripcion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="500"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/codBarras"
+        app:layout_constraintBottom_toTopOf="@+id/unidadesTotales">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_descripcion"
+            android:inputType="textAutoCorrect|textMultiLine"
+            android:maxLines="5"
+            tools:text="Pantalla de 20 pulgadas." />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/unidadesTotales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/unidadesDisponibles"
+        app:layout_constraintTop_toBottomOf="@+id/descripcion"
+        app:layout_constraintBottom_toTopOf="@+id/btnVerMateriales">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtUnidadesTotales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:hint="@string/hint_unidades_totales"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:maxLength="5"
+            android:maxLines="1"
+            android:textAlignment="center"
+            tools:text="20" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/unidadesDisponibles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toRightOf="@+id/unidadesTotales"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descripcion"
+        app:layout_constraintBottom_toTopOf="@+id/btnVerMateriales">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtUnidadesDisponibles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:focusable="false"
+            android:hint="@string/hint_unidades_disponibles"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:textColor="@color/negro"
+            tools:text="20" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnVerMateriales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ver_materiales"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginTop="@dimen/margen_btn_ver_materiales"
+        android:layout_marginBottom="@dimen/margen_btn_ver_materiales"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

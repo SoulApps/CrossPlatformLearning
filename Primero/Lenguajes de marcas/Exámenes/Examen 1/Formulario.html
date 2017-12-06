@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+		<title>Formulario</title>
+	</head>
+	
+	<body>
+		<h2>INDUSTRIAS FUERTES</h2>
+		<form action="null.html" method="post">
+		<fieldset>
+		<legend>FORMULARIO DE PEDIDO</legend>
+			<p><b>Paso1.Identificaci&oacute;n</b></p>
+			<fieldset>
+				<legend>Datos del cliente</legend>
+				<table>
+					<tr>
+						<td>Correo Electr&oacute;nico<input type="email"></td>
+						<td>Contraseña<input type="password"></td>
+					</tr>	
+				</table>	
+			</fieldset>
+			
+			<fieldset>
+				<legend>Tipo de Cliente</legend>
+				<table>
+					<tr>
+						<td><input type="radio" value="particular">Particular</td>
+						<td><input type="radio" value="asociacion">Asociaci&oacute;n</td>
+					</tr>
+					<tr>
+						<td><input type="radio" value="empresa">Empresa</td>
+					</tr>
+				</table>
+			</fieldset>
+		</tr>
+	
+			<p><b>Paso2.Pedido</b></p>
+			<fieldset>
+				<legend>Datos del Producto</legend>
+				<table>
+					<tr>
+						<td>Producto</td>
+					</tr>
+					<tr>
+						<td>
+							<select size="8">
+								<option value="bold">Armaduras:</option>
+								<option value="ar001">AR001 Oro Reluciente</option>
+								<option value="ar002">AR002 Plata Pulida</option>
+								<option value="ar003">AR003 Bronce Reforzado</option>
+								<option value="bold">Extras:</option>
+								<option value="ex001">EX001 Escudo</option>
+								<option value="ex002">EX002 Invisibilidad</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Informaci&oacute;n de inter&eacute;s</legend>
+				<table>
+					<tr>
+						<td><b>Comentarios</b></td>
+					</tr>
+					<tr>
+						<td><textarea rows="6" cols="100" placeholder="Escriba aqu&iacute; sus comentarios"></textarea></td>
+					</tr>
+					<tr>
+						<td><input type="text">Acepto recibir informaci&oacute;n publicitaria</td>
+					</tr>
+				</table>
+			</fieldset>
+	
+			<fieldset>
+				<legend>Datos de Env&iacute;o</legend>
+				<table>
+					<tr>
+						<td colspan="2">Direcci&oacute;n<input type="text"></td>
+					</tr>
+					<tr>
+						<td>Ciudad<input type="text"></td>
+						<td>C&oacute;digo postal<input type="text"></td>
+					</tr>
+				</table>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Datos Bancarios</legend>
+				<table>
+					<tr>
+						<td>Nombre de la entidad<input type="text"></td>
+					</tr>
+					<tr>
+						<td>Nº de cuenta<input type="text"></td>
+					</tr>	
+				</table>
+			</fieldset>
+		</fieldset>	
+			<button type="submit">ENVIAR PEDIDO</button>
+			<button type="reset">RESET</button>
+		</form>
+	</body>
+</html>	

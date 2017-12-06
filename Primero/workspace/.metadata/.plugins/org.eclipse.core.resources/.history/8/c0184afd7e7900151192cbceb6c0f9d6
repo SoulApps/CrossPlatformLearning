@@ -1,0 +1,28 @@
+package estructurada;
+
+import java.util.Scanner;
+
+public class Blackjack2 {
+
+	public static void main(String[] args) {
+
+		System.out.println(apostar(20));
+
+	}
+	public static int apostar(int apuesta) {
+		boolean suerte = false;
+		int apostado = 0;
+		int dinero1 = 100, dinero2 = 100;
+		dinero1 -= apuesta;
+		dinero2 -= apuesta;
+		if (suerte == true) 
+			apostado = dinero1 + apuesta;
+		
+		else
+			apostado = dinero2 + apuesta;
+		
+		return apostado;
+		
+	}
+
+}

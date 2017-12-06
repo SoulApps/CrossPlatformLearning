@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">IES Saladillo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_login">Iniciar sesión</string>
+
+    <!-- Configuración pantalla inicial TIC -->
+    <string name="pantalla_inicial">Pantalla inicial</string>
+    <string name="reintentar">Reintentar</string>
+
+    <string name="pantalla_inicial_default">Reservar</string>
+    <array name="pantalla_inicial">
+        <item>Reservar</item>
+        <item>Reportar incidencia</item>
+        <item>Ver incidencias</item>
+        <item>Inventario</item>
+    </array>
+    <string name="title_activity_dia_reserva">Reservar</string>
+
+    <string name="error_internet">Error, no hay conexión a Internet</string>
+
+    <string name="hint_incidencia">Escriba lo que le ha pasado</string>
+    <string name="no_hay_incidencias">No hay incidencias</string>
+    <string name="menu_ver_solucionadas">Ver solucionadas</string>
+    <string name="actualizar_incidencias">Actualizar incidencias</string>
+    <string name="title_activity_solucionar_incidencia_fragment">Solucionar incidencia</string>
+    <string name="hint_historial">Historial de acciones</string>
+    <string name="ver_antiguas_primero">Ver antiguas primero</string>
+    <string name="configuracion">Configuración</string>
+    <string name="reportar_incidencia">Reportar incidencia</string>
+    <string name="ver_incidencias">Ver incidencias</string>
+    <string name="reservar">Reservar</string>
+    <string name="cancelar_reserva">Cancelar reserva</string>
+    <string name="inventario_vacio">Inventario vacío</string>
+    <string name="inventario">Inventario</string>
+    <string name="title_activity_datos_hardware">Añadir componente</string>
+    <string name="hint_cod_barras">Código de barras</string>
+    <string name="hint_descripcion">Descripción</string>
+    <string name="hint_unidades_disponibles">Unidades disponibles</string>
+    <string name="hint_unidades_totales">Unidades totales</string>
+    <string name="ver_materiales">Ver reparto</string>
+    <string name="title_activity_materiales">Reparto</string>
+    <string name="no_hay_materiales_asignados">No hay materiales asignados</string>
+    <string name="foto_del_profesor">Foto del profesor</string>
+    <string name="codigo">Código</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="reserva_cancelada">Reserva cancelada</string>
+    <string name="reserva_ok">Reserva realizada satisfactoriamente</string>
+    <string name="reserva_error">Error, esa hora ya ha sido reservada</string>
+    <string name="asignacion_ok">Asignación realizada</string>
+    <string name="codigo_repetido">Ese código está repetido</string>
+    <string name="no_unidades_disponibles">No quedan unidades disponibles</string>
+    <string name="error_codigo">Debes incluir un código de 10 dígitos como máximo</string>
+    <string name="mesanje_asignar">¿A qué clase se va a asignar?</string>
+    <string name="listo">Listo</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="error_descripcion">Debes incluir una descrpción de 500 caracteres como máximo</string>
+    <string name="incidencia_solucionada">Incidencia solucionada</string>
+    <string name="incidencia_actualizada">Incidencia actualizada</string>
+    <string name="error_usuario">Error, usuario no registrado</string>
+    <string name="error_google">Error al iniciar sesión con Google</string>
+    <string name="error_cod_barras">Debes incluir un código de barras de 30 caracteres como máximo</string>
+    <string name="error_unidades">Debes incluir las unidades totales</string>
+    <string name="error_act_unidades">El número de unidades totales no puede ser inferior a las disponibles</string>
+    <string name="incidencia_reportada">Incidencia reportada</string>
+    <string name="deshacer">Deshacer</string>
+    <string name="elemento_eliminado">Elemento eliminado</string>
+    <string name="error_cod_barras_repetido">Error, código de barras repetido</string>
+</resources>

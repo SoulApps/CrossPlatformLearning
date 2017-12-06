@@ -1,0 +1,7 @@
+#Fri Oct 14 11:11:19 CEST 2016
+base.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\Incrementar3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4e8235ac5c05f3c41979fdb7cbce8540a8e8a70c
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\Incrementar3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_24bb7a4bc9e57053add643119726df54e9d82501\\classes.dex
+base.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\Incrementar3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_24bb7a4bc9e57053add643119726df54e9d82501
+file.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\Incrementar3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4e8235ac5c05f3c41979fdb7cbce8540a8e8a70c\\classes.dex

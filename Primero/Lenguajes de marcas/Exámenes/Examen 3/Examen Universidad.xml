@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<universidad>
+	<alumnos>
+		<alumno >
+			<nombre>Jesus</nombre>
+			<apellido>Lamas</apellido>
+			<pasaporte>434235</pasaporte>
+			<pais>Italia</pais>
+			<fechanacimiento>
+				<dia>3</dia>
+				<mes>4</mes>
+				<anio>1975</anio>
+			</fechanacimiento>
+			<matriculado asignatura="F89" nota="NT"/>
+		</alumno>
+		<alumno >
+			<nombre>Maria</nombre>
+			<apellido>Lopez</apellido>
+			<DNI>54368436</DNI>
+			<fechanacimiento>
+				<dia>17</dia>
+				<mes>10</mes>
+				<anio>1970</anio>
+			</fechanacimiento>
+			<matriculado asignatura="F86" nota="SS"/>
+			<matriculado asignatura="F89" nota="SB"/>
+		</alumno>
+	</alumnos>
+	<profesores>
+		<profesor despacho="6" asignaturas="F89 A990">
+			<nombre>Daniel</nombre>
+			<apellido>Ortiz</apellido>
+			<apellido>Hidalgo</apellido>
+			<DNI/>
+			<fechanacimiento>
+				<dia/>
+				<mes/>
+				<anio/>
+			</fechanacimiento>
+			<tutoria>
+				<inicio/>
+				<fin/>
+			</tutoria>
+		</profesor>
+	</profesores>
+	<asignaturas>
+		<asignatura codigo="F89">
+			<titulo>LMI</titulo>
+			<carrera>ITIS</carrera>
+			<creditos>4.5</creditos>
+			<curso>OP</curso>
+		</asignatura>
+		<asignatura codigo="A990">
+			<titulo>PAW</titulo>
+			<carrera>ITIS</carrera>
+			<creditos>8</creditos>
+			<curso>seminario</curso>
+		</asignatura>
+		<asignatura codigo="F8">
+			<titulo>SER</titulo>
+			<carrera/>
+			<creditos>12</creditos>
+			<curso/>
+		</asignatura>
+		<asignatura codigo="A9">
+			<titulo>Programacion</titulo>
+			<carrera/>
+			<creditos>16</creditos>
+			<curso/>
+		</asignatura>
+	</asignaturas>
+</universidad>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MenuContextual</string>
+    <string name="txtEmpty">No hay elementos en la lista</string>
+    <string name="Nombre">Nombre</string>
+    <string name="introduzcaNombre">Introduzca aqui el nombre</string>
+    <string name="edad">Edad</string>
+    <string name="introduzcaEdad">Introduzca la edad</string>
+    <string name="repetidor">Repetidor</string>
+    <string name="guardar">Guardar</string>
+    <string name="agregar">Agregar</string>
+    <string name="insultar">Insultar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="de">%1$d de %2$d</string>
+    <string-array name="estados">
+        <item>----</item>
+        <item>Soltero</item>
+        <item>Cazado</item>
+        <item>Viudo</item>
+    </string-array>
+</resources>

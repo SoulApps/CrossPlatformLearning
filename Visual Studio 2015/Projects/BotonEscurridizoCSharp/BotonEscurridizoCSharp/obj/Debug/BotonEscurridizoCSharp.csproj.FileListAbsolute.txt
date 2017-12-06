@@ -1,0 +1,9 @@
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoCSharp\BotonEscurridizoCSharp\bin\Debug\BotonEscurridizoCSharp.exe.config
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoCSharp\BotonEscurridizoCSharp\bin\Debug\BotonEscurridizoCSharp.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoCSharp\BotonEscurridizoCSharp\bin\Debug\BotonEscurridizoCSharp.pdb
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoCSharp\BotonEscurridizoCSharp\obj\Debug\BotonEscurridizoCSharp.csprojResolveAssemblyReference.cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoCSharp\BotonEscurridizoCSharp\obj\Debug\BotonEscurridizoCSharp.Form1.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoCSharp\BotonEscurridizoCSharp\obj\Debug\BotonEscurridizoCSharp.Properties.Resources.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoCSharp\BotonEscurridizoCSharp\obj\Debug\BotonEscurridizoCSharp.csproj.GenerateResource.Cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoCSharp\BotonEscurridizoCSharp\obj\Debug\BotonEscurridizoCSharp.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoCSharp\BotonEscurridizoCSharp\obj\Debug\BotonEscurridizoCSharp.pdb

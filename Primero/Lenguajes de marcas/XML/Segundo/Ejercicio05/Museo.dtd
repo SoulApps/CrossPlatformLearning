@@ -1,0 +1,22 @@
+<!ELEMENT museo (nombre, horario+, precioentrada+, cuadros)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT horario (#PCDATA)>
+<!ELEMENT precioentrada (#PCDATA)>
+<!ELEMENT cuadros (cuadro+)>
+<!ELEMENT cuadro (titulo, autor, cronologia, tecnica, soporte, medidas, tema, expuesto)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT cronologia (#PCDATA)>
+<!ELEMENT tecnica (#PCDATA)>
+<!ELEMENT soporte (#PCDATA)>
+<!ELEMENT medidas (#PCDATA)>
+<!ELEMENT tema (#PCDATA)>
+<!ELEMENT expuesto (#PCDATA)>
+
+
+<!ATTLIST horario dias CDATA #REQUIRED>
+<!ATTLIST horario medida CDATA #REQUIRED>
+<!ATTLIST precioentrada tipo (general | generalejemplarguiaoficial | reducida | gratuita) #REQUIRED>
+<!ATTLIST precioentrada moneda CDATA #FIXED "euro">
+<!ATTLIST cuadro num_catalogo ID #REQUIRED>
+<!ATTLIST medidas medida CDATA #REQUIRED>

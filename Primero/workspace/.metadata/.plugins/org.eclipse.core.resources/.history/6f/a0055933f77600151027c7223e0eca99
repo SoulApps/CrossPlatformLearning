@@ -1,0 +1,31 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class Ejercicio03 {
+
+	public static void main(String[] args) {
+		/*
+		Scanner teclado = new Scanner(System.in);
+		//int tamano = teclado.nextInt(), i, aux = 0;
+		int tamano, i, aux = 0;
+		int array[];
+		tamano = teclado.nextInt();
+		array[] = new int [tamano];
+		teclado.close();
+		
+		System.out.println(array.length);
+		
+		for (i = 0; i < array.length; i++) {
+			array[tamano] = teclado.nextInt();
+		}
+		
+		
+		for (i = 0; i < array.length; i++) {
+			aux += array[tamano];
+		}
+		System.out.println(aux);
+		*/
+	}
+
+}

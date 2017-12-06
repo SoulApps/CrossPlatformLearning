@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SeleccionDirectaDialog</string>
+    <string name="elegir">Elegir</string>
+    <string name="equipos_favoritos">Equipos favoritos</string>
+    <string name="borrar">Borrar</string>
+    <string name="seleccion_simple">Seleccion simple</string>
+    <string name="multi">Multi</string>
+
+    <array name="equipos">
+        <item>Barcelona</item>
+        <item>Atlético de Madrid</item>
+        <item>Real Madrid</item>
+    </array>
+</resources>

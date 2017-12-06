@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE "elementos.dtd">
+<!--Comentario-->
+
+<persona>
+	<nombre>Nombre</nombre>
+	<apellido>Apellido</apellido>
+</persona>
+
+
+<!--dtd-->
+<!--
+
+<!ELEMENT nombreelemento modelocontenido =  
+	EMPTY(vacío) 
+	(#PCDATA)(datos de caracter analizables: el nombre del elemento le puedo asignar un valor de texto o números) 
+	ANY(elemento descendiente 1,ed2,ed3,ed4) se se ponen comas se muestra en orden; si se pone | quiere decir que puede aparacer un elemento u otro; ? se pone detras de CADA elemento e indica que puede aparacer 0 ó 1 vez; * indica que puede aparece 0 ó muchas veces; + indica que  puede aparecer 0 ó 1 vez;
+	>
+	
+<!ATTLIST elemento nombreatributo1 tipoatributo1 valordefectoatributo...;
+	tipoatributo1 = CDATA (puede tener cualquier valor) y se expresa como = (valor1,valor2,valor3);
+	valordefectoatributo = "valordefecto" || #IMPLIED(opcional) || #REQUIRED(obligatorio pero no se le asigna un valor por defecto) || #FIXED(obligatorio pero el valor por defecto no se puede cambiar);
+		Ej: <semaforo color(rojo|amarillo|verde)"verde">
+	ID debe ser único;
+		Ej:<!ATTLIST nom_emp id_emp ID #REQUIRED>
+			<empleados>
+				<empleado idEmpleado="1">Empleado 1</empleado>
+				<empleado idEmpleado="2" Empleado 2</empleado>
+			</empleados>	
+	IDREF es la referencia a un ID;
+		Ej:<!ATTLIST empleado idEmpleado ID #REQUIRED idEmpleadoJefe IDREF #IMPLIED>
+			<empleados>
+				<empleado idEmpleado="e_111">Empleado Jefe</empleado>
+				<empleado idEmpleado="e_222" idEmpleadoJefe="e_111">Empleado</empleado>
+			</empleados>
+	NMTOKEN se puede recoger cualquier texto sin espacios en blanco;
+	NMTOKENS si puede recoger espacios en blanco;
+	>
+
+-->

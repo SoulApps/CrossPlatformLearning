@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.saladillo.alejandro.examenmultihilo_alejandro"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="es.saladillo.alejandro.examenmultihilo_alejandro.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="es.saladillo.alejandro.examenmultihilo_alejandro.events.PeticionService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <provider
+            android:name="com.readystatesoftware.chuck.internal.data.ChuckContentProvider"
+            android:authorities="es.saladillo.alejandro.examenmultihilo_alejandro.chuck.provider"
+            android:exported="false" />
+
+        <activity
+            android:name="com.readystatesoftware.chuck.internal.ui.MainActivity"
+            android:label="@string/chuck_name"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.readystatesoftware.chuck.task"
+            android:theme="@style/Chuck.Theme" />
+        <activity
+            android:name="com.readystatesoftware.chuck.internal.ui.TransactionActivity"
+            android:parentActivityName="com.readystatesoftware.chuck.internal.ui.MainActivity"
+            android:theme="@style/Chuck.Theme" />
+    </application>
+
+</manifest>

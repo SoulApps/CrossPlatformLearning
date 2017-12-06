@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+#palabra
+#ruta/archivo
+#if[]
+#cont=0
+#while read linea
+#do
+#let cont)$cont+1
+	
+#done
+
+
+#Redirecciones
+
+#while #read a							 </archivo_datos
+#do
+#palabra= `echo a | cut XXXXXX`
+	#cut
+								###echo "El dato es $a"
+#done <./archivo_datos

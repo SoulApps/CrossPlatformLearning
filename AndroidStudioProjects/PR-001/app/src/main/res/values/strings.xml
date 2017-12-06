@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PR-001</string>
+    <string name="mensaje">Has pulsado un botón</string>
+    <string name="butterknife">Butterknife</string>
+    <string name="retrolambda">Retrolambda</string>
+    <string name="inline">Inline</string>
+    <string name="interna">Interna</string>
+    <string name="actint">ActInt</string>
+</resources>

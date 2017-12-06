@@ -1,0 +1,7 @@
+#Mon Dec 12 16:09:44 CET 2016
+base.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\Quiz\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_189ecc623da4eefc1804abe3f95b85d2fc684041
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\Quiz\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_daa72e98f3ca1d44953b0cf2bc4c6d18c0e767e7\\classes.dex
+base.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\Quiz\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_daa72e98f3ca1d44953b0cf2bc4c6d18c0e767e7
+file.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\Quiz\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_189ecc623da4eefc1804abe3f95b85d2fc684041\\classes.dex

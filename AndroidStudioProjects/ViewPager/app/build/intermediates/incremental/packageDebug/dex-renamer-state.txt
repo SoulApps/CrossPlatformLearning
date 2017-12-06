@@ -1,0 +1,7 @@
+#Fri Jan 27 10:30:12 CET 2017
+base.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\ViewPager\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c679928de1c6b53ee96e42f0309cfe0bf8e7fc4c
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\ViewPager\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e59826c92c9dc2e2b5677435cf393984c8ff30e3\\classes.dex
+base.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\ViewPager\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e59826c92c9dc2e2b5677435cf393984c8ff30e3
+file.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\ViewPager\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c679928de1c6b53ee96e42f0309cfe0bf8e7fc4c\\classes.dex

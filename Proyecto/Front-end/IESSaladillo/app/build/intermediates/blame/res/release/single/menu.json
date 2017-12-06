@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\IESSaladillo\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_normal.xml",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\IESSaladillo\\app\\src\\main\\res\\menu\\menu_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\IESSaladillo\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_lista_incidencias.xml",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\IESSaladillo\\app\\src\\main\\res\\menu\\menu_lista_incidencias.xml"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\IESSaladillo\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_tic.xml",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\IESSaladillo\\app\\src\\main\\res\\menu\\menu_tic.xml"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\IESSaladillo\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_actualizar.xml",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\IESSaladillo\\app\\src\\main\\res\\menu\\menu_actualizar.xml"
+    }
+]

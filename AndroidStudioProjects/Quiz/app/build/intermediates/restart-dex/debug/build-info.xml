@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="237848042209093"
+    token="1013317154077141728"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="5787" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="671" />
+    <task
+        name="verifier"
+        duration="57" />
+
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Quiz\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="447305974822705"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Quiz\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_formulario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.saladillo.alejandro.menucontextual.MainActivity">
+
+    <TextView
+        android:id="@+id/lblNombre2"
+        android:text="@string/Nombre"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txtNombre"
+        android:hint="@string/introduzcaNombre"
+        android:inputType="text"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblNombre2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/lblEdad2"
+        android:text="@string/edad"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"/>
+    <EditText
+        android:id="@+id/txtEdad"
+        android:inputType="number"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblEdad2"
+        android:hint="@string/introduzcaEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:layout_below="@+id/chxRepetidor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/estados"/>
+
+
+
+    <CheckBox
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/chxRepetidor"
+        android:text="@string/repetidor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:layout_below="@+id/txtEdad"
+        />
+    <Button
+        android:id="@+id/btnGuardar"
+        android:text="@string/guardar"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

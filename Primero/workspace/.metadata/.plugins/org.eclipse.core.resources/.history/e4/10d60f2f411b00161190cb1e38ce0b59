@@ -1,0 +1,23 @@
+package jugadores;
+
+import excepciones.PosicionNoValidaException;
+import materiales.Tablero;
+
+/**
+ * Clase que hace posible a la inteligencia artificial colocar autom&aacuteticamente.
+ *
+ *
+ * Created by Alejandro on 15/04/2016.
+ */
+public interface ColocarBot extends Colocar {
+    /**
+     * Este m&eacutetodo se encarga de colocar una materiales autom&aacuteticamente cuando sea su turno.
+     * Lo har&aacute intentando colocar fichas en todas las casillas y luego decidir&aacute la mejor opci&oacuten y colocar&aacute la materiales en esa posici&oacuten.
+     * @param tablero Es el tablero sobre el que se trabajar&aacute.
+     * @param turnoBlancas Sirve para indicar el color de la ficha que se va a colocar.
+     * @throws PosicionNoValidaException Lanzar&aacute la excepci&oacuten cuando se intente colocar una ficha en un lugar no v&aacutelido,
+     * es decir, encima de otra ficha, o en un lugar donde no voltea.
+     * @return Devuelve un valor booleano que indica si ha podido colocar una ficha.
+     */
+    boolean colocarFichaBot(Tablero tablero, boolean turnoBlancas) throws PosicionNoValidaException;
+}

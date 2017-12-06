@@ -1,0 +1,11 @@
+package estructurada;
+
+public class Ejercicio31 {
+
+	public static void main(String[] args) {
+
+		int i, j;
+		String n = "N", b = "B";
+	}
+
+}

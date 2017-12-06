@@ -1,0 +1,6 @@
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoCSharp\HolaMundoCSharp\bin\Debug\HolaMundoCSharp.exe.config
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoCSharp\HolaMundoCSharp\bin\Debug\HolaMundoCSharp.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoCSharp\HolaMundoCSharp\bin\Debug\HolaMundoCSharp.pdb
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoCSharp\HolaMundoCSharp\obj\Debug\HolaMundoCSharp.csprojResolveAssemblyReference.cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoCSharp\HolaMundoCSharp\obj\Debug\HolaMundoCSharp.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoCSharp\HolaMundoCSharp\obj\Debug\HolaMundoCSharp.pdb

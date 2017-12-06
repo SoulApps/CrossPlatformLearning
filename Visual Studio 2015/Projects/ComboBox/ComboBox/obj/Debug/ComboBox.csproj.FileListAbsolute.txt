@@ -1,0 +1,9 @@
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\ComboBox\ComboBox\bin\Debug\ComboBox.exe.config
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\ComboBox\ComboBox\bin\Debug\ComboBox.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\ComboBox\ComboBox\bin\Debug\ComboBox.pdb
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\ComboBox\ComboBox\obj\Debug\ComboBox.csprojResolveAssemblyReference.cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\ComboBox\ComboBox\obj\Debug\ComboBox.Properties.Resources.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\ComboBox\ComboBox\obj\Debug\ComboBox.csproj.GenerateResource.Cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\ComboBox\ComboBox\obj\Debug\ComboBox.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\ComboBox\ComboBox\obj\Debug\ComboBox.pdb
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\ComboBox\ComboBox\obj\Debug\PracticaComboBox.Form1.resources

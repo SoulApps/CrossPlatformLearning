@@ -1,0 +1,9 @@
+package estructurada;
+
+public class Blackjack2 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

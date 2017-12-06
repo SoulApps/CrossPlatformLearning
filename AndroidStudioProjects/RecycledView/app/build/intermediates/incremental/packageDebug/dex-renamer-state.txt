@@ -1,0 +1,7 @@
+#Tue Jan 24 09:17:49 CET 2017
+base.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\RecycledView\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_be4e1a3aceda3484a2b5076d8c34904274db6756
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\RecycledView\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b2f6eac29a7f36bf31b8128192ea087466542635\\classes.dex
+base.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\RecycledView\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b2f6eac29a7f36bf31b8128192ea087466542635
+file.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\RecycledView\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_be4e1a3aceda3484a2b5076d8c34904274db6756\\classes.dex

@@ -1,0 +1,299 @@
+/*
+Theme Name: inovado child
+Theme URI: http://iberzal.com
+Version: 4.0
+Description: Tema hijo de inovado para hacer cambios sin riesgo
+Author: iberzal.com
+Author URI: http://iberzal.com
+Template: inovado
+*/
+
+@import url("../inovado/style.css");
+
+/*----------------- Empieza a añadir cambios aquí abajo -------------------------------*/
+
+/*#page-wrap {
+	padding: 5px 0 5px 0;
+}*/
+/*Adaptacion a 1024*/
+.container {
+	width:1024px;
+}
+.container .four.columns {
+  width: 236px;
+}
+.container .twelve.columns {
+  width: 748px;
+}
+.container .eight.columns {
+  width: 492px;
+}
+.container .sixteen.columns {
+  width: 1014px;
+}
+.post-content {
+  width: 748px;
+}
+.container .six.columns {
+  width: 418px;
+}
+/*Fin adaptacion a 1024*/
+#header-v2 #navigation {
+	background: #408FAB;
+	//background-image: linear-gradient(to bottom, #587BA0 0%, #38577F 50%, #38577F 50%);
+}
+
+#header-v2 #navigation a {
+	color:#ffffff !important;
+}
+
+#header-v2 #navigation a:hover {
+	color:#fcfcfc !important;
+}
+
+#navigation .container{
+	//background: -webkit-gradient(linear, 0 0, 0 50%, from(#587BA0), to(#38577F)) #38577F;
+}
+
+#header-v2 .logo{
+	margin-top: 5px !important;
+}
+
+/*#page-wrap {
+	background-color: #ffffff;
+}
+
+#topbar {
+	background-color: #e3f3f7 !important;
+	border-bottom: 0px !important;
+}
+
+#header-v2 {
+	background-color: #e3f3f7 !important;
+}
+
+#header-v2 .container {
+	background-color: #ffffff;
+}
+
+#topbar .container{
+	background-color: #ffffff;
+}
+
+body{
+	background-color: #e3f3f7;
+}
+
+body .hr-border{
+	background-color: #ffffff;
+}
+
+.blog .post {
+	border-bottom: 3px solid #ccc !important;
+	border-right: 3px solid #ccc !important;
+	padding: 40px 0 40px 0;
+	margin: 0 0 0 0;
+}*/
+canvas.tagcloud-canvas {
+  width: 150% !important;
+  margin-left: -5%;
+}
+.meta-date, .meta-author, .meta-author a {
+  background: none repeat scroll 0 0 #408fab !important;
+  color: #fff !important;
+}
+.meta-category:last-child, .meta-category:last-child a {
+  background: none repeat scroll 0 0 #999 !important;
+  color: #fff !important;
+}
+body {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #ffffff;
+  background-image: url("https://www.adictosaltrabajo.com/wp-content/uploads/2014/09/motive-small.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  border-top: 3px solid #333333;
+  color: #444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+code {
+	font-family: Monaco, MonacoRegular, "Courier New",Consolas, monospace;
+}
+
+.header{
+  background:none !important;
+}
+#topbar {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.70) !important;
+}
+#title {
+  padding: 0 !important;
+  background: #0B436E !important;
+}
+#title * {
+  color: #fff !important;
+}
+.post-title * {
+  color: #408fab !important;
+}
+.post img{
+	max-width:100%;
+}
+#header-v2 .header-v2-container {
+  height: auto !important;
+}
+#banner-widget {
+  margin-bottom: 30px;
+}
+#tutoriales, #tutoriales a {
+  background: none repeat scroll 0 0 gold;
+}
+#destacados, #destacados a {
+  background: none repeat scroll 0 0 firebrick;
+  color: #fff;
+}
+#home, #home a, #noticias, #noticias a {
+  background: none repeat scroll 0 0 #00CD00;
+  color: #FFF;
+}
+#charlas, #charlas a {
+  background: none repeat scroll 0 0 Highlight;
+  color: #fff;
+}
+#comic, #comic a {
+  background: none repeat scroll 0 0 blueviolet;
+  color: #fff;
+}
+#chistes, #chistes a {
+  background: none repeat scroll 0 0 #777;
+  color: #fff;
+}
+#libros, #libros a {
+  background: none repeat scroll 0 0 aquamarine;
+  color: #fff;
+}
+.header-searchbox {
+  float: right;
+  height: 30px;
+  margin: 3px;
+  width: 200px;
+}
+#infobar {
+  display: none !important;
+}
+.single .post-meta {
+  height: 100%;
+  margin-bottom: 30px;
+  margin-left: 0;
+  width: 100%;
+  min-height: 50px;
+}
+.post-meta span {
+  background: none repeat scroll 0 0 #f4f4f4;
+  border-radius: 3px;
+  color: #999999;
+  float: left;
+  font-size: 11px;
+  margin: 0 10px 5px 0;
+  padding: 7px 15px 7px 10px;
+}
+
+.member-img img {
+  width: auto !important;
+  max-width: 150px !important;
+  max-height: 150px !important;
+}
+.autentia-team {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 40px;
+  margin-left: 5%;
+  width: 90%;
+}
+.autentia-team td {
+  vertical-align: top !important;
+}
+.autentia-team-image {
+  width: 120px !important;
+}
+.autentia-team-image img {
+  border-radius: 5px;
+}
+.clear-top-team {
+  display: none;
+}
+.image-member {
+  border-radius: 5px;
+  height: 130px !important;
+  overflow: hidden;
+  width: 100px;
+}
+.social-member {
+  float: right;
+  width: 50%;
+  text-align: end;
+}
+.meta-category i img {
+  margin-top: -3px;
+}
+.overlay {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}
+#author-info .author-image {
+  float: left;
+  padding: 20px;
+  width: 115px;
+}
+#author-info {
+  background-color: #f9f9f9;
+  background-image: -moz-linear-gradient(center bottom , #f7f7f7 0%, #ffffff 100%);
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px 0 rgba(180, 180, 180, 0.2);
+  display: block;
+  margin: 0 0 20px;
+  overflow: hidden;
+}
+@media(max-width:970px){
+	.header-searchbox {
+	  float:none !important;
+	  margin: 15px auto;
+	}
+}
+@media(max-width:770px){
+	.post-meta span {
+		float:none !important;
+	}
+	#banner-widget-right {
+	  width: 100% !important;
+	}
+	.autentia-team td {
+	  display: inline !important;
+	}
+	.social-member {
+	  float: none !important;
+	  text-align: end;
+	  width: 100% !important;
+	}
+	.autentia-team-info h4 {
+	  float: none !important;
+	  width: 100% !important;
+	}
+	.blog .post-content {
+	  width: 100% !important;
+	}
+	.post-image img {
+	  height: 50% !important;
+	  margin: 0 auto !important;
+	  width: 50% !important;
+	}
+	.post-image {
+	  max-height: none !important;
+	  max-width: none !important;
+	}
+
+}

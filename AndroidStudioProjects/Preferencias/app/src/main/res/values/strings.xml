@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Preferencias</string>
+
+    <string-array name="equipos">
+        <item>Real Madrid</item>
+        <item>FC Barcelona</item>
+        <item>Atlético de Madrid</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\Examen1_Alejandro\Examen1_Alejandro\bin\Debug\Examen1_Alejandro.exe.config
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\Examen1_Alejandro\Examen1_Alejandro\bin\Debug\Examen1_Alejandro.exe
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\Examen1_Alejandro\Examen1_Alejandro\bin\Debug\Examen1_Alejandro.pdb
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\Examen1_Alejandro\Examen1_Alejandro\obj\Debug\Examen1_Alejandro.csprojResolveAssemblyReference.cache
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\Examen1_Alejandro\Examen1_Alejandro\obj\Debug\Examen1_Alejandro.Login.resources
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\Examen1_Alejandro\Examen1_Alejandro\obj\Debug\Examen1_Alejandro.Properties.Resources.resources
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\Examen1_Alejandro\Examen1_Alejandro\obj\Debug\Examen1_Alejandro.Sesion.resources
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\Examen1_Alejandro\Examen1_Alejandro\obj\Debug\Examen1_Alejandro.csproj.GenerateResource.Cache
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\Examen1_Alejandro\Examen1_Alejandro\obj\Debug\Examen1_Alejandro.exe
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\Examen1_Alejandro\Examen1_Alejandro\obj\Debug\Examen1_Alejandro.pdb
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\Examen1_Alejandro\Examen1_Alejandro\obj\Debug\Examen1_Alejandro.Calificacion.resources
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\Examen1_Alejandro\Examen1_Alejandro\obj\Debug\Examen1_Alejandro.Acerca.resources
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\Examen1_Alejandro\Examen1_Alejandro\obj\Debug\Examen1_Alejandro.Notas.resources

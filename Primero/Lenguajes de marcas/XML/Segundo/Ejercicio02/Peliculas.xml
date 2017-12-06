@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE PELICULAS SYSTEM "peliculas.dtd">
+
+<peliculas>
+	<pelicula pais="" duracion="">
+		<titulo></titulo>
+		<titulo_original></titulo_original>
+		<director></director>
+		<duracion></duracion>
+		<genero></genero>
+		<sinopsis></sinopsis>
+		<clasificacion edad=""></clasificacion>
+		<web></web>
+		<cartel></cartel>
+		<fecha></fecha>
+		<reparto>
+			<actor>
+				<nombre></nombre>
+				<fecha_nacimiento></fecha_nacimiento>
+			</actor>
+		</reparto>
+	</pelicula>
+</peliculas>

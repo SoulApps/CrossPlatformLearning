@@ -1,0 +1,9 @@
+package Examenes;
+
+public class Examen {
+public static void main(String[] args) {
+	
+	System.out.printf("0	1");
+		
+	}
+}

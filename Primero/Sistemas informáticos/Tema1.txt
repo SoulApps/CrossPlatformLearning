@@ -1,0 +1,655 @@
+-Analógico: Valor del 1 al 2 puede ser 1.4 por ejemplo. La precisión es infinita. En una foto el límite sería microscópico al hacer zoom.
+
+-Digital: El valor del 1 al 2 es preciso, o 1 o 2. En nuestro caso sería 0 y 1. La precisión es finita. En una foto el límite sería el pixelado al hazer zoom.
+
+
+-Los transistores tienen 3 pelos: negativo, positivo y el que guarda la información con 0(0V en los no microscópicos) o 1(5V en los no microscópicos).
+-A esto se le llama bit(b) y es la unidad básica de memoria y tiene su sistema métrico como los metros o litros.
+	bit(b)<>Kb<>Mb<>Gb<>Tb
+-Para pasar entre ellos hay que multiplicar o dividir por(<bajar)/entre(subir>) 1000.
+-Para medir se prefiere el byte(B)=8 bits, por lo que la operación sería por/entre 8.
+-Se usa el byte porque es lo que se necesita para guardar una letra.
+-Los bits se usan para velocidades.
+	byte(B)<>KB<>MB<>GB<>TB pero no se utiliza.
+-Se utiliza el sistema binario y hay que multiplicar o dividir por(<bajar)/entre(subir>) 2^10 y se les pone una "i". 
+	(Ej:KiB=Kibibyte, MiB=Mebibyte, GiB=Gibibyte, TiB=Tebibyte).
+-Para pasar de Mb a MiB no se podría dividir entre 8, así que primero habría que calcular cuantos bits hay y luego pasarlo al formato binario.
+
+-La arquitectura de un sistema informático es el diseño estructural y funcional del hardware de un sistema informático.
+-Los elementos básicos de cualquier arquitectura de un ordenador son:
+	-Unidades de proceso(procesadores): Ejecutan las instrucciones sobre los datos para obtener un resultado.
+		-Una instrucción es un tipo de dato binario especial que codifica una acción del procesador. Sus partes son un código de instrucción y los argumentos.
+	-Unidades de memoria: Contiene los datos y las instrucciones a procesar. También se utiliza para almacenar los resultados de la ejecución de las instrucciones.
+	-Unidades de E/S: Capturan los datos a procesar y/o mostrar.
+	-Buses: Transmiten la información de un elemento a otro.
+
+
+-Máquina de Turing (1936): Es un sistema informático capaz de resolver cualquier problema pero es muy compleja para usarla. Está muy relacionada con la Inteligencia 
+Artificial. Se utiliza en sistemas mecánicos simples como semáforos. Simulan redes neuronales.
+-Arquitectura Harvard (1944): Se basa en un sistema de dos memorias(con sus respectivos buses), una para instrucciones y otra para datos.
+La unidad de proceso va cogiendo de las dos memorias. Ambas memorias se leen simultáneamente. Se utiliza en proceso de señales digitales (DPS).
+Las instrucciones no son reconfigurables.
+-Arquitectura von Neumann (1949): Solo tiene una memoria para los datos y las instrucciones, entonces se van a leer por un mismo bus que además se usa también 
+para la E/S, por lo que todo tiene que tener sus turnos al tener que ir dato por dato. Las instrucciones y los datos se van leyendo alternadamente.
+Se utiliza un bus de control para controlar la lectura y la escritura.
+Casi todos los sistemas informáticos de propósito general tienen esta arquitectura.
+Esta arquitectura surge de la necesidad de reconfigurar el sistemacon cada tarea.
+	-Sus componentes son:
+		-Una sola memoria, que contendrá, codificadas en binario, tanto las instrucciones como los datos a procesar. Esto se debe leer alternadamente.
+		-Un procesador que ejecutará seuencialmente las instrucciones sobre los datos de entrada generando un resultado.
+		-Un bus de datos único para las instucciones y los datos.
+		-Un bus de direcciones para direccionar la memoria.
+		-Un bus de control para alternar los diferentes modos de los elementos del sistema.
+		-Un sistema de entrada/salida para capturar o mostrar los datos procesados.
+	-Características:
+		-Aparece el concepto de programa que simplifica la implentación. Un programa guarda en la misma región de memoria tanto el conjunto 
+		de instrucciones como los datos a procesar.
+		(Ya no es necesario recablear el sistema cada vez que se cambia las instrucciones a ejecutar).
+		-Aparece un cuello de botella en el bus al  ser el procesador el elemento significativamente más rápido y tener que  esperar a los demás elementos.
+		-Existen dos tipos de arquitecturas von Neumann:
+			-RISC: Ordenadores de juegos simples de instrucciones.
+			-CISC: Ordenadores de juego complejo de instrucciones.
+-Arquitectura RISC:
+	-Tienen un bajo número de instrucciones posibles.
+	-Las instrucciones son muy simples.
+	-Los programas tienen muchas instrucciones y son más difíciles de implementar.
+	-El procesador RISC es más rápido que el CISC.
+	-Consume poca energía.
+	-Ejemplos: Consolas PlayStation, consolas Nintendo, ordenadores Mac con arquitectura PowerPC(antiguos Mac), móviles con procesadores ARM.
+-Arquitectura CISC:
+	-Tienen un número elevado de instrucciones.
+	-Las instrucciones pueden llegar a ser muy complejas.
+	-Los programas tienen pocas instrucciones y son más fáciles de implementar.
+	-Son más lentos que los RISC.
+	-En la actualidad los procesadores CISC transforman internamente las instrucciones complejas en microinstrucciones tipo RISC.
+	-Ejemplos: Algunos procesadores Motorola, microprocesadores Intel (excepto los ATOM), microprocesadores AMD.
+
+
+-Tipos de sistemas informáticos:
+	-Supercomputadores: Equipo caacidades de cálculo muy superiores a las computadoras corrientes, que son usadas, con fines específicos. 
+	Son muchos procesadores trabajando simétricamente y se usan para cálculos intensivos como simulaciones.
+	-Mainframes (Ordenadores centrales): Grandes ordenadores que funciona como servidores de terminales dependientes (ordenadores tontos). Tiene un ancho de banda muy grande. 
+	Los procesadores también trabajarán en modo simétrico.
+	-Estaciones de trabajo (Workstation): Equipo de altas prestaciones destinado para trabajo técnico o científico (como el ordenador de Homer Simpson) o servers.
+	Tienen procesadores especiales. Son CISC.
+	-Ordenadores de sobremesa: Equipos diseñados para uso doméstico y de empresa.
+	-Portátiles (Notebook): Equipos trasportables on capacidades similares a los ordenadores de sobremesa.
+		-Desknnotebook: Potátiles de altas prestaciones y dimensiones.
+		-Laptops: Equipos transportables con capacidades similares a los ordenadores de sobremesa.
+		-Subportátiles: Portátiles de reducidas dimensiones, lo cual aporta una mayor movilidad y auntonomía.
+		-Netbooks: Como los subportátiles pero de bajo costo.
+		-Chromebooks: Portátiles de muy bajo coste y prestaciones, con las características adecuadas para conectarse a la nube.
+	-Videoconsolas: Son equipos orientados al entretenimiento para el hogar. Ejetemacuta exclusivamente juegos electrónicos (videojuegos).
+	-Dispositivos móviles (Palmtop): Equipos de muy bajas prestaciones de naturaleza portátil.
+		-Tablets: Es dispositivo móvil de gran tamaño integrado en una pantalla táctil con la que se interactúa con los dedos o una pluma.
+		-PC Ultra Móvil: Es una tablet de menor tamaño con la arquitectura de un IBM PC.
+		-PDA: Dispositivo táctil de bajas prestacionesdeseñado para actuar como agenda electrónica.
+		-Smartphones: Dispositivo de bajas prestaciones, parecido al PDA orientado a telefonía.
+	-Los dispositivos móviles(Palmtops):
+		-Son tan versátiles como un ordenador personal pero menos potencia.
+		-Su arquitectura está adaptada a su carácter portátil:
+			-Periféricos integrados.
+			-Inmunidad a las vibraciones (ausencia de partes mecánicas).
+			-Bajo consumo.
+		-La mayoría presentan conectividad a red.
+		-Orientados a telefonía:
+			-Dispositivo Móvil de Datos Limitados: Móvils 3G de gama baja.
+				-Prestaciones multimedia limitadas.
+				-Bajas prestaciones (Mensajería EMS/MMS y Navegación WAP).
+			-Dispositivo Móvil de datos Básico: Smartphone.
+				-Mensajería(EMS/MMS y correo electrónico).
+				-Posibilidad de conexión versátil(3G/WIFI/Bluetooth).
+				-Navegación WAP/WEB.
+				-GPS y sensores adicionales.
+			-Dispositivo Móvil de datos mejorados: Tablets, UMPC y PDAs.
+
+
+
+-El hardware interno de un sistema informático.
+	-La caja:
+		-Es el chasis compuesto de metal y plástico que sirve de soporte para los elementos internos del ordenador.
+		-Suele tener un diseño específico y exclusivo para dispositivos móviles, portñatiles, consolas y algunos drdenadores "de marca".
+		-Tiene un diseño estándar en ordeadores montados pieza a pieza (PC Clónicos).
+		-Una caja debe ser rígida y pesada.
+		-Tiene que poseer buena ventilación.
+		-Tiene que facilitar el acceso a los elementos.
+		-En una caja genérica habrá anclajes para la placa base, bahías de 5.25", bahías de 3.5", bahías de 2.5", zócalos para los ventiladores, soporte para 
+		la fuente de alimentación, ranuras para as tarjetas de expansión y ranuras para los conectores.
+
+		-Factor de forma de las cajas par ordenadores de sobremesa actuales:
+			-Barebone: Cajas de pequeño tamaño y diseño estético.
+				-Admite pocos o ningún dispositivo.
+				-Su principal problema es el calentamiento
+				-Alto número de puertos USB.
+			-Minitorre: Cajas muy extendidas dada su versatilidad.
+			-Slim (TFX): Se parecen mucho a las minitorres. Aunque se colocan en horizontal y se colocan sobre ella el monitor.
+			-Semitorre: Su gran tamaño permite colocar más dispositivos.
+			-Torre (Gran Torre): Es el más grande. Puedes colocar una gran cantidad de unidades y es usado cuando se precisa de muchos dispositivos.
+				-Torre servidor: Destinado a servidores sin diseño estético y con buena ventilación y varias fuentes de alimentación. A veces llevan
+				una SAI que protege los equipos de picos de tensión y cortes de alimentación.
+			-Rack: Cajas que se atornillan a estanterías para servidores dedicados.
+				-Tiene una mayor potencia que cualquier otro ordenador.
+				-Este tipo de servidores suele colocarse en salas climatizadas debido a la temperatura que alcanza.
+
+		-Portátiles:
+			-A veces los periféricos están integrados en la carcasa.
+			-Mala ventilación.
+
+		-Videoconsolas:
+			-Relativa portabilidad y resistencia.
+			-Muy buena ventilación.
+
+		-Tablets y Smartphones:
+			-Pantalla táctil integrada.
+			-Ausencia de ventilación (refrigeración por disipación).
+			-Absorción de golpes y vibraciones.
+
+
+-Fuente de alimentación: 
+	-Es el elemento que suministra energía al sistema.
+	-Convierte la corriente de alterna a continua (En la unión europea de 220V a 3.3/5/12V).
+	-La conversión genera una gran cantidad de calor.
+	-Se adecúa la potencia a las necesidades del equipo:
+		-200-1200W para equipos de sobremesa.
+		-40-200W para portátiles (cargadores).
+		-2.5-5W para cargadores USB.
+	-La eficiencia determina cuanta energía se desperdicia en forma de calor.
+	-Cable ATX 20p/24p, cable P4 4p, molex 4p, berg 4p (para la floppy), molex 6p, molex 8p (las gráficas), SATA.
+
+	-Cables naranjas: 3.3V		Cables rojos: 5V	Cables amarillos: 12V	
+	-Cables azules: -12V		Cables rojos: COM/tierra/comparación		N/C: Vacío, no se utiliza
+	-Morado: 5V, sirve para el teclado y el ratón
+	-Cable gris: Encendido correcto		-Cable verde: Enciende la placa
+	
+	-Si puentamos el verde con el rojo se puede comprobar la placa.
+	-El encendido AT te decía cuando podías encender o apagar, pero el sistema operativo es el que realmente lo apaga.
+	
+
+	-Fuentes TFX: Para los ordenadores slim.
+	-Flex: Para los barebones.
+	-Modelo standard ATX.
+
+
+
+-Fuentes de portátiles y móviles:
+	-El adaptador de corriente externo (no expone el equipo al calor).
+	-Conector específico al portátil.
+	-Baterías:
+		-Níquel Cadmio (NiCd): Como las pilas recargables. Son sensibles a los estados extremos, por lo que cuando estén al 100% lo mejor es quitarlo y 
+		tampoco es bueno descargarla completamente.
+		-Hidruro Metálico de Níquel (NiMH): Es conveniente cargarlas completamente y luego descargarlas completamente la primera vez.
+		-Batería de Litio (Li-Ion): Tiene un pequeño controlador para controlar la carga. Se mide por miliamperios/h (mAh).
+		-Batería de Polimero Litio.
+		-Microcélulas de Metanol.
+
+
+-Refrigeración:
+	-Reducir la temperatura de los componentes que más se calientan (procesadores).
+		-Ventiladores.
+		-Disipadores: En la CPU, chipset, GPU, otros controladores.
+		-Resina térmica: Blanca cutre, fabricante buenecilla, plateada alto rendimiento.
+		-Refrigeración líquida.
+		-Circuito de mteal líquido: Lleva mercurio.
+		-Sistema de hielo seco (CO2).
+		-Sistema de nitrógeno líquido.
+	-Para portátiles:
+		-Bases de ventilación.
+		-Bases de refrigeración líquida.
+-Métodos pasivos de refrigeración serían por ejemplo limpiar el polvo, poner redecillas en los ventiladores para evitar que entre el polvo o no fumar.
+
+
+
+-La placa base (placa madre, mainboard, motherboard):
+	-Conecta todos los componentes internos, unidades de almacenamiento y periféricos. También sirve de base de anclaje.
+	-Está diseñado para que cada cosa entre donde deba y no nos equivoquemos.
+	-Controla todo el flujo de datos del equipo.
+	-Tipos actuales:
+		-Para servidores:
+			-WTX (Tiene para meter 2 procesadores, varias tarjetas de expansión).
+		-Basadas en el formato ATX (se caracteriza por desplazar los demás formatos y su tamaño es como el de un folio aproximadamente y también hace
+		referencia al tipo de encendido, por interruptor):
+			-ATX.
+			-MicroATX.
+			-FlexATX.
+		-Basadas en el formato ITX (pequeñas para barebones):
+			-MiniITX.
+			-NanoITX.
+			-PicoITX (XTX).
+		-Basadas en el formato SSF:
+			-PC/104 (Arduino, Raspberry Pi).
+
+	-Se encuentra:
+		-Zócalo de la CPU:
+			-Fija el microprocesador conectándolo con el bus frontal.
+			-Utilizan puntos guía y una horquilla para el anclaje y así ponerlo de la forma correcta.
+			-Existe una gran cantidad de zócalos en cuanto a forma y múmero de pines.
+				-Zócalos PGA: Los pines entran a presión en un hueco.
+				-Zócalos ZIF: La conexión se realiza mediante la sujeción con un sistema de pinza.
+				-Zócalos LGA: La conexión se realiza mediante el contacto de esferas de cobre.
+			-Los zócalos intel utilizan letras mientras que los AMD no.
+			-Los modelos intel son incompatibles con los AMD, por lo que necesitarán un zócalo adecuado.
+		-Chipset:
+			-Es una pareja de procesadores que controla la comunicación entre los elementos internos del ordenador.
+				-Puente Norte: Gestiona la comunicación entre el microprocesador y la memoria principal (bus frontal). Adicionalmente pueden controlar 
+				los buses rápidos orientados a gráficos (PCI-Ex16) o red Gigabit (Intel CSA).
+				-Puente Sur: Gestiona la comunicación entre los elementos lentos.
+					-Gestiona la comunicación de los buses lentos (PCI-E , SATA y USB).
+					-Da soporte para los controladores DMA y el controlador de interrupciones, y así aligera el cuello de botella.
+					-Controla el System Management Bus.
+					-Da soporte para el reloj a tiempo real y la BIOS.
+			-Los dispositivos móviles no tienen chipset, su función es realizada por el microprocesador (SiC-System on Chip).
+			-Pincipales fabricantes de chipset: Intel, AMD, NVIDIA, SIS y VIA.
+			-Ranuras de memoria:
+				-Alojan los módulos de memoria.
+				-Tipos:
+					-DIMM 168 	SDR
+					-DIMM 184	DDR
+					-DIMM 240	DDR2 DDR3
+					-SO-DIMM 144	SDR compactos
+					-SO-DIMM 200	DDR DDR2 compactos
+					-SO-DIMM 204	DDR3 compactos
+		-Ranuras de memoria:
+			-Llevan muescas de seguridad para evitar ponerlos en otro lado.
+		-Ranuras de expansión:
+			-Ranuras PCI (blanco normalmente o marrón):
+				-Es una ranura de uso general
+				-Trabaja a una velocidad de 133 MiB/s (32 bits) o 266(MiB/s.
+				-Están en desuso ya que son relatiamente lentas (no sirven para gráficos).
+			-Ranuras AGP:
+				-Exclusivas para las tarjetas gráficas.
+				-Tienen velocidades de hasta 2 GiB/s.
+				-Cada vez están más en desuso.
+				-Para diferenciarlas de las PCI se ponen más a la derecha y la muesca la tienen a la izquierda.
+			-Ranuras PCI-Express (PCI-E o PCIe):
+				-Es la evolución de las ranuras PCI, los datos se transmiten en serie en vez de en paralelo como su antecesora.
+				-Son de propósito general, muy rápidas e ideales para gráficos.
+				-Están reemplazando a las PCI y AGP.
+				-Su velocidad depende del número de pines.
+					-x1 x4 x8 x16 x32(2x16).
+				-Hay hasta 4 revisiones.
+			-Puertos PATA/IDE:
+				-Sirven para conectar unidades de almacenamiento ATAPI:
+					-Sus conectores tienen 40 pines. Suele incluirse dos conectores. Cada uno soporta dos unidades.
+				-Son tan rápidos como un PCI.
+				-Hay que configurar uno como maestro y otro como esclavo, y normalmente el maestro es el principal.
+			-Puertos SATA:
+				-Conectar unidades de alacenaniento SATA.
+				-Son muy rápidos, 4 veces más que los PATA.
+				-Utilizan 7 pines.
+				-Sus cables son estrechos.
+			-Puertos PC Card (PCMCIA):
+				-Conecta a la placa base tarjetas de expansión especiales.
+				-Tiene la misma velocidad que un PCI.
+				-Se utiliza para apliar las capacidades de los portátiles.
+			-Puertos Express-Card.
+
+		-Chip de la BIOS:
+			-Contiene la memoria RAM CMOS de la BIOS del ordenador.
+			-Suelen ser extraibles.
+			-Las RAM CMOS modernas está en chips regrabables (Memorias Flash).
+		-Puertos:
+			-Cada puerto o conjunto de puertos hay un controlador propio en la placa.
+		-Batería:
+			-Mantiene la fecha y hora y la configuración de la BIOS.
+			-Si la pila deja de funcionar, los valores vuelven a los de fábrica y no se mantiene la información de la BIOS.
+		-Tomas de alimentación.
+		-Pines de extensión:
+			-Pines ATX:
+				-Botones de encendido y reset.
+				-LED de encendido y acceso a disco.
+				-Speaker.
+			-Pines de expansión:
+				-Puertos USB/IEEE(firewall) 1394 frontales/laterales.
+				-Puertos Jack de audio frontales/laterales (sonido integrado).
+				-Pines de configuración (jumpers).
+		*Ejercicio 1:
+			1-PCI
+			2-PCI-E
+			3-Pila
+			4-AGP
+			5-Puente Norte
+			6-Suplex 12V procesador
+			7-Socket procesador LGA
+			8-RAM
+			9-Alimentación de la placa 24p
+			10-IDE
+			11-SATA
+			12-Pines ATX
+			13-Puente Sur
+			14-Pines de extensión (USB)
+			15-BIOS
+			16-Pines de configuración
+		*Ejercicio 2:
+			1-Sistema de alimentación/Ventilador
+			2-Cable para el teclado integrado
+			3-Gráfica
+			4-BIOS
+			5-Pila o Speaker
+			6-
+			7-Puente Norte
+			8-Puente Sur
+			9-RAM
+			10-IDE
+			11-
+			12-RAM
+			13-Batería
+			14-Socket procesador
+
+-Móviles:
+	-Placa base de móviles:
+		-Se alejan del modelo von Neumann.
+		-Todos sus elementos van a estar integrados y soldados a la placa.
+		-Con frecuencia los buses transmitirán en serie.
+		-Muchos estarán divididos en dos partes: una de datos y otra de comunicación telefónica.
+		-Los controladores estarán integrados en:
+			-El SoC, el propio procesador.
+			-ASIC, o Circuitos Integrados de Aplicación Específica.
+				-Agrupan controladores.
+				-Realizan las funciones tradicionales de cualquier controlador.
+				-Integran las funciones de arranque y gestión de energía.
+				-Realiza conversión analógico-digital.
+
+-Procesador:
+	-Microprocesador: Es el circuito que gobierna todos los componentes del ordenador.
+	-Están compuestos por millones de transistores.
+	-Las marcas son incompatibles y cada procesador a su socket.
+	-Adquieres muy altas temperaturas.
+	-Características:ñ
+		-Juego de instrucciones (32 bits o 64 bits).
+		-Frecuencias de reloj (MHz o GHz). Los GHz siguen el sistema decimal y no el binario.
+		-Número de núcleos.
+		-Memoria caché L2 (LiB o MiB).
+	-Tiene una unidad de control que gestiona el funcionamiento y tiene el reloj del sistema.
+	-Tiene una unidad de proceso donde se ejecutan las operaciones.
+		-Unidad aritmetico-lógica.
+		-Unidad de coma flotante.
+	-Banco de registros necesaira para la ejecución de las instrucciones.
+	-Técnicas que aumenta la eficiencia de la CPU.
+	-Arquitecutra superescalar: se va ejecutar un proceso cada vez.
+	-Arquitectura multinúcleo: funcionamiento simétrico, se comparte varios recursos y simula tener varios procesadores.
+	-Juegos de instrucciones para cálculo con vectores de datos (SIMD): Mejoran el rendimiento al efecturar operaciones 
+	sobre varios registros iguales en paralelo, Están orientados a audio, vídeo y 3D.
+	-Las instrucciones enteras se miden en MIPS (Millones de Instrucciones por segundo).
+	-Las instrucciones de coma flotante se miden en MFLOPS (Millones de Intrucciones de Coma Flotante por Segundo).
+	-En MFLOPS es más exacto que en MIPS porque las instrucciones de coma flotante van a depender más de la estructura y de la complejidad de las instrucciones.
+-Intel:
+	-Son los más usados tanto en IBM PC como en MAC PC.
+	-Arquitectura híbrida CISC-RISC.
+	-Registros de propósito general:
+		-Arquitectura de 32 bits: 8 registros.
+		-Arquitectura de 64 bits: 16 registros.
+	-Basa la eficiencia en el número de ciclos por segundo (Hz).
+	-Usa SpeedStep para reducir la frecuencia del procesador en función de sus necesidades para ahorrar energía y evitar generar más calor.
+	-Los centrinos son una marca que asegura que incluye el microprocesador intel, el chipset intel, y el adaptador de red wireless; y es para portátiles.
+	-La familia Pentium es de 32 bits (o 64 bits a veces) y tienen juegos de instrucciones x86, MMX y SSE.
+	-La familia Core es de 64 bits y tienen juegos de instrucciones x86, x86-64, MMX, SSE, AVX.
+	-La familia MIC es de 64 bits y se encuentran en servidores.
+	-La familia Atom es de 64 bits siguen algunas especificaciones RISC pero sigue siguiendo la de los IBM PC.
+	-La familia Xeon es de 64 bits y es parecida a los Core, pero el Xeon está preparada para funcionar en servidores.
+	-La familia Itanium es de 64 bits y se utilizan en servidores.
+	-La familia Celeron (Pentium) es de 32 bits pero capados.
+	-La familia Celeron (Core) es de 64 bits pero capados.
+-AMD:
+	-Es la alternativa a intel.
+	-Arquitectura híbrida CISC-RISC.
+	-Soporta todos los juegos de instrucciones, los suyos y los de intel.
+	-Registros de propósito general:
+		-Arquitectura de 32 bits: 8 registros.
+		-Arquitectura de 64 bits: 16 registros.
+	-Tiene una tecnología parecida al SpeedStep de intel llamada Cool'n'Quiet(PowerNow! en portátiles).
+	-AMD Fusión: Igual que el Centrino pero que combina componentes AMD.
+	-La familia Athlon64 es de 64 bits y es equivalente al Pentium y al Core i3.
+	-La familia Phenom es de 64 bits y es equivalente al Core i5.
+	-La familia FX es de 64 bits y es equivalente al Core i7.
+	-La familia Turion es de 64 bits y está especializado para portátiles.
+	-La familia Geode es de 32 bits y es equivalente al Atom.
+	-La familia Opteron es de 64 bits y es equivalente al Xeon para servidores.
+	-La familia Sempron es de 64 bits y es equivalente al Celeron.
+-Videoconsolas:
+	-Arquitectura MIPS (ARM):
+		-Son RISC puros.
+		-Utilizan arquitectura de 64 bits que utiliza instrucciones extendidas de 128.
+		-Lo utilizan la Play 2.
+	-Arquitectura PowerPC:
+		-Desarrollada originalmente por Apple, IBM y Motorola.
+		-Son RISC puros.
+		-Tienen varios núcleos y pueden trabajar en paralelo.
+		-Lo utilizan la Xbox 360, Play 3, Wii y Wii U.
+	-Arquitectura Intel:
+		-Basada en microprocesadores de PC.
+		-Lo utiliza la Xbox(Pentium III).
+-Dispositivos móviles:
+	-Arquitectura ARM:
+		-Están en csi todos los dispositivos móviles y videoconsolas portátiles.
+		-Son RISC puros para trabajar optimizados para trabajar con bajo coste energético.
+		-Tenía 32 bits y luego 64 bits.
+		-Los modelos actuales tienen 32 bits extendidos hasta 128 bits para el juego de instrucciones SIMD (NEON).
+		-La gráfica está integrada en el SoC y se pueden encontrar varios núcleos.
+
+-Memoria RAM:
+	-Sus siglas significan memoria de datos de acceso aleatorio.
+	-Tendrá los datos que se están utilizando y las cosas que se están ejecutando, por lo que ningún proceso se puede ejecutar sin cargarse en memoria RAM.
+	-Se caracteriza por la tecnología que tiene (DDR1, DDR2...), la velocidad de trabajo (MHz o GHz), la tasa de trasferencia (GiB/s), 
+	el tiempo de acceso o Latencia CAS (ciclos).
+	-La memoria caché de la CPU:
+		-Alivia el cuello de botella por la diferencia de velocidad entre la RAM y la CPU.
+		-Es una memoria intermedia que guarda los datos más utilizados para reutilizarlos posteriormente. Es más eficiencia que la RAM por su velocidad.
+		-Se integra en la pastilla del microprocesador.
+		-Hay hasta 3 niveles.
+	-Jerarquía de la CPU:
+		-Es necesario que la memoria RAM sea muy grande y rápida pero es inviable por el precio.
+		-Para resolver este problema se establece una organización de jerarquía. Para ellos se parte de estos principios:
+			-La memoria lenta es barata, por lo que se puede tener mucha cantidad.
+			-La memoria rápida es cara, por lo que no se puede tener mucha cantidad.
+		-JERARQUÍA: Registros (KiB) > Caché  (MiB) > RAM (GiB) > SSD/HDD (TiB) > Redes(Servidores/Internet) (PiB)
+			-Para medir su precio se utiliza el término €/bit. A más velocidad, memos memoria y más precio.
+		-Tipos de memorias volátiles:
+			-Estática (SRAM): Sin circuito de refresco. Tienen una latencia de 1 ciclo (muy rápido) y muy baja densidad (ocupa mucho 
+			espacio con poca cantidad) y es parecida a la caché.
+				-6TSRAM: Más sencillos y versátiles que cualqueier otra memoria. Se utilizan integradas en procesadores 
+				o controladores como memorias caché.
+			-Dinámica (DRAM): Memoria de alta densidad que necesitan una contigua recarga con un circuito de refresco. Tienen latencias altas.
+				-RDRAM: Memoria asíncrona de tecnología Rambus.
+				-XDR DRAM: Sucesor de las RDRAM de alto rendimiento.
+				-SDRAM: Memorias síncronas con el bus del sistema.
+					-SDR SDRAM: Memorias de bus simple.
+					-DDR SDRAM: Memorias de doble bus.
+	-Memorias de los equipos de sobremesa y portátiles:
+		-Se utilizan DDR.
+		-Poseen muescas para facilitar su colocación.
+		-Los diferentes tipos de módulos son incompatibles tanto en el sentido físico como en el lógico.
+		-Hoy en día los módulos son síncronos.
+		-La longitud de la ranura o forma se mide con DIMM, SO-DIMM.
+		-Tipos según la tecnología:
+			-SDR SDRAM	1 palabra/ciclo
+			-DDR SDRAM	2 palabras/ciclo
+			-DDR2 SDRAM	4 palabras/ciclo
+			-DDR3 SDRAM	8 palabras/ciclo
+			-DDR4 SDRAM	16 palabras/ciclo
+		-Tecnología multicanal Dual Channel y Triple Channel.
+			-Acceso en paralelo a los módulos de memoria.
+			-Se consigue duplicar o triplicar la velocidad de transferencia de la memoria RAM.
+			-La placa debe admitir esta tecnología.
+			-Los modulos deben ser iguales y deben ser colocados correctamente.
+				**Ejemplo:
+				-DDR1
+				Transferencia 3.2 GiB/s
+				Trabajo 400 MHz
+				Bus 200 MHz
+				CL3
+					200MHz * 10^6 = 200000000Hz * 2 = 400000000Hz(palabras/s) * 64(bits/palabra) = 25600000000 bits : 8(bit->byte) = 3200000000 bytes * 2^30 = 3.2GiBs/s
+					Conclusión: Dividiendo 3 / 400000000ciclos/s obtendríamos el tiempo que se tarda en llevar a cabo una tarea y serían 7.5nanosegundos.
+
+	-Memorias en móviles:
+		-Pueden estar embebidas en un SoC o un ASIC.
+		-mDDR SDRAM: Basadas en las DDR SDRAM pero reducidas y optimizadas.
+		-eDRAM: Dinámicas asíncronas embebidas en un SoC o un ASIC.
+		-Pseudo-estáticas: Memoria dinámica de alta densidad qeu se comporta como una estática aunque tiene circuitos de refresco y gastan poco.
+			-PSRAM: No embebida de alta densidad.
+			-1T-SRAM: Memoria embebida con un único transistor.
+			-FCRAM: Memoria de alto rendimiento desarrollada por Fujitsu.
+
+	-Memoria en videoconsolas:
+		-Suelen estar soldadas a la placa base.
+		-Se utiliza la misma tecnología que para los ordenadores de sobremesa y portátiles.
+
+	-Adaptadores y tarjetas de expansión:
+		-Son circuitos que contiene los controladores de dispositivo para elementos concretos del sistema.
+		-Unos desempeñan funciones básicas del sistema, otros añaden nuevas funcionalidades.
+		-Las tarjetas de expansión están insertados en las ranuras (slots) de expansión.
+		-Otros integrados en la placa base (denominadas inadecuadamente “tarjetas integradas”).
+		-Los adaptadores y controladores integrados generalmente cuentan con poca potencia, no cuentan con memoria dedicada 
+		(utilizando la memoria RAM principal en caso de necesitar un espacio de direcciones)
+		-Estos últimos son muy frecuentes en portátiles y dispositivos móviles (SoC y ASIC).
+	
+	-Principales controladores/adaptadores:
+		-Puente norte (controlador de memoria).
+		-Puente sur (controlador de E/S).
+		-Adaptador gráfico o de vídeo.
+		-Adaptador de audio o de sonido.
+		-Adaptador de red.
+		-Adaptador de host (PATA, SATA, SCSI, SAS).
+		-Controlador RAID.
+		-Capturadora de vídeo.
+		-Adaptador sintonizador.
+		-Controlador USB.
+		-Controlador de teclado.
+		-Controlador de ratón.
+		-Adaptador de interfaz (para buses raros).
+		-Controladores programables.
+
+	-Adaptador gráfico:
+		-Genera las imágenes que después se transmitirán al monitor.
+		-A veces están integradas en la placa aunque las mejores opciones son las tarjetas de expansión que se conectan a puertos (PCI-E y ExpressCard).
+		-Su controlador se llama GPU.
+		-Los adaptadores de mayor frecuencia tienen una RAM dedicada propia (VRAM).
+		-Tiene shaders y antialiasing y son co-procesadores y crean efectos. Los shaders crean sombras, brillos, nieblas. El antialiasing es un filtro
+		que disimula el pixelado.
+		-Se pueden puentear para conseguir más potencia.
+
+	-Procesador gráfico:
+		-No es von Neumann, es circulante.
+		-Es híbrido CISC-RISC.
+		-Está optimizado para hacer cálculos en coma-flotante.
+		-Los procesadores Shaders producen efectos especiales de sombras e iluminación:
+			-Pixel Shaders (2D).
+			-Vertex Shaders (3D).(Forma)
+			-Geometrik Shaders (3D).(Volumen)
+			-Fragment Shaders (3D).(Efectos)
+			-TesseNation Shaders (3D).(Textura)
+		-Los procesadores ROP procesan la composición 3D para convertirla en la imagen 2D, incluye filtros de antialiasing que 
+		suavizan la imagen para ocultar el pixelado.
+		-El RAMDAC es un controlador convierte la información obtenida para adaptarla y se muestre por pantalla.
+
+	-Adaptadores y tarjetas de expansión:
+		-Adaptador gráfico:
+			-Memoria VRAM dedicada:
+				-Solo la puede usar la GPU.
+				-Aumenta el rendimiento de forma considerable al liberar el bus de datos principal.
+				-Está optimizada para funcionar con alto grado de paralelismo y con arquitectura circulante.
+				-Se usa la tecnología SDRAM.
+					-GDDR-SDRAM = DDR
+					-GDDR2-SDRAM = GDDR
+					-GDDR3-SDRAM = GDDR2
+					-GDDR4-SDRAM = GDDR3
+			-Tecnología de multiprocesamiento en paralelo.
+				-Consiste en conectar hasta cuatro procesaodres gráficos al puente norte a través de múltiples ranuras PCI-Ex16.
+				-Básicamente se conectan varias tarjetas gráficas puenteadas mediante un pequeño controlador.
+				-La posibilidad de uitilizar esta tecnología depende de la placa y el número de buses de alta velocidad.
+
+		-Adaptador de sonido:
+			-Puede transformar sonidos de binario a ondas analógicas, generar sonidos a partir de un banco de instrumentos, 
+			transformar sonidos analógicos a binario, y proporcionar un controlador de interfaz para un dispositivo MIDI o de juegos compatible.
+			-El controlador integra un sub-procesador tipo DSP con arquitectura Harvard que procesa los datos antes de transformarlos 
+			en una señal analógica.
+			-Normalmente no integran memoria dedicada, aunque las gamas altas tienen hasta 64MiB de memoria RAM dedicada (X-RAM).
+			-En PC casi siempre tienen un sistema de sonido integrado en la placa. Aunque se puede utilizar una tarjeta de expansión para 
+			aumentar la calidad de audio vía PCI, PCI-E o ExpressCard.
+			-En los móviles suele estar en un SoC o un ASIC. El DSP es muy importante para limpiar el sonido cuando se llama.
+			-Se caracterizan por funcionar a MHz, la polifonía (banco de instrumentos) y los canales de sonido.
+
+		-Adaptador de red o NIC (Ethernet):
+			-Conecta un equipo con otro o con una red local para comprartir recursos.
+			-Casi siempre hay una adaptador en la placa.
+			-Su circuitería es muy básica y de bajo coste.
+			-Antiguamente tenían un zócalo vacío para poder integrarle una memoria ROM para el arranque por red. Hoy en día esa funcionalidad está
+			integrada en la placa.
+			-Pueden ser inalámbricas (Puntos de acceso Wi-Fi).
+
+		-Adaptador de HOST (HBA):
+			-Posibilita la conexión de un equipo a un dispositivo o red de almacenamiento (SCSI, ATA, SATA, SAS, Fibra, NAS, USB, Firewire):
+				-SCSI: Es popular es estaciones de trabajo y servidores, no sirve para pacticulares, se encuentran en tarjetas de expansión o 
+				implementados en la placa base, puede controlar entre 8 y 16 dispositivos por cada bus, posibilita la conexión con 
+				cualquier dispositivo que funcione bajo el standard SCSI (discos duros y unidades de cinta), funciona a velocidades de hasta 
+				640MiB/s, y están obsoletos.
+				-ATA/IDE/PATA: Alternativa para particulares de los SCSI, desarrollado por Western Digital, y es compatible con los ATAPI 
+				(discos duros, unidades ópticas y de cinta), se puede encontrar en tarjetas de expansión o en la placa o en el chipset, cada adaptador
+				solo puede controlar hasta 4 dispositivos en dos buses configurando uno como maestro y otro como esclavo, trabajan a velocidades de
+				hasta a 166MiB/s y no se puede aumentar.
+
+		-Adaptador SATA (Serial ATA):
+			-Sustituyen a los antiguos ATA, posibilita la conexión a dispositivos de almacenamiento que funcionan bajo el standard SATA 
+			(discos duros, discos ópticos y almacenamiento en estado solido), se puede encontrar en una tarjeta de expansión o integrado en la placa, 
+			cada adaptador soporta hasta 128 dispositivos, pero normalmente de conectores está limitado de entre 2 a 8, es mejor que los ATA por la 
+			tecnología lectura/escritura NCQ que mejora la latencia y es Hot Plug (and Play).
+			-Su velocidad de transferencia real máxima es mayor al standard anterior y se va duplicando por cada versión:
+				-SATA 1.0: 150 MiB/s
+				-SATA 2.0: 300 MiB/s
+				-SATA 3.0: 600 MiB/s
+				-SATA 3.1: 600 MiB/s
+				-SATA 4.0: 1-2 GiB/s (SATAe (express))
+				-eSATA 115 MiB/s (external SATA)
+			-Modos de funcionamiento:
+				-Modo AHCI: Con todas las capacidades avanzadas SATA activadas (NCQ y Hotplug).
+				-Modo Compatibilidad IDE: Emula el comportamiento del controlador ATA.
+				-Modo RAID: Ofrece soporte para discos RAID.
+
+		-Adaptador SAS (Serial Attached SCSI):
+			-Sustituyen a los antiguos adaptadores SCSI.
+			-Además de dispositivos SAS, el adaptador posibilita la conexión a dispositivos que funcionan bajo el estándar SATA. 
+			Es compatible y utiliza los mismos conectores.
+			-Cada adaptador soporta la conexión de 128 dispositivos (65535 utilizando expansores).
+			-Presentan mejoras de rendimiento como Hotplug o TCQ.
+			-Velocidades:
+				-SAS 1.0 350 MiB/s (150 MiB/s con unidades SATA)
+				-SAS 2.0 600 MiB/s (300 MiB/s con unidades SATA)
+				-SAS 3.0 1200 MiB/s (600 MiB/s con unidades SATA)
+
+		-Tarjetas capturadoras/sintonizadoras:
+			-Son tarjetas capaces de convertir las señales de vídeo y audio en datos binarios.
+			-Pueden convertir señales provenientes de fuentes analógicas, digitales, radio digital, TDT, cable digital, satélite...
+			-No suelen estar embebidas, se encuentran en tarjetas de expansión o en periféricos USB.
+
+		-Tarjetas de interfaz:
+			-Permite añadir nuevas interfaces al equipo.
+			-No debemos confundirlas con la extensión de puertos.
+			-Se conectan al bus PCI, PCI-E o Express card.
+
+-Unidad de disco duro (HDD):
+	-Suele ser la unidad principal de almacenamiento en los equipos de sobremesa y portátiles.
+	-Son dispositivos de almacenamientos de datos permanentes que emplea un sistema de grabación magnética para almacenar datos binarios.
+	-La escritura se realiza cuando el cabezal magnetiza la superficie en diminutas secciones del disco. Estas secciones se pueden leer con el mismo cabezal.
+	-En los equipos de sobremesa, necesitan conectarse directamente a la fuente de alimentación.
+	-Características:
+		-Velocidad de giro(rpm)
+		-Latencia (la mitad del tiempo que tarda el disco en dar una revolucion)
+		-Tiempo de búsqueda
+		-Tiempo R/W
+		-Tiempo de acceso = Tiempo de búsqueda + Latencia + Tiempo R/W
+		-Capacidad (GiB o TiB)
+		-Caché de pista
+		-Bus de conexión (IDE, SCSI, SATA, SAS, Fibra, USB, firewire)
+		-Tamaño (2.5" o 3.5")
+	-Consta de una serie de discos unidos por un mismo eje que gira a gran velocidad dentro de una caja metálica hermética, con un gas inerte para no dañarlo.
+	-Estructura:
+		-Controlador: Firmware del disco que integra una pequeña cache.
+		-Motor: Gira los platos.
+		-Eje: Para soportar los platos.
+		-Platos: Discos recubiertos con una superficie magnética que contiene la información magnética.
+		-Caras: Lado de los platos (2x plato).
+		-Cabezales: Para leer o escribir (2x plato).
+		-Pistas: Circuferencias dentro de una cara.
+		-Cilindro: Conjuto de todas las pistas alineadas verticalmente en cada uno de los discos.
+		-Sector: Unidad de almacenamiento mínimo (una pista está dividida en sectores). Actualemente contienen de 512 bytes a 4KiB. Cada sector tiene un número
+		que se llama sector lógico.
+	-Para direccionar los sectores se utiliza el sistema cilindro-cabezal-sector (CHS) o el sistema lógico de bloques (LBA).

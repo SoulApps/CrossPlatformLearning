@@ -1,0 +1,38 @@
+package estructurada;
+
+import java.util.Scanner;
+
+public class Ejercicio16 {
+
+	public static void main(String[] args) {
+		//Declaración
+		int x = 0, n = 0, i, y = 1;
+		String mensaje="Introduzca un número.", potencia="Introduzca una potencia.";
+		Scanner teclado=new Scanner(System.in);
+		
+		//Petici�n de datos
+		System.out.println(mensaje);
+		x=teclado.nextInt();
+		System.out.println(potencia);
+		n=teclado.nextInt();
+		
+		//Cálculos
+		
+		if (n > 0) {
+			for(i=1;i<=n;i++){
+				y*=x;
+			}
+		}
+			
+		else {
+			for(i=1;i<=n;i++){
+				y/=x;
+			}
+		}
+		
+		System.out.println(y);
+		teclado.close();
+
+	}
+
+}

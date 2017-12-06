@@ -1,0 +1,6 @@
+En un servidor normal, uno está conectado a una impresora y otro a internet (están conectados entre ellos). Ambos están conectados a los clientes. Esto sería una red real.
+Todos tienen una IP. La red de los clientes es una red (por ejemplo) 192.168.2.X (X no puede ser 0). El hipervisor de las impresoras va a tener otra tarjeta con
+192.168.2.200 y el de internet 192.168.2.100. Todos estarán en la misma red, en la 2.X o 2.0.
+
+En un hipervisor internet e impresoras van a estar conectadas y van a tener unas tarjetas de red virtuales para conectarse a los clientes. Es decir el hipervisor
+creará IPs virtuales para que los clientes puedan llegar a usar los servidores virtuales.

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+body{
+    background-color: lightblue;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10%;
+}
+
+
+header {
+    margin-bottom: 50px;
+}
+
+.izq {
+    text-align: left;
+    margin-left: 1%;
+    display: inline;
+}
+.der{
+    text-align: right;
+    width: 15%;
+    float: right;
+}
+div#registro{ 
+    padding: 1%;
+    
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+}
+div#login, div#registro{
+    margin: 30% 1% 85% 8%;
+    width: 83%;
+    border: 1px black solid;
+    padding: 1%;
+    
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+    
+}
+
+div#login form label, div#registro form label{
+    display: inline-block;
+    width: 40%; 
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+
+div#login form input,div#registro form input, div#nuevoHilo form input, textarea{
+    width: 98%;
+    padding: 2px 3px 2px 6px;
+}
+
+
+.nuevoHilo form input, .nuevoHilo form textarea {
+    margin: 2% 2% 2% 1%;
+    width: 98%;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+    box-shadow: 0px 0px 3px black;
+}
+
+div#login form input#boton, div#registro form input#boton{
+    width: 40%;
+    border-radius: 2px;    
+    background-color: rgba(0,0,0,.3);
+    margin:10px 0px 10px 30%;
+    box-shadow: 0px 0px 3px black;
+}
+div#login span{
+    display: none;
+}
+span#nickErr, span#emailErr, span#passErr{
+    display: inline-block;
+    width: 50%;
+    margin-right: 5px;
+}
+div#login a, div#registro a{
+    font-size: 0.8em;
+}
+
+div#hilo {
+    margin: 15px auto;
+    width: 98%;
+    padding: 1.5%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.nuevoHilo, #verHilo, .comentario {
+    margin: 20% 1% 85% 1%;
+    width: 98%;
+    padding: 2% 1%;
+    word-wrap: break-word;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+}
+
+#verHilo, .comentario {
+    margin: 20% 1% 5% 1%;
+}
+
+.comentario {
+    margin-top: 1%;
+}
+
+#infohilo {
+    float: right;
+    padding-right: 2px;
+    font-size: 12px;
+}
+
+#cajaComentario {
+    margin: 2% 2% 4% 2%;
+    text-align: center;
+}
+
+.contenidoComentario {
+    text-align: left;
+}
+
+.noHilo {
+    text-align: center
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: 200px;
+    background-color: white;
+    box-shadow: -1px 0px 3px black;
+}
+
+.rojo{
+    color: red;
+}
+
+.verde{
+    color: green;
+}

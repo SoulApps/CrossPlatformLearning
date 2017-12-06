@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_datos_visita"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="es.saladillo.alejandro.practica02_alejandro.DatosVisitaActivity"
+    tools:showIn="@layout/activity_datos_visita">
+
+    <TextView
+        android:id="@+id/lblDia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dia"
+        android:layout_margin="@dimen/margin_horizontal_datos_alumnos"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/icDia"
+        app:srcCompat="@drawable/ic_calendario"
+        app:layout_constraintLeft_toLeftOf="@+id/icHoraInicio"
+        app:layout_constraintTop_toTopOf="@+id/lblDia"
+        app:layout_constraintBottom_toBottomOf="@+id/lblDia" />
+    <EditText
+        android:id="@+id/txtDia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:ems="5"
+        android:inputType="none"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lblDia"
+        app:layout_constraintLeft_toLeftOf="@+id/txtHoraInicio"
+        app:layout_constraintRight_toRightOf="@+id/txtHoraInicio" />
+
+    <TextView
+        android:id="@+id/lblHoraInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hora_inicio"
+        android:layout_margin="@dimen/margin_horizontal_datos_alumnos"
+        app:layout_constraintTop_toBottomOf="@+id/lblDia"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/icHoraInicio"
+        app:srcCompat="@drawable/ic_hora"
+        android:layout_marginLeft="@dimen/margin_horizontal_datos_alumnos"
+        android:layout_marginStart="@dimen/margin_horizontal_datos_alumnos"
+        app:layout_constraintLeft_toRightOf="@+id/lblHoraInicio"
+        app:layout_constraintTop_toTopOf="@+id/lblHoraInicio"
+        app:layout_constraintBottom_toBottomOf="@+id/lblHoraInicio" />
+    <EditText
+        android:id="@+id/txtHoraInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:ems="5"
+        android:inputType="none"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lblHoraInicio"
+        app:layout_constraintLeft_toRightOf="@+id/icHoraInicio" />
+
+    <TextView
+        android:id="@+id/lblHoraFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hora_fin"
+        android:layout_margin="@dimen/margin_horizontal_datos_alumnos"
+        app:layout_constraintTop_toBottomOf="@+id/lblHoraInicio"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/icHoraFin"
+        app:srcCompat="@drawable/ic_hora"
+        app:layout_constraintLeft_toLeftOf="@+id/icHoraInicio"
+        app:layout_constraintTop_toTopOf="@+id/lblHoraFin"
+        app:layout_constraintBottom_toBottomOf="@+id/lblHoraFin" />
+    <EditText
+        android:id="@+id/txtHoraFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:ems="5"
+        android:inputType="none"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lblHoraFin"
+        app:layout_constraintLeft_toLeftOf="@+id/txtHoraInicio"
+        app:layout_constraintRight_toRightOf="@+id/txtHoraInicio" />
+
+    <TextView
+        android:id="@+id/lblResumen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resumen"
+        android:layout_margin="@dimen/margin_horizontal_datos_alumnos"
+        app:layout_constraintTop_toBottomOf="@+id/lblHoraFin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <EditText
+        android:id="@+id/txtResumen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="15"
+        android:maxLines="3"
+        tools:text="Resumen de la visita"
+        app:layout_constraintTop_toBottomOf="@+id/lblResumen"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

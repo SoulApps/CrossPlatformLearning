@@ -1,0 +1,10 @@
+
+public interface Multiplicable {
+
+	/**
+	 * Multiplica potencias de la misma base
+	 * @param parameterObject TODO
+	 */
+	Multiplicable multiplicar(MultiplicarParameter parameterObject) throws NiIdeaDeMatesException;
+
+}

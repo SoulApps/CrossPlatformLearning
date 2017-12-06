@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/chkCompletadas"
+            android:title="@string/menu_ver_solucionadas"
+            android:checked="false" />
+
+        <item
+            android:id="@+id/chkAntiguas"
+            android:title="@string/ver_antiguas_primero"
+            android:checked="false" />
+
+        <item
+            android:id="@+id/actualizar"
+            android:title="@string/actualizar_incidencias"
+            android:icon="@drawable/ic_refresh"
+            app:showAsAction="always" />
+    </group>
+</menu>

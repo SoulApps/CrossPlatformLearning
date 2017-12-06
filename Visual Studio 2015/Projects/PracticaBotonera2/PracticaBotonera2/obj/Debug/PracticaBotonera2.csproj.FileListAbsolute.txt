@@ -1,0 +1,9 @@
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaBotonera2\PracticaBotonera2\bin\Debug\PracticaBotonera2.exe.config
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaBotonera2\PracticaBotonera2\bin\Debug\PracticaBotonera2.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaBotonera2\PracticaBotonera2\bin\Debug\PracticaBotonera2.pdb
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaBotonera2\PracticaBotonera2\obj\Debug\PracticaBotonera2.csprojResolveAssemblyReference.cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaBotonera2\PracticaBotonera2\obj\Debug\PracticaBotonera2.Form1.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaBotonera2\PracticaBotonera2\obj\Debug\PracticaBotonera2.Properties.Resources.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaBotonera2\PracticaBotonera2\obj\Debug\PracticaBotonera2.csproj.GenerateResource.Cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaBotonera2\PracticaBotonera2\obj\Debug\PracticaBotonera2.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaBotonera2\PracticaBotonera2\obj\Debug\PracticaBotonera2.pdb

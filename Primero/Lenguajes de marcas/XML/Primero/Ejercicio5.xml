@@ -1,0 +1,35 @@
+<museo>
+	<nombre>Museo del Prado</nombre>
+	<horario dias="lunes-sabados" medida="horas">10.00-20.00</horario>
+	<horario dias="domingosyfestivos" medida="horas">10.00-19.00</horario>
+	<precioentrada>
+		<general moneda="euros">12</general>
+		<generalejemplarguiaoficial moneda="euros">22</generalejemplarguiaoficial>
+		<reducida moneda="euros">6</reducida>
+		<gratuita moneda="euros">0</gratuita>
+	</precioentrada>
+	<cuadros>
+		<cuadro n="1">
+			<titulo>La familia de Carlos IV</titulo>
+			<numerodecatalogo>P00726</numerodecatalogo>
+			<autor>Francisco de Goya y Lucientes</autor>
+			<cronologia>1800</cronologia>
+			<tecnica>Oleo</tecnica>
+			<soporte>Lienzo</soporte>
+			<medidas medida="cm">280x336</medidas>
+			<tema>Retrato</tema>
+			<expuesto>Si</expuesto>
+		</cuadro>
+		<cuadro n="2">
+			<titulo>Las meninas o La familia de Felipe IV</titulo>
+			<numerodecatalogo>PO1174</numerodecatalogo>
+			<autor>Diego Rodriguez de Silva y Velazquez</autor>
+			<cronologia>Hacia 1656</cronologia>
+			<tecnica>Oleo</tecnica>
+			<soporte>Lienzo</soporte>
+			<medidas medida="cm">318x276</medidas>
+			<tema>Retrato</tema>
+			<expuesto>Si</expuesto>
+		</cuadro>
+	</cuadros>
+</museo>

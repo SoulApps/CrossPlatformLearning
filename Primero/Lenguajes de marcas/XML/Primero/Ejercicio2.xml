@@ -1,0 +1,39 @@
+<coleccion>
+	<libros>
+		<libro n="1">
+			<titulo>El Senor de las moscas</titulo>
+			<autor>William Golding</autor>
+			<resumen>resumen</resumen>
+			<contenidos>
+				<indice>
+					<capitulo n="1">pagina3</capitulo>
+					<capitulo n="2">pagina16</capitulo>
+				</indice>
+				<preambulo>preambulo</preambulo>
+				<prologo>prologo</prologo>
+				<capitulos>
+					<capitulo n="1">
+						<titulo>La Mosca</titulo>
+						<entradilla>entradilla</entradilla>
+						<parrafos>parrafos</parrafos>
+					</capitulo>
+				</capitulos>
+			</contenidos>
+		</libro>
+	</libros>
+	<discos>
+		<disco n="1">
+			<tipo>LP</tipo>
+			<titulo>El cesped de la grieta</titulo>
+			<autor>Narciso el narcisista</autor>
+			<canciones>
+				<cancion n="1">
+				<titulo>La Hoz</titulo>
+				<duracion medida="minutos">3</duracion>
+				<autordelamusica>Chuck Norris</autordelamusica>
+				<autordelaletra>Falete</autordelaletra>
+				</cancion>
+			</canciones>
+		</disco>
+	</discos>
+</coleccion>

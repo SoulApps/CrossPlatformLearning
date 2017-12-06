@@ -1,0 +1,7 @@
+#Tue Feb 14 17:06:57 CET 2017
+base.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1f7a3da949159c45b6d0b01c353f31a1cadecc2c
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4e19f07a4591ac77450e35d7c59d4c144261263c\\classes.dex
+base.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4e19f07a4591ac77450e35d7c59d4c144261263c
+file.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1f7a3da949159c45b6d0b01c353f31a1cadecc2c\\classes.dex

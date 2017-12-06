@@ -1,0 +1,59 @@
+<viajes>
+	<cruceros>
+		<crucero id="2-44" tipo="mediterraneo">
+			<nombre>Crucero por la península</nombre>
+			<fecha precio="682">20/09/2014</fecha>
+			<fecha precio="745">10/08/2014</fecha>
+			<escalas>
+				<escala dia="1" duracion="">Bilbao</escala>
+				<escala dia="2" duracion="">Vigo</escala>
+				<escala dia="3" duracion="">Lisboa</escala>
+				<escala dia="4" duracion="">Túnez</escala>
+				<escala dia="5" duracion="">Casablanca</escala>
+				<escala dia="6" duracion="">Gibraltar</escala>
+				<escala dia="7" duracion="">Málaga</escala>
+			</escalas>
+		</crucero>
+		<crucero id="1-43" tipo="mediterraneo">
+			<nombre>Crucero por la península</nombre>
+			<fecha precio="450">12/07/2014</fecha>
+			<fecha precio="745">10/08/2014</fecha>
+			<escalas>
+				<escala dia="1" duracion="">Barcelona</escala>
+				<escala dia="2" duracion="">Villefranche</escala>
+				<escala dia="3" duracion="">Marsella</escala>
+				<escala dia="4" duracion="">Barcelona</escala>
+			</escalas>
+		</crucero>
+		<viajeros>
+			<viajero n="1" crucero="2-44">
+				<nombre>María García</nombre>
+				<fnac>17-Junio-1949</fnac>
+				<fcom>25/10/2014</fcom>
+				<puntuacion>10</puntuacion>
+				<descripcion>El barco es hermoso, a mi familia y a mí nos gustó mucho el servicio.</descripcion>
+			</viajero>
+			<viajero n="2" crucero="2-44">
+				<nombre>Ángela Constanza</nombre>
+				<fnac>8-Enero-1970</fnac>
+				<fcom>13/11/2014</fcom>
+				<puntuacion>10</puntuacion>
+				<descripcion>La comodida en el barco es excelente, el confort en cuanto a habitacions y sitios de reposo son espectaculares.</descripcion>
+			</viajero>
+			<viajero n="3" crucero="2-44">
+				<nombre>Pablo López</nombre>
+				<fnac>25-Febero-1960</fnac>
+				<fcom>12/12/2014</fcom>
+				<puntuacion>9</puntuacion>
+				<descripcion>Buen servicio, buena animación.</descripcion>
+			</viajero>
+			<viajero n="4" crucero="1-43">
+				<nombre>Marcela Sánchez</nombre>
+				<fnac>04-Septiembre-1978</fnac>
+				<fcom>30/01/2015</fcom>
+				<puntuacion>8</puntuacion>
+				<descripcion>Comidas exquisitas. Baño dañado. Piscina excelente.</descripcion>
+			</viajero>
+		</viajeros>
+	</cruceros>
+</viajes>

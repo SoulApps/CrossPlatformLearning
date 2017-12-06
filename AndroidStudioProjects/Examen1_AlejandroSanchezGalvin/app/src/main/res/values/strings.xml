@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Examen1_AlejandroSanchezGalvin</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="personaje">Personaje</string>
+    <string name="aun_no_hay_personajes">Aún no hay personajes</string>
+    <string name="interpretado_por">Interpretado por</string>
+    <string name="url_poster">URL Poster</string>
+    <string name="principal">Principal</string>
+    <string name="anhadir">Añadir</string>
+    <string name="agregar_personaje">Agregar personaje</string>
+    <string name="the_walking_dead">The Walking Dead</string>
+    <string name="descripcion">Descipción</string>
+    <string name="eliminado">Se ha eliminado a %1$s</string>
+    <string name="deshacer">Deshacer</string>
+    <string name="buscar">Buscar</string>
+    <string name="eliminar">Eliminar</string>
+
+    <string-array name="temporadas">
+        <item >1ª</item>
+        <item >2ª</item>
+        <item >3ª</item>
+        <item >4ª</item>
+        <item >5ª</item>
+        <item >6ª</item>
+        <item >7ª</item>
+    </string-array>
+</resources>

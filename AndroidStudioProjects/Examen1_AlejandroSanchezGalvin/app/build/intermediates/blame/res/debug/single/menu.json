@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_activity_main.xml",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\src\\main\\res\\menu\\menu_activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_puntos.xml",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\src\\main\\res\\menu\\menu_puntos.xml"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_activity_agregar.xml",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\Examen1_AlejandroSanchezGalvin\\app\\src\\main\\res\\menu\\menu_activity_agregar.xml"
+    }
+]

@@ -1,0 +1,5 @@
+El hashcode de String, wrappers y enum da el mismo para el mismo valor,
+pero en clases creadas por nosotros, un objeto y su clon dan hashcode
+diferentes si no anulamos el hashcode de Object.
+
+AbstractSet es hija de AbstractCollection no de AbstractList

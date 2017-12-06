@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>Formulario3</title>
+	</head>
+	<body>
+		<form action="envio_datos_formularios.html" method="post">
+		<fieldset>
+			<legend>Datos personales</legend>
+			<table>
+				<tr>
+					<td><b>DNI</b></td>
+					<td><input type="text" size="8"></td>
+					<td><b>Sexo:</b></td>
+				</tr>
+				<tr>
+				<td><b>Nombre</b></td>
+					<td><input type="text" size="15"></td>
+					<td><input type="radio" name="sexo" value="hombre">Hombre</td>
+				</tr>
+				<tr>
+				<td><b>Apellidos</b></td>
+					<td><input type="text"></td>
+					<td><input type="radio" name="sexo" value="mujer">Mujer</td>
+				</tr>
+			</table>
+		</fieldset>
+		<fieldset>
+			<legend><b>Direcci&oacute;n</b></legend>
+			<table>
+				<tr>
+					<td><b>Calle/Avda</b></td>
+					<td colspan="2"><input type="text" size="45"></td>
+					
+				</tr>
+				<tr>
+					<td><b>Poblaci&oacute;n</b></td>
+					<td><input type="text"></td>
+					<td><b>Provincia</b>
+						<select size="1">
+							<option value="almeria">Almeria</option>
+							<option value="cadiz">C&aacute;diz</option>
+							<option value="cordoba">C&oacute;rdoba</option>
+							<option value="granada">Granada</option>							
+							<option value="huelva">Huelva</option>
+							<option value="jaen">Ja&eacute;n</option>							
+							<option value="malaga">M&aacute;laga</option>
+							<option value="sevilla">Sevilla</option>
+						</select>
+					</td>	
+				</tr>
+			</table>
+		</fieldset>
+		<fieldset>
+			<legend><b>Pr&aacute;ctica en grupo</b></legend>
+			<table>
+				<tr>
+					<td><b>Archivo:</b></td>
+					<td><input type="file"></td>
+				</tr>
+				<tr>
+					<td><input type="checkbox">Archivo comprimido</td>
+					<td><input type="checkbox">Archivo encriptado</td>
+				</tr>
+				<tr>
+					<td><b>Descripci&oacute;n de la pr&aacute;ctica</b></td>
+				</tr>
+				<tr>
+					<td><textarea rows="10" cols="35"></textarea></td>
+				</tr>	
+			</table>
+		</fieldset>
+		<center><button type="submit">Submit Query</button></center>
+	</form>	
+	</body>
+</html>	

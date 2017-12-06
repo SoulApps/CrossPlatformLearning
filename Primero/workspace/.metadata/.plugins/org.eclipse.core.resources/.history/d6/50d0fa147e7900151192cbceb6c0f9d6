@@ -1,0 +1,13 @@
+package estructurada;
+
+import java.util.Scanner;
+
+public class Blackjack2 {
+
+	public static void main(String[] args) {
+
+		Blackjack.main(args);
+
+	}
+
+}

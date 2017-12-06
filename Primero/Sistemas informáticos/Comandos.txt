@@ -1,0 +1,17 @@
+cd
+copy
+dir
+Date
+del
+echo
+exit
+find
+for
+if
+rem
+mklink
+mkdir
+rmdir
+set
+time
+tree

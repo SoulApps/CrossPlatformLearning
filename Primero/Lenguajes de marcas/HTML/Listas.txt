@@ -1,0 +1,9 @@
+id 01234
+nombre y ap tipo texto
+contaseña tipo contraseña
+aficiones tipo checked lectura
+pais lista desplegable  españa francia portugal
+subir foto
+
+enviar y reset con emoticonos
+ 

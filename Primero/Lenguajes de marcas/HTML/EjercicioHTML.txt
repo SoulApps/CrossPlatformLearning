@@ -1,0 +1,11 @@
+fichero1.html 	Tiene que contener una lista con los elementos del XML de la receta.
+		Nombre de la receta, nº de comensales, ingredientes y pasos en una lista no ordenada.
+		Los ingredientes estarán en una lista no ordenada.
+		Los pasos estarán en una lista ordenada.
+		Enlace a página 3.
+
+fichero2.html 	Tiene que tener 5 imágenes una debajo de la otra.
+		Poner un enlace que lleve hacia ARRIBA y otro hacia ABAJO.
+		Enlace a página 3.
+
+fichero3.html 	Tiene que tener un enlace a google otro a página 1 y otro a página 2.

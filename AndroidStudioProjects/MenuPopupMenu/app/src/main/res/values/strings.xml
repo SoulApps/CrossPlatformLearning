@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MenuPopupMenu</string>
+    <string name="llamar">Llamar</string>
+    <string name="enviar_email">Enviar email</string>
+    <string name="repetidor">Repetidor</string>
+</resources>

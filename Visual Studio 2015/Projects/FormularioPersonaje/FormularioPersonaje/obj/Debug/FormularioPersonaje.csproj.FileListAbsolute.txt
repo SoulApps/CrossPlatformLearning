@@ -1,0 +1,9 @@
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\FormularioPersonaje\FormularioPersonaje\bin\Debug\FormularioPersonaje.exe.config
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\FormularioPersonaje\FormularioPersonaje\bin\Debug\FormularioPersonaje.exe
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\FormularioPersonaje\FormularioPersonaje\bin\Debug\FormularioPersonaje.pdb
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\FormularioPersonaje\FormularioPersonaje\obj\Debug\FormularioPersonaje.Form1.resources
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\FormularioPersonaje\FormularioPersonaje\obj\Debug\FormularioPersonaje.Properties.Resources.resources
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\FormularioPersonaje\FormularioPersonaje\obj\Debug\FormularioPersonaje.csproj.GenerateResource.Cache
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\FormularioPersonaje\FormularioPersonaje\obj\Debug\FormularioPersonaje.exe
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\FormularioPersonaje\FormularioPersonaje\obj\Debug\FormularioPersonaje.pdb
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\FormularioPersonaje\FormularioPersonaje\obj\Debug\FormularioPersonaje.csprojResolveAssemblyReference.cache

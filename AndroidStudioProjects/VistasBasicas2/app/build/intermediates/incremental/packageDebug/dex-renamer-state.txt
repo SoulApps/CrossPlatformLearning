@@ -1,0 +1,7 @@
+#Mon Oct 10 08:35:47 CEST 2016
+base.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\VistasBasicas2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_207537f1d39124ca71c59a2639ea7a730f67198d
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\VistasBasicas2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2ddce226351b6418111a4ae5f749df69831bd17e\\classes.dex
+base.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\VistasBasicas2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2ddce226351b6418111a4ae5f749df69831bd17e
+file.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\VistasBasicas2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_207537f1d39124ca71c59a2639ea7a730f67198d\\classes.dex

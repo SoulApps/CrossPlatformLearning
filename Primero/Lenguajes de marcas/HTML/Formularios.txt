@@ -1,0 +1,19 @@
+VER "FORMULARIOS 2", "FORMULARIO1" Y "HTML"
+
+<html>
+<head>
+</head>
+<body>
+<form action="envio_datos_formularios.html" method="post">
+<fieldset>
+	<legend>Nombre del fieldset</legend>
+		<input type="text || password || checkbox || radio || submit || reset || button || image || file(examinar)" name="usuario" value="user">
+		<select name="nombre">
+			<option value="Cordoba">Cordoba</option>
+			<option value="Cadiz">Cadiz</option>
+		</select>	
+		<textarea>Cuadro para escribir un texto</textarea>
+</fieldset>	
+</form>
+</body>
+</html>

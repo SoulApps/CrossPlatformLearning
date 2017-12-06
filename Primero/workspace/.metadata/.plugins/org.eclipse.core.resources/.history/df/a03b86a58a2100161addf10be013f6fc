@@ -1,0 +1,16 @@
+package actions;
+import banco.Cuenta;
+
+public class CerrarCuentaAction implements Action{
+	
+	Cuenta cuenta;
+	
+	public CerrarCuentaAction (Cuenta cuenta){
+		cuenta=null;
+	}
+	
+	public Object execute() {
+		
+		return true;
+	}
+}

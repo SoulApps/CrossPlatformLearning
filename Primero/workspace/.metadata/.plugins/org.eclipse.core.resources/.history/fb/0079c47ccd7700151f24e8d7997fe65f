@@ -1,0 +1,76 @@
+package estructurada;
+
+import java.util.Scanner;
+
+public class Ejercicio19 {
+	/*
+	 * 1.-Petición de un número positivo.
+	 * 2.-Hacer un bucle que cuente el número de cifras del número introducido.
+	 * 		2.1.-Cuento el número de cifras del número introducido dividiéndolo entre 10 hasta que el resto sea 0
+	 *			123/10=12 , cifras=1  |||| 12/10=1 cifras=2	||| 1/10=0 cifras=3
+	 * 3.-Hacer un bucle que me vaya obteniendo el número en orden inverso usando el número de cifras como límite.
+	 * 		3.1.-El resto del número dividido entre 10 es igual al último número de x
+	 *  		y se continúa esta operación con el cociente.
+	 * 		3.2.-Le vamos dando la vuelta utilizando esta operación matemática
+	 * 			Ej: 123%10=3 && 123/10=12 12%10=2 && 12/10=1 1%10=1;
+	 *
+	 * 4.-Imprimir resultado.
+	 */
+
+	public static void main(String[] args) {
+		// Declaración
+		int num = 0, resultado = 0, i = 0, cifras = 0, contadorCifras,p = 0, potencia = 1;
+		boolean error = true;
+		String mensajeBienvenida = "Introduzca un número positivo.";
+		String mensajeError = "¡El dato introducido debe ser un número positivo!";
+
+		Scanner teclado = new Scanner(System.in);
+
+		// 1.-Petición de un número positivo.
+		do {
+				System.out.println(mensajeBienvenida);
+				num = teclado.nextInt();
+
+				if (num <= 0) { //Incluimos el 0 porque con 0 no se puede hacer las operaciones
+					System.out.println(mensajeError);
+					error = false;
+				}
+				else
+					error = true;
+		} while (!error);
+		
+		teclado.close();
+
+		contadorCifras = num;
+
+		/*2.-Hacer un bucle que cuente el número de cifras del número introducido.
+		 * 		2.1.-Cuento el número de cifras del número introducido dividiéndolo entre 10 hasta que el resto sea 0
+		 *			123/10=12 , cifras=1  |||| 12/10=1 cifras=2	||| 1/10=0 cifras=3
+		 */
+		while (contadorCifras != 0) {
+			contadorCifras /= 10;
+			cifras++;
+		}
+
+		
+		/*3.-Hacer un bucle que me vaya obteniendo el número en orden inverso usando el número de cifras como límite.
+		 * 		3.1.-Le vamos dando la vuelta utilizando esta operación matemática
+		 * 			123%10=3 && 123/10=12 12%10=2 && 12/10=1 1%10=1;
+		 */
+		/*  Operaciones
+		 *  El resto del número dividido entre 10 es igual al último número de x
+		 *  y se continúa esta operación con el cociente.
+		 */
+		for (i = 0; i < cifras; i++) {
+			resultado = num % 10;
+			num = num / 10;
+			p = (int) Math.pow(1, i);
+			potencia = resultado*p;
+			System.out.print(resultado);  //4.-Imprimir resultado.
+		}
+		System.out.println(potencia);
+
+		
+	}
+
+}

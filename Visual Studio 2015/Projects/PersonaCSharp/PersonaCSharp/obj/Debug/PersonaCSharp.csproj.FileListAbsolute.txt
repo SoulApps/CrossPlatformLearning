@@ -1,0 +1,8 @@
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PersonaCSharp\PersonaCSharp\bin\Debug\PersonaCSharp.exe.config
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PersonaCSharp\PersonaCSharp\obj\Debug\PersonaCSharp.Form1.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PersonaCSharp\PersonaCSharp\obj\Debug\PersonaCSharp.Properties.Resources.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PersonaCSharp\PersonaCSharp\obj\Debug\PersonaCSharp.csproj.GenerateResource.Cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PersonaCSharp\PersonaCSharp\bin\Debug\PersonaCSharp.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PersonaCSharp\PersonaCSharp\bin\Debug\PersonaCSharp.pdb
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PersonaCSharp\PersonaCSharp\obj\Debug\PersonaCSharp.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PersonaCSharp\PersonaCSharp\obj\Debug\PersonaCSharp.pdb

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mis libros favoritos</string>
+    <string name="action_preferencias">Preferencias</string>
+    <string name="portada_del_libro">Portada del libro</string>
+    <string name="title_activity_agregar">Agregar libro</string>
+    <string name="campo_obligatorio">Ese campo es obligatorio</string>
+</resources>

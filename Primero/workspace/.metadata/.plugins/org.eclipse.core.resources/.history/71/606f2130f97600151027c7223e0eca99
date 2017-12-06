@@ -1,0 +1,50 @@
+package estructurada;
+
+import java.util.Scanner;
+
+public class Ejercicio09 {
+
+	public static void main(String[] args) {
+
+		final int NOTAS = 10, BLACKJACK = 21;
+		byte df = 0, in = 0, ap = 0, nt = 0, sb = 0, nota = 0;
+		int i;
+		Scanner teclado = new Scanner(System.in);
+
+		System.out.println("Introduzca las notas de los 10 alumnos.");
+
+		for (i = 0; i < NOTAS; i++) {
+			do {
+			nota = teclado.nextByte();
+			} while (nota < 0 && nota >10);
+			switch (nota) {
+				case 0:
+				case 1:
+				case 2:
+					df++;
+					break;
+				case 3:
+				case 4:
+					in++;
+					break;
+				case 5:
+				case 6:
+					ap++;
+					break;
+				case 7:
+				case 8:
+					nt++;
+					break;
+				case 9:
+				case 10:
+					sb++;
+					break;
+			}
+		}
+
+		System.out.printf("\n%d deficientes\n%d insuficientes\n%d aprobados"
+				+ "\n%d notables\n%d sobresalientes", df, in, ap, nt, sb);
+		teclado.close();
+	}
+
+}

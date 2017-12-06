@@ -1,0 +1,21 @@
+<HTML>
+<SCRIPT LANGUAGE="JavaScript">
+// PROG018.HTM
+var num;
+var sum=0;
+var pro=1;
+var respuesta="";
+num=prompt("Escribe un número diferente de cero=","");
+num=parseFloat(num);
+while(num != 0)
+{
+sum=sum+num;
+pro=pro*num;
+respuesta=respuesta+num+"\tsuma parcial:"+sum+"\tproducto
+parcial:"+pro+"\n";
+num=prompt("Escribe otro número (para acabar introduce cero)","");
+num=parseFloat(num);
+}
+alert(respuesta);
+</SCRIPT>
+</HTML>

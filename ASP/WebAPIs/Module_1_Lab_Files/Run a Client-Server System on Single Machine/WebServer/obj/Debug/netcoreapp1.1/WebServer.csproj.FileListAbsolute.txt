@@ -1,0 +1,26 @@
+D:\Temp\WebServer\bin\Debug\netcoreapp1.1\WebServer.deps.json
+D:\Temp\WebServer\bin\Debug\netcoreapp1.1\WebServer.runtimeconfig.json
+D:\Temp\WebServer\bin\Debug\netcoreapp1.1\WebServer.runtimeconfig.dev.json
+D:\Temp\WebServer\bin\Debug\netcoreapp1.1\WebServer.dll
+D:\Temp\WebServer\bin\Debug\netcoreapp1.1\WebServer.pdb
+D:\Temp\WebServer\obj\Debug\netcoreapp1.1\WebServer.AssemblyInfo.cs
+D:\Temp\WebServer\obj\Debug\netcoreapp1.1\WebServer.dll
+D:\Temp\WebServer\obj\Debug\netcoreapp1.1\WebServer.pdb
+C:\Source\edX\Course 001\Labs\001\Run a Client-Server System on Single Machine\WebServer\bin\Debug\netcoreapp1.1\WebServer.deps.json
+C:\Source\edX\Course 001\Labs\001\Run a Client-Server System on Single Machine\WebServer\bin\Debug\netcoreapp1.1\WebServer.runtimeconfig.json
+C:\Source\edX\Course 001\Labs\001\Run a Client-Server System on Single Machine\WebServer\bin\Debug\netcoreapp1.1\WebServer.runtimeconfig.dev.json
+C:\Source\edX\Course 001\Labs\001\Run a Client-Server System on Single Machine\WebServer\bin\Debug\netcoreapp1.1\WebServer.dll
+C:\Source\edX\Course 001\Labs\001\Run a Client-Server System on Single Machine\WebServer\bin\Debug\netcoreapp1.1\WebServer.pdb
+C:\Source\edX\Course 001\Labs\001\Run a Client-Server System on Single Machine\WebServer\obj\Debug\netcoreapp1.1\WebServer.AssemblyInfo.cs
+C:\Source\edX\Course 001\Labs\001\Run a Client-Server System on Single Machine\WebServer\obj\Debug\netcoreapp1.1\WebServer.dll
+C:\Source\edX\Course 001\Labs\001\Run a Client-Server System on Single Machine\WebServer\obj\Debug\netcoreapp1.1\WebServer.pdb
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebServer\bin\Debug\netcoreapp1.1\WebServer.deps.json
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebServer\bin\Debug\netcoreapp1.1\WebServer.runtimeconfig.json
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebServer\bin\Debug\netcoreapp1.1\WebServer.runtimeconfig.dev.json
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebServer\bin\Debug\netcoreapp1.1\WebServer.dll
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebServer\bin\Debug\netcoreapp1.1\WebServer.pdb
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebServer\obj\Debug\netcoreapp1.1\WebServer.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebServer\obj\Debug\netcoreapp1.1\WebServer.AssemblyInfoInputs.cache
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebServer\obj\Debug\netcoreapp1.1\WebServer.AssemblyInfo.cs
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebServer\obj\Debug\netcoreapp1.1\WebServer.dll
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebServer\obj\Debug\netcoreapp1.1\WebServer.pdb

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE MODULO SYSTEM "modulo.dtd">
+
+<modulocicloformativoasir>
+	<modulo caracter="Obligatorio">
+		<nombremodulo>Lenguaje de Marcas y Sistema de Gestion de Informacion</nombremodulo>
+		<horassemanales medida="horas">4</horassemanales>
+		<fechainicio>15/09/2010</fechainicio>
+		<fechafin>30/06/2011</fechafin>
+		<alumnosmatriculados>
+			<alumno n="1">
+				<nombre>Ana Fernandez Gutierrez</nombre>
+				<nif>16965696L</nif>
+				<telefono>789654321</telefono>
+				<email>ana.fdezgtrrez@hotmail.com</email>
+				<direccion>
+					<nombre>C/El Percebe</nombre>
+					<numero>13</numero>
+					<poblacion>Santander</poblacion>
+					<codigopostal>39302</codigopostal>
+				</direccion>
+				<asistencias/>
+				<notas/>
+			</alumno>
+			<alumno n="2">
+				<nombre>Pepito Grillo</nombre>
+				<nif>9876543H</nif>
+				<telefono>656566555</telefono>
+				<email>yhyh@yahoo.com</email>
+				<direccion>
+					<calle>Avd. El Pez</calle>
+					<numero>5</numero>
+					<poblacion>Suances</poblacion>
+					<codigopostal>39401</codigopostal>
+				</direccion>
+				<asistencias>No</asistencias>
+				<nota>Apto</nota>
+			</alumno>
+		</alumnosmatriculados>
+	</modulo>
+</modulocicloformativoasir>

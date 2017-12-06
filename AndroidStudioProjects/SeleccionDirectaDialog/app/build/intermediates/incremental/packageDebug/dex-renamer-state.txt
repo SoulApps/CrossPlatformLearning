@@ -1,0 +1,7 @@
+#Tue Jan 10 10:00:33 CET 2017
+base.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\SeleccionDirectaDialog\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_597a819478018162870bfc2867f5375eafa4cf2f
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\SeleccionDirectaDialog\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_de7ad6c2e35ed1904228b916f68a1498fe6b02f4\\classes.dex
+base.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\SeleccionDirectaDialog\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_de7ad6c2e35ed1904228b916f68a1498fe6b02f4
+file.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\SeleccionDirectaDialog\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_597a819478018162870bfc2867f5375eafa4cf2f\\classes.dex

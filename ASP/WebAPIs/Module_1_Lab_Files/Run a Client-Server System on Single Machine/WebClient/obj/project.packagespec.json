@@ -1,0 +1,32 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\Alejandro\\RiderProjects\\WebAPI\\Module_1_Lab_Files\\Run a Client-Server System on Single Machine\\WebClient\\WebClient.csproj",
+    "projectName": "WebClient",
+    "projectPath": "C:\\Users\\Alejandro\\RiderProjects\\WebAPI\\Module_1_Lab_Files\\Run a Client-Server System on Single Machine\\WebClient\\WebClient.csproj",
+    "outputPath": "C:\\Users\\Alejandro\\RiderProjects\\WebAPI\\Module_1_Lab_Files\\Run a Client-Server System on Single Machine\\WebClient\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp1.1"
+    ],
+    "frameworks": {
+      "netcoreapp1.1": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "target": "Package",
+          "version": "1.1.2"
+        },
+        "NewtonSoft.Json": {
+          "target": "Package",
+          "version": "10.0.2"
+        }
+      }
+    }
+  }
+}

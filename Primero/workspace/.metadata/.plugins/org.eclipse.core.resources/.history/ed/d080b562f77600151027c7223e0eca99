@@ -1,0 +1,24 @@
+package cadenas;
+
+import java.util.Scanner;
+
+public class Ejercicio05 {
+
+	public static void main(String[] args) {
+
+		int i;
+		String s1 = "", s2, resultado = "";
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		s1 = teclado.nextLine();
+		s2 = teclado.nextLine();
+		teclado.close();
+
+		for (i = 0; i < resultado.length(); i++) {
+			
+		}
+		System.out.printf("La cadena se repite %d veces", resultado.length());
+	}
+
+}

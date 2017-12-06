@@ -1,0 +1,263 @@
+EJERCICIO 1:
+
+select nombre from empleado;
+select cargo, codoficina from empleado;
+select fcontrato, nombre from empleado where cuota<ventas;
+select region from oficina where ventas>50000 and region='norte';
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 2:
+
+select nombre "Nombre de empleado" from empleado;
+select oficina "Número de oficina", ciudad "Ciudad de destino", region from oficina where objetivo<400000;
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 3:
+
+select nombre, cuota/2 "Mitad de la cuota" from empleado where ventas*2 between 650000 and 800000;
+select nombre, (67-(year(now())-year(fnac))) "Años restantes de trabajo" from empleado where (year(now())-year(fnac));
+select "Ciudad oficina: ", ciudad, "-Código director: ",director "-Mitad diferencia: ", (ventas-objetivo)/2 "Campo calculado" from oficina where (ventas*0.30)>(objetivo*0.15);
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 4:
+
+SELECT nombre, fnac, ventas FROM empleado ORDER BY 3 DESC;
+SELECT nombre "Empleados mayores", year(now())-year(fnac) "Edad" FROM empleado WHERE year(now())-year(fnac) BETWEEN 45 AND 65 ORDER BY 2;
+SELECT region, ciudad FROM oficina WHERE region!='norte' AND objetivo>300000 ORDER BY region ASC, ciudad DESC;
+SELECT nombre, ventas*0.25 "Beneficios de empleado" FROM empleado WHERE ventas*0.25>80000 ORDER BY 2;
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 5:
+
+SELECT DISTINCT YEAR(fechapedido) FROM pedido ORDER BY 1 DESC;
+SELECT numpedido, fechapedido FROM pedido ORDER BY 2 LIMIT 7;
+SELECT numpedido, fechapedido FROM pedido ORDER BY 2 DESC LIMIT 5;
+SELECT numpedido, fechapedido FROM pedido WHERE YEAR(fechapedido)=1997 ORDER BY 2 LIMIT 3;
+SELECT numpedido, importe FROM lineaspedido ORDER BY 2 LIMIT 3;
+SELECT numpedido, fechapedido FROM pedido ORDER BY 2 DESC LIMIT 10;
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 6:
+
+SELECT DISTINCT region FROM oficina WHERE ventas>600000;
+SELECT oficina, ciudad FROM oficina WHERE ventas NOT BETWEEN 200000 AND 600000 AND ventas<0.8*objetivo;
+SELECT ciudad, region FROM oficina WHERE objetivo>300000 ORDER BY 1;
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 7:
+
+SELECT nombre FROM empleado WHERE ventas BETWEEN 250000 AND 300000 AND ventas NOT BETWEEN 50000 AND 250000 AND ventas NOT BETWEEN 300000 AND 500000;
+SELECT nombre, fcontrato FROM empleado WHERE YEAR(fcontrato) BETWEEN 1989 AND 2000 OR codoficina IN (21,13,22);
+SELECT nombre, YEAR(now())-YEAR(fnac) "Edad" FROM empleado WHERE nombre NOT LIKE 'G%' AND nombre NOT LIKE 'V%';
+SELECT nombre FROM empleado WHERE cargo NOT LIKE 'Director%';
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 8:
+
+SELECT nombre FROM empleado WHERE jefe IS NULL OR codoficina IS NULL;
+SELECT nombre FROM empleado WHERE cuota IS NULL;
+SELECT oficina, ciudad FROM oficina WHERE objetivo IS NULL AND ventas IS NULL;
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 9:
+
+SELECT idproducto, descripcion, precio, precio*1.21 "Precio con IVA" FROM producto;
+SELECT nombre, DATEDIFF(now(),fcontrato) "Días de trabajo", YEAR(fnac) FROM empleado;
+SELECT * FROM cliente ORDER BY 3;
+SELECT * FROM oficina ORDER BY region, ciudad, oficina DESC;
+SELECT * FROM pedido ORDER BY 2;
+SELECT * FROM pedido WHERE MONTH(fechapedido)=03;
+SELECT numemp FROM empleado WHERE codoficina IS NOT NULL;
+SELECT oficina FROM oficina WHERE director IS NULL;
+SELECT * FROM oficina WHERE region IN ('Norte', 'Este') ORDER BY 3 DESC;
+SELECT * FROM empleado WHERE nombre LIKE '%, Juan%';
+SELECT * FROM producto WHERE idproducto LIKE '%x';
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 10:
+
+SELECT * FROM producto, pedido;
+SELECT * FROM empleado, oficina;
+SELECT nombre, YEAR(now())-YEAR(fnac) "Edad", codoficina, cargo, oficina, ciudad, region FROM empleado, oficina WHERE cargo !='representante';
+SELECT p.*, a.descripcion FROM producto p, producto a;
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 11:
+
+SELECT * FROM cliente INNER JOIN pedido ON numclie=cliente;
+SELECT cliente.*, fechapedido, numpedido FROM cliente, pedido WHERE numclie=cliente AND limcredito>40000;
+SELECT cliente.nombre, limcredito, empleado.nombre, region FROM cliente, empleado, oficina WHERE repclie=numemp AND codoficina=oficina;
+SELECT emp.nombre "Nombre de empleado", emp.fcontrato, emp.codoficina, ciudad, jefe.nombre "Nombre del jefe" FROM empleado emp, empleado jefe, oficina WHERE  emp.codoficina=oficina AND  emp.jefe=jefe.numemp;
+SELECT p.numpedido, fechapedido, SUM(importe) "Importe", ciudad FROM pedido p, lineaspedido l, oficina, cliente, empleado WHERE p.numpedido=l.numpedido AND cliente=numclie AND repclie=numemp AND codoficina=oficina GROUP BY numpedido HAVING sum(importe) BETWEEN 40000 AND 60000;
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 12:
+
+SELECT oficina.*, nombre, YEAR(NOW())-YEAR(fnac) "Edad" FROM oficina LEFT JOIN empleado ON numemp=director;
+SELECT nombre, cargo, oficina, ciudad FROM empleado LEFT JOIN oficina ON codoficina=oficina WHERE region='este' OR region IS NULL;
+SELECT jefe.nombre 'Jefe', emp.nombre 'Empleado' FROM empleado jefe RIGHT JOIN empleado emp ON emp.jefe=jefe.numemp;
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 13:
+
+SELECT oficina, ciudad, numemp, nombre FROM oficina INNER JOIN empleado ON codoficina=oficina WHERE region='norte';
+--------SELECT oficina, ciudad, numemp, nombre FROM oficina, empleado WHERE region='norte' AND codoficina=oficina;
+te' AND codoficina IS NOT NULL;
+--------SELECT oficina, ciudad, numemp, nombre FROM oficina RIGHT JOIN empleado ON codoficina=oficina WHERE region='norte' OR codoficina IS NULL;
+
+SELECT numpedido, nombre, limcredito FROM pedido INNER JOIN cliente ON cliente=numclie;
+
+--------SELECT numpedido, nombre, limcredito FROM pedido, cliente WHERE cliente=numclie;
+SELECT empleado.*, ciudad, region FROM empleado INNER JOIN oficina ON codoficina=oficina;
+--------SELECT empleado.*, ciudad, region FROM empleado, oficina WHERE codoficina=oficina;
+
+SELECT oficina.*, nombre FROM oficina INNER JOIN empleado ON numemp=director WHERE objetivo>600000;
+--------SELECT oficina, nombre FROM oficina, empleado WHERE numemp=director AND objetivo>600000;
+SELECT empleado.* FROM empleado, pedido, cliente WHERE fcontrato=fechapedido AND numemp=repclie AND numclie=cliente;
+
+SELECT emp.*, jefe.nombre "Nombre de jefe", jefe.jefe "Número de jefe", jefe.cuota "Cuota de jefe" 
+FROM empleado emp, empleado jefe WHERE emp.jefe=jefe.numemp AND emp.cuota>jefe.cuota;
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 14:
+
+SELECT AVG(YEAR(NOW())-YEAR(fnac)) "Media de mayores" FROM empleado WHERE YEAR(now())-YEAR(fnac)>50;
+SELECT SUM(cuota) FROM empleado INNER JOIN oficina ON codoficina=oficina WHERE ciudad IN ('Valencia', 'Castellón');
+	SELECT SUM(cuota) FROM empleado, oficina WHERE codoficina=oficina AND (ciudad='Valencia' OR ciudad='Castellón');
+	SELECT SUM(cuota) FROM empleado WHERE codoficina IN (SELECT oficina FROM oficina WHERE ciudad IN ('Valencia', 'Castellón'));
+
+SELECT SUM(importe) FROM lineaspedido WHERE numpedido=3;
+
+	SELECT SUM(importe), numpedido FROM lineaspedido GROUP BY numpedido HAVING numpedido IN (1, 2, 3, 4, 5) ;
+
+SELECT COUNT(*) FROM pedido, cliente;
+SELECT MAX(YEAR(NOW())-YEAR(fnac)) FROM empleado WHERE YEAR(fcontrato)<1988;
+SELECT MAX(YEAR(NOW())-YEAR(fnac)) FROM empleado, oficina WHERE codoficina=oficina AND (region='este' OR ciudad='A Coruña');
+
+	SELECT MAX(YEAR(NOW())-YEAR(fnac)) FROM empleado WHERE codoficina IN (SELECT codoficina FROM oficina WHERE region='este' OR ciudad='A Coruña');
+
+SELECT MAX(fechapedido) FROM pedido WHERE cliente IN (1, 2, 3, 4);
+
+	SELECT MAX(fechapedido), cliente FROM pedido WHERE cliente IN (1, 2, 3, 4) GROUP BY cliente;
+
+	SELECT MAX(fechapedido) FROM pedido WHERE cliente=1;
+SELECT MAX(fechapedido) FROM pedido, cliente WHERE cliente=numclie AND nombre='alejandro';
+
+	SELECT MAX(fechapedido) FROM pedido WHERE cliente=(SELECT numclie FROM cliente WHERE nombre='alejandro');
+
+SELECT AVG(importe) FROM lineaspedido l, producto p WHERE l.idproducto=p.idproducto AND descripcion='bisagra';
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 15:
+
+SELECT AVG(YEAR(NOW())-YEAR(fnac)), cargo FROM empleado GROUP BY cargo HAVING cargo IS NOT NULL;
+SELECT MIN(fcontrato), codoficina FROM empleado WHERE codoficina IS NOT NULL GROUP BY codoficina;
+SELECT MAX(cuota), jefe FROM empleado WHERE jefe IS NOT NULL GROUP BY jefe;
+
+SELECT COUNT(*), jefe FROM empleado WHERE jefe IS NOT NULL GROUP BY jefe;
+	SELECT COUNT(*), e.jefe, j.nombre FROM empleado e, empleado j WHERE e.jefe IS NOT NULL AND e.jefe=j.numemp ORDER BY jefe;
+SELECT MAX(empleado.ventas) FROM empleado, oficina GROUP BY region;
+SELECT cuota, MIN(fcontrato), MAX (fcontrato) FROM empleado WHERE YEAR(NOW()-YEAR(fnac))>=35 GROUP BY cuota;
+SELECT idproducto, SUM(importe) FROM lineaspedido GROUP BY idproducto; 
+SELECT idproducto, SUM(importe) FROM lineaspedido l, producto p WHERE l.numpedido=p.numpedido AND YEAR(fechapedido)>1995 GROUP BY idproducto;
+SELECT idproducto, COUNT(*) FROM lineaspedido l, producto p WHERE precio BETWEEN 200 AND 2000 AND l.idproducto=p.producto GROUP BY 1;
+SELECT numclie, AVG(importe) FROM lineaspedido l, pedido p WHERE cliente IN(SELECT numclie FROM cliente WHERE limcredito<50000) AND l.numpedido=p.numpedido GROUP BY 1;
+SELECT numclie, MAX(importe) FROM cliente, lineaspedido l, empleado, pedido p WHERE repclie=numemp AND numclie=cliente AND l.numpedido=p.numpedido AND l.idproducto=p.idproducto AND (YEAR(NOW()-YEAR(fnac))>=40 GROUP BY 1;
+SELECT idproducto, MAX(YEAR(NOW())-YEAR(fnac)) FROM lineaspedido l, pedido p, cliente, empleado WHERE l.numpedido=p.numpedido AND cliente=numclie AND repclie=numemp GROUP BY 1;
+SELECT idproducto, MAX(objetivo) FROM lineaspedido l, pedido p, cliente, empleado, oficina WHERE l.numpedido=p.numpedido AND cliente=numclie AND repclie=numemp GROUP BY 1;
+SELECT numpedido, SUM(importe) FROM lineaspedido GROUP BY 1 ORDER BY 2 LIMIT 3;
+SELECT p.numpedido, SUM(importe) FROM lineaspedido l, pedido p WHERE p.numpedido=l.numpedido GROUP BY 1 LIMIT 10;
+SELECT numclie, p.numpedido, fechapedido, SUM(importe) FROM cliente, pedido p, lineaspedido l WHERE numclie=cliente AND p.numpedido=l.numpedido AND limcredito>40000 GROUP BY 2, 1, 3 ORDER BY 1;
+SELECT l.numpedido, nombre, limcredito, SUM(importe) FROM pedido p, lineaspedido l, cliente WHERE p.numpedido=l.numpedido AND cliente=numclie GROUP BY 1, 2, 3;
+SELECT l.numpedido, e.nombre, c.nombre, SUM(importe) FROM lineaspedido l, pedido p, empleado e, cliente c WHERE l.numpedido=p.numpedido AND repclie=numemp AND numclie=cliente GROUP BY 1, 2, 3 HAVING SUM(importe)>25000;
+SELECT DISTINCT numemp FROM empleado e, cliente c, pedido p, lineaspedido l WHERE numemp=repclie AND cliente=numclie AND l.numpedido=p.numpedido AND cuota<10000 GROUP BY l.numpedido, 1 HAVING SUM(importe)>10000;
+SELECT numpedido, SUM(importe) FROM lineaspedido l, producto p WHERE l.idproducto=p.idproducto AND numpedido IN(SELECT numpedido FROM lineaspedido WHERE l.idproducto=p.idproducto AND WHERE descripcion='Manivela') ORDER BY 1;
+SELECT codoficina, SUM(ventas) FROM empleado GROUP BY 1 HAVING SUM(ventas)>=200000;
+
+SELECT idproducto, SUM(cant) FROM lineaspedido l, pedido p WHERE l.numpedido=p.numpedido AND cliente=1 GROUP BY 1 HAVING SUM(cant)^2>1000;
+
+SELECT numemp, empleado.nombre, AVG(limcredito) FROM empleado, cliente WHERE numemp=repclie AND empleado.nombre LIKE('%, M%') OR empleado.nombre LIKE('%, A%') AND limcredito>=30000 GROUP BY 1 ORDER BY 3;
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 16:
+
+SELECT AVG(cuota), AVG(ventas) FROM empleado;
+SELECT AVG(importe), SUM(importe)/cant FROM lineaspedido GROUP BY numpedido;
+SELECT AVG(precio) FROM producto;
+SELECT SUM(importe) FROM lineaspedido l, pedido p, cliente c, empleado e WHERE l.numpedido=p.numpedido AND repclie=numemp AND numclie=cliente AND e.nombre LIKE 'Pantalla%, Vicente%';
+SELECT fechapedido FROM pedido ORDER BY 1 LIMIT 1;
+	SELECT MIN(fechapedido) FROM pedido;
+SELECT COUNT(*) FROM lineaspedido WHERE numpedido IN (SELECT numpedido FROM lineaspedido GROUP BY numpedido HAVING SUM(importe)>=25000);
+SELECT COUNT(*), codoficina FROM empleado GROUP BY codoficina;
+SELECT numemp, e.nombre, importe, numclie FROM empleado e, cliente, pedido p, lineaspedido l WHERE numemp=repclie AND cliente=numclie AND p.numpedido=l.numpedido GROUP BY 1, 2, 3;
+SELECT numemp, AVG(importe) FROM empleado e, pedido p, lineaspedido l WHERE numemp=repclie AND cliente=numclie AND p.numpedido=l.numpedido GROUP BY 1 HAVING SUM(importe)>30000;
+SELECT descripcion, precio, SUM(cant) FROM producto p, lineaspedido l WHERE p.idproducto=l.idproducto GROUP BY l.idproducto, 1, 2 HAVING SUM(cant) > SUM(existencias)*0.75 ORDER BY 3;
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 17:
+
+SELECT ciudad, nombre, fcontrato FROM empleado e, oficina WHERE codoficina=oficina AND e.ventas<(SELECT AVG(ventas) FROM oficina);
+
+SELECT nombre FROM empleado, oficina  WHERE codoficina=oficina AND region IN ('norte', 'oeste');
+	SELECT nombre FROM empleado WHERE codoficina IN (SELECT oficina FROM oficina WHERE region IN ('norte', 'oeste'));
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 18:
+
+SELECT e.nombre FROM empleado e, cliente WHERE repclie=numemp AND ventas<(SELECT SUM(ventas) FROM oficina WHERE region IN('este', 'centro');
+SELECT numclie, c.nombre FROM cliente c, empleado, oficina WHERE repclie=numemp AND codoficina=oficina AND region='oeste';
+
+	SELECT numclie, c.nombre FROM cliente c, empleado WHERE repclie=numemp AND codoficina IN (SELECT oficina FROM oficina WHERE region='oeste');
+
+SELECT * FROM cliente WHERE repclie IN (SELECT numemp FROM empleado WHERE cuota>ventas);
+
+	SELECT c.* FROM cliente c, empleado WHERE repclie=numemp AND cuota>ventas;
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 19:
+
+SELECT nombre, limcredito FROM cliente WHERE repclie IN (SELECT numemp FROM empleado WHERE codoficina IN (SELECT oficina FROM oficina WHERE objetivo>10000 AND ventas>10000));
+SELECT * FROM empleado WHERE codoficina IN (SELECT oficina FROM oficina WHERE region='oeste');
+SELECT * FROM empleado WHERE codoficina IN (SELECT oficina FROM oficina WHERE region!='oeste');
+SELECT descripcion FROM producto WHERE idproducto IN (SELECT idproducto FROM lineaspedido WHERE cant>9);
+SELECT * FROM empleado WHERE jefe IS NOT NULL AND jefe IN (SELECT numemp FROM empleado WHERE codoficina IN (SELECT oficina FROM oficina WHERE region='oeste'));
+
+	SELECT e.* FROM empleado e, empleado j, oficina WHERE j.numemp=e.jefe AND j.codoficina=oficina AND e.jefe IS NOT NULL AND region='oeste';
+
+-------------------------------------------------------------------------------------------
+
+EJERCICIO 20:
+
+SELECT nombre FROM cliente WHERE repclie=(SELECT numemp FROM empleado WHERE nombre=('Jaumes López, Alvaro'));
+SELECT numemp, nombre, codoficina WHERE codoficina IN(SELECT oficina FROM oficina WHERE ventas>objetivo);
+SELECT * FROM empleado WHERE codoficina NOT IN (SELECT oficina FROM oficina WHERE director=108);
+SELECT DISCTINCT idproducto, descripcion FROM producto WHERE IN(SELECT idproducto FROM lineaspedido WHERE cant<250);
+	SELECT DISTINCT p.idproducto, descripcion FROM producto p LEFT JOIN lineaspedido l WHERE p.idproducto=l.idprducto WHERE cant<250 OR cant IS NULL;
+SELECT numclie FROM cliente c WHERE repclie =(SELECT numemp FROM empleado WHERE nombre='Viguer Sánchez, Antonio') AND numclie IN (SELECT cliente FROM pedido p WHERE p.numpedido=(SELECT numpedido l FROM lineaspedido l GROUP BY 1 HAVING SUM(importe)>30000));
+SELECT DISCTINCT c.* FROM cliente c LEFT JOIN  pedido ON cliente=numcliente WHERE repclie=(SELECT numemp FROM empleado WHERE nombre='Viguer Sánchez, Antonio');
+SELECT * FROM oficina WHERE objetivo<(SELECT SUM(cuota) FROM empleado WHERE codoficina IN (SELECT oficina FROM oficina WHERE region='oeste'));
+
+-------------------------------------------------------------------------------------------
+
+EXTRAS:
+
+SELECT p.numpedido, cliente, SUM(importe) "Importe" FROM pedido p, lineaspedido l WHERE p.numpedido=l.numpedido GROUP BY p.numpedido, cliente
+ HAVING importe=(SELECT SUM(importe) FROM lineaspedido GROUP BY numpedido ORDER BY 1 LIMIT 1);

@@ -1,0 +1,4 @@
+a:link{yellow} 		(Cuando no se ha visitado)
+a:visited{red} 		(Cuando se ha visitado una vez)
+a:hover{blue} 		(Cuando pasas el ratón por encima se pone de ese color)
+a:active{green} 	(Cuando se pulsa se pone de ese color)

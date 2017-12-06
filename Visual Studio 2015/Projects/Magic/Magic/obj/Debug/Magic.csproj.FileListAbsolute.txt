@@ -1,0 +1,14 @@
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\Magic\Magic\bin\Debug\Magic.exe.config
+C:\Users\ale_z\OneDrive\documentos\visual studio 2015\Projects\Magic\Magic\bin\Debug\Magic.exe
+C:\Users\ale_z\OneDrive\documentos\visual studio 2015\Projects\Magic\Magic\bin\Debug\Magic.pdb
+C:\Users\ale_z\OneDrive\documentos\visual studio 2015\Projects\Magic\Magic\obj\Debug\Magic.Properties.Resources.resources
+C:\Users\ale_z\OneDrive\documentos\visual studio 2015\Projects\Magic\Magic\obj\Debug\Magic.csproj.GenerateResource.Cache
+C:\Users\ale_z\OneDrive\documentos\visual studio 2015\Projects\Magic\Magic\obj\Debug\Magic.exe
+C:\Users\ale_z\OneDrive\documentos\visual studio 2015\Projects\Magic\Magic\obj\Debug\Magic.pdb
+C:\Users\ale_z\OneDrive\documentos\visual studio 2015\Projects\Magic\Magic\bin\Debug\Resources\CartasMagic_log.ldf
+C:\Users\ale_z\OneDrive\documentos\visual studio 2015\Projects\Magic\Magic\bin\Debug\Resources\CartasMagic.mdf
+C:\Users\ale_z\OneDrive\documentos\visual studio 2015\Projects\Magic\Magic\obj\Debug\Magic.Sesion.resources
+C:\Users\ale_z\OneDrive\documentos\visual studio 2015\Projects\Magic\Magic\obj\Debug\Magic.Registro.resources
+C:\Users\ale_z\OneDrive\documentos\visual studio 2015\Projects\Magic\Magic\obj\Debug\Magic.Login.resources
+C:\Users\ale_z\OneDrive\documentos\visual studio 2015\Projects\Magic\Magic\obj\Debug\Magic.Carta.resources
+C:\Users\ale_z\OneDrive\documentos\visual studio 2015\Projects\Magic\Magic\obj\Debug\Magic.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+1 particionar con gparted
+2 instalar windows
+3 instalar ubuntu personalizado
+4 cambiar carpeta de usuarios a D: creando un usuario dummy en C: y creando luego otro en D: y luego borrando el dummy
+
+Para cambiar la carpeta de usuarios hay que ir al editor de registro y cambiar la variable de sistema a D:\Usuarios
+El registro se encuentra en: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList y se cambia ProfilesDirectory

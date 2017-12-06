@@ -1,0 +1,9 @@
+#!/bin/bash
+#volumen esfera
+
+PI=3.14
+echo "Volumen de una esfera"
+echo -n "Introduce un radio: "; read radio
+var=`echo "scale=2; 4/3*$PI*$radio*$radio*$radio" | bc -l`
+echo "El volumen sera $var"
+exit 0

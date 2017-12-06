@@ -1,0 +1,29 @@
+<agenda>
+  <contacto>
+    <nombre>Pipiolo1</nombre>
+    <telefono>123456789</telefono>
+    <direccion>Calle Falsa 123</direccion>
+    <codigoPostal>11200</codigoPostal>
+    <fechaNacimiento>01-01-2001</fechaNacimiento>
+    <leDebo>false</leDebo>
+    <deuda>0.0</deuda>
+  </contacto>
+  <contacto>
+    <nombre>Pipiolo2</nombre>
+    <telefono>223456789</telefono>
+    <direccion>Calle Falsa 123</direccion>
+    <codigoPostal>11200</codigoPostal>
+    <fechaNacimiento>01-01-2001</fechaNacimiento>
+    <leDebo>true</leDebo>
+    <deuda>0.0</deuda>
+  </contacto>
+  <contacto>
+    <nombre>Pipiolo3</nombre>
+    <telefono>323456789</telefono>
+    <direccion>Calle Falsa 123</direccion>
+    <codigoPostal>11200</codigoPostal>
+    <fechaNacimiento>01-01-2001</fechaNacimiento>
+    <leDebo>false</leDebo>
+    <deuda>0.0</deuda>
+  </contacto>
+</agenda>

@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>     HTML5
+
+<!DOCTYPE HTML PUBLIC
+"-/W3C/DTD NTML 4.01 Transicional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ 	<head>
+		<title>Prueba</title>
+		<meta name="author" content="Maria Jose">
+		<meta name="description" content="Pagina de inicio de mi web">
+		<meta name="date" content="fecha">
+		<meta name="language" content="algo">
+		<link rel="stylesheet" type="text/CSS">
+			href="estilo.css"
+			href="/css/estilo.css"
+			href="http://mipagina.es/css/estilo.css"
+	</head>
+	<body>
+		<p>etiqueta</p>
+		<p>de bloque o parrafo</p>
+
+		<p>saltar<br/>linea</p>
+		<p>es un espacio &nbsp; para mas hay que repetirlo hasta conseguir lo que se quiera y no olvidar el ;</p>
+
+		<spam>etiqueta</spam>
+		<spam>en linea</spam>
+
+		<b>negrita y se escribe en linea</b>
+		<i>italica y se escribe en linea</i>
+		<m>subrayado</m>
+		<s>tachado</s>
+		<big>grande</big>
+		<small>pequeño</small>
+
+		<b><p>no es correcto</p></b>
+		<p><b> si es correcto </b></p>
+		
+		
+		<h1>etiqueta de cabecera y sera el texto mas grande</h>
+		<h6>es la etiqueta de cabecera mas pequeña y van del 1 al 6</h6>
+
+
+		<hr size="120" width="12">
+		<b/><i/><s/><big/><small/>
+		<font color="red" size="12" face="Verdana">fuente</font>
+		
+
+		<ul((lista no ordenada))type="disc/circle/square">
+			<li>uno</li>
+			<li>dos</li>
+			<li>tres</li>
+		</ul>
+		<ol ((lista ordenada)) type="A/a/I/i" start="3">
+			<li>uno</li>
+		</ol>
+	
+		<dl>
+			<dt>HTML</dt>
+			<dt>XHTML</dt>
+				<dd>ExtensibleHypertextMarkupLanguage</dd>
+		</dl>
+
+		<a((link)) href="http:"www.google.es">enlace a google</a>
+		<a href="fichero.htm">enlace a un fichero en mi servidor</a>
+		<a name="marca1></a>
+		<a href="#marca1>ir a la marca1</a>
+		<a href="fichero.html#marca">ir a marca1 en otro fichero que se llama fichero.htm</a>
+		<a href="" target="_top/_blank/marco2"
+
+		
+		<img src="imagen.gif" alt="imagen de un caballo" height="200" width="200">
+
+		
+
+		<input type="file" name="fichero" accept="application/x-zip-compressed">Sube un archivo</input>
+		<input type="button" value="salir" onclick="windows.close();">Sirve para hacer órdenes de funciones</input>
+		<button type="submit/reset/button"><img src="imagen.jpg"></button>
+
+		<fieldset>Sirve para agrupar textos
+			<legend>Datos personales</legend>
+		</fieldset>
+
+
+		<input type="search">Cajas de búsqueda en 5</input>
+		<input type="number" name="n" min="0" max="9" value="2(defecto)">Incrementar el número en 5 y sale una flecha hacia arriba y otra hacia abajo</input>
+		<input type="range" min="" max="" value="">Hacia los lados en 5</input>
+		<input type="time">Hora 5
+		<input type"url">URL</input> 5
+		<input type="email"> 5
+		<input type="date"> 5	
+		<input type="datetime"> 5
+		<input type=""> 5
+		<input placeholder="texto">
+		<input required="required">
+
+		<iframe src="url" height="300" width="300">paginas</iframe>
+		<object type="video/mpeg" width="300" height="300" data="video/video1.mpg">
+			<param name="filename" value="video/video1.mpg">
+			<param name="quality" value="high">
+		</object>
+
+		<video src="video.mp4" controls autoplay loop>(En 5) Tu navegador no soporta video</video>
+		<audio>5 e igual que video
+		<source src="video.mp4" type="video/mp4">5 
+	</body>
+</html>

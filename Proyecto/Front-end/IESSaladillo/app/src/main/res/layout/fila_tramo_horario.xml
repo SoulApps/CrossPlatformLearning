@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lblHoraTramo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:paddingLeft="@dimen/padding_contenido"
+        android:paddingRight="@dimen/padding_contenido"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lblReservado"
+        app:layout_constraintBottom_toBottomOf="@+id/lblReservado"
+        tools:text="10:45 - 11:45" />
+
+    <Button
+        android:id="@+id/btnReservar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reservar"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:padding="@dimen/padding_contenido"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lblHoraTramo"
+        app:layout_constraintBottom_toBottomOf="@+id/lblHoraTramo" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="@dimen/tamanho_progressbar_reserva"
+        android:layout_height="@dimen/tamanho_progressbar_reserva"
+        android:padding="@dimen/padding_contenido"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@+id/btnReservar"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lblHoraTramo"
+        app:layout_constraintBottom_toBottomOf="@+id/lblHoraTramo" />
+
+    <TextView
+        android:id="@+id/lblReservado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="@dimen/tamanho_letra_reservado_por"
+        android:padding="@dimen/padding_contenido"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Reservado por:\nAlejandro Sánchez" />
+</android.support.constraint.ConstraintLayout>

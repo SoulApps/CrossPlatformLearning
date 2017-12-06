@@ -1,0 +1,23 @@
+<html>
+<head>
+<script language = "JavaScript">
+		function media(x, y) {
+			return x + y / 2
+		}
+	</script>
+</head>
+<body>
+	<form>
+		Escribe lo que quieras <input type = "text" name = "uno">
+		<br><br>
+		Pulsa tab para pasar al siguiente cuardro del texto:
+		<br><br>
+		Escribe otra cosa <input type = "text" name = "dos" onBlur = "document.forms[0].tres.value=media(document.forms[0].uno.value, this.value);">
+		<br><br>
+		Has escrito <input type = "text" name = "tres">
+	</form>
+	<script language = "JavaScript">
+		document.write("hola mundo");
+	</script>
+</body>
+</html>

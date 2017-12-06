@@ -1,0 +1,20 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+ <!ELEMENT facturas (factura)>
+ <!ELEMENT factura (empresa,productos,total)>
+ <!ELEMENT empresa (nombre,telefono?,fax?)>
+ <!ELEMENT cliente (nombre,telefono,dni,nombre)>
+ <!ELEMENT productos (producto*)>
+ <!ELEMENT producto (nombre,precio_unitario,cantidad)>
+ <!ELEMENT nombre (#PCDATA)>
+ <!ELEMENT cif (#PCDATA)>
+ <!ELEMENT telefono EMPTY>
+ <!ELEMENT fax EMPTY>
+ 
+ 
+ 
+ 
+ <!ATTLIST factura numerofactura ID #REQUIRED>
+ <!ATTLIST producto id ID #REQUIRED>
+ <!ATTLIST telefono num_tel CDATA #FIXED "91776688">
+ <!ATTLIST fax num_fax CDATA #FIXED "91776699">
+ 

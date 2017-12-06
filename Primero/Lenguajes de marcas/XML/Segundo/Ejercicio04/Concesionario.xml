@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE MODULO SYSTEM "modulo.dtd">
+
+<concesionario>
+	<coche modelo="556" modelorelacionado="">
+		<descripcion>
+			<combustible>Gasoil</combustible>
+			<potencia>120CV</potencia>
+			<consumomedio velocidad=""></consumomedio>
+		</descripcion>
+		<motor motorrelacionado=""/>
+	</coche>
+</concesionario>

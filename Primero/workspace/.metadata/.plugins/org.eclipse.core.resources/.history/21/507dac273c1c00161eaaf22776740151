@@ -1,0 +1,22 @@
+package test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import arena.Arena;
+import personajes.*;
+
+public class TestRPG {
+
+	@Test
+	public void test() {
+		Personaje guerreroFuerte = new Guerrero("GerreroCachas", 50, 30);
+		Personaje guerreroDebil = new Guerrero("Guerrero", 10, 10);
+		Personaje sanador = new Sanador("Botiquín 2.0", 5, 30);
+		Arena arena = new Arena();
+		assertEquals(guerreroFuerte, arena.combate(guerreroFuerte, guerreroDebil));
+	}
+
+}

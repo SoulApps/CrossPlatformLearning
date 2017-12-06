@@ -1,0 +1,19 @@
+package estructurada;
+
+import java.util.Scanner;
+
+public class Blackjack2 {
+
+	public static void main(String[] args) {
+
+		int apuesta1 = 50, apuesta2 = 50;
+		int dinero1 = 100, dinero2 = 100;
+
+	}
+	public static int darDinero(int apuesta) {
+		
+		return apuesta;
+		
+	}
+
+}

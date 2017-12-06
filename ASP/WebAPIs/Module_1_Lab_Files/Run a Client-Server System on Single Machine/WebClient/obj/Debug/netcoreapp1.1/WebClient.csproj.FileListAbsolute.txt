@@ -1,0 +1,19 @@
+C:\Source\edX\Course 001\Labs\001\Run a Client-Server System on Single Machine\WebClient\bin\Debug\netcoreapp1.1\WebClient.deps.json
+C:\Source\edX\Course 001\Labs\001\Run a Client-Server System on Single Machine\WebClient\bin\Debug\netcoreapp1.1\WebClient.runtimeconfig.json
+C:\Source\edX\Course 001\Labs\001\Run a Client-Server System on Single Machine\WebClient\bin\Debug\netcoreapp1.1\WebClient.runtimeconfig.dev.json
+C:\Source\edX\Course 001\Labs\001\Run a Client-Server System on Single Machine\WebClient\bin\Debug\netcoreapp1.1\WebClient.dll
+C:\Source\edX\Course 001\Labs\001\Run a Client-Server System on Single Machine\WebClient\bin\Debug\netcoreapp1.1\WebClient.pdb
+C:\Source\edX\Course 001\Labs\001\Run a Client-Server System on Single Machine\WebClient\obj\Debug\netcoreapp1.1\WebClient.AssemblyInfo.cs
+C:\Source\edX\Course 001\Labs\001\Run a Client-Server System on Single Machine\WebClient\obj\Debug\netcoreapp1.1\WebClient.dll
+C:\Source\edX\Course 001\Labs\001\Run a Client-Server System on Single Machine\WebClient\obj\Debug\netcoreapp1.1\WebClient.pdb
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebClient\bin\Debug\netcoreapp1.1\WebClient.deps.json
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebClient\bin\Debug\netcoreapp1.1\WebClient.runtimeconfig.json
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebClient\bin\Debug\netcoreapp1.1\WebClient.runtimeconfig.dev.json
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebClient\bin\Debug\netcoreapp1.1\WebClient.dll
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebClient\bin\Debug\netcoreapp1.1\WebClient.pdb
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebClient\obj\Debug\netcoreapp1.1\WebClient.csprojResolveAssemblyReference.cache
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebClient\obj\Debug\netcoreapp1.1\WebClient.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebClient\obj\Debug\netcoreapp1.1\WebClient.AssemblyInfoInputs.cache
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebClient\obj\Debug\netcoreapp1.1\WebClient.AssemblyInfo.cs
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebClient\obj\Debug\netcoreapp1.1\WebClient.dll
+C:\Users\Alejandro\RiderProjects\WebAPI\Module_1_Lab_Files\Run a Client-Server System on Single Machine\WebClient\obj\Debug\netcoreapp1.1\WebClient.pdb

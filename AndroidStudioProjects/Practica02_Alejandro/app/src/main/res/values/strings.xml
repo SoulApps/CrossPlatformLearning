@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Prácticas (Alejandro)</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nuevo_alumno">Nuevo alumno</string>
+    <string name="tutorias">Tutorías</string>
+    <string name="proximas_visitas">Próximas visitas</string>
+    <string name="configuracion">Configuración</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="guardar">Guardar</string>
+    <string name="title_activity_preferencias">Configuración</string>
+    <string name="pantalla_inicial">Pantalla inicial</string>
+    <string name="pantalla_inicial_default">Tutorías</string>
+
+    <array name="pantalla_inicial">
+        <item>Nuevo alumno</item>
+        <item>Tutorías</item>
+        <item>Próximas visitas</item>
+    </array>
+
+    <array name="foto">
+        <item>Galería</item>
+        <item>Cámara</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="descripcion_foto_del_alumno">Foto del alumno</string>
+    <string name="nombre_del_alumno">Nombre del alumno</string>
+    <string name="telefono">Teléfono</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="nombre_de_la_empresa">Nombre de la empresa</string>
+    <string name="nombre_del_tutor">Nombre del tutor</string>
+    <string name="horario_prácticas">Horario prácticas</string>
+    <string name="direccion_empresa">Dirección empresa</string>
+    <string name="visita">Visita</string>
+    <string name="resumen">Resumen</string>
+    <string name="title_activity_datos_visita">Visita</string>
+    <string name="dia">Día</string>
+    <string name="hora_inicio">Hora inicio</string>
+    <string name="hora_fin">Hora fin</string>
+    <string name="visita_sin_fecha">Cuanto antes</string>
+    <string name="title_nav">Formación en centros de trabajo</string>
+</resources>

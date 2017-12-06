@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <courses>
+    <course id="123">
+      <name>Java</name>
+      <teacher>Marcos Conde</teacher>
+	  <teacher>Toribio Perez</teacher>
+	  <date_begin>10/6/2015</date_begin>
+	  <date_end>10/10/2015</date_end>
+	  <duration time="month">4</duration>
+	  <place>Politecnica</place>
+	  <practices>Si</practices>
+	  <price pay="month">350</price>
+    </course>
+    <course id="124">
+      <name>Oracle</name>
+      <teacher>Alfredo Conde</teacher>
+	  <teacher>Carmen Torralbo</teacher>
+	  <teacher>Jesus Garcia</teacher>
+	  <date_begin>20/3/2015</date_begin>
+	  <date_end>20/9/2015</date_end>
+	  <duration time="month">6</duration>
+	  <place>Ies Saladillo</place>
+	  <practices>No</practices>
+	  <price pay="month">550</price>
+    </course>
+	<course id="125">
+      <name>Photoshop</name>
+      <teacher>Marcos Conde</teacher>
+	  <teacher>Martin Navarro</teacher>
+	  <date_begin>10/1/2015</date_begin>
+	  <date_end>25/1/2015</date_end>
+	  <duration time="days">15</duration>
+	  <place>Ies Menendez Pelayo</place>
+	  <practices>No</practices>
+	  <price pay="days">50</price>
+    </course>
+    <course id="126">
+      <name>Programacion C++</name>
+      <teacher>Yolanda Amil</teacher>
+	  <date_begin>1/6/2015</date_begin>
+	  <date_end>1/6/2016</date_end>
+	  <duration time="month">12</duration>
+	  <place>Ies Tierno Galvan</place>
+	  <practices>Si</practices>
+	  <price pay="month">1200</price>
+    </course>
+     <course id="127">
+      <name>Creacion de Paginas Web</name>
+      <teacher>Toribio Perez</teacher>
+	  <teacher>Martin Navarro</teacher>
+	  <date_begin>3/7/2015</date_begin>
+	  <date_end>23/7/2015</date_end>
+	  <duration time="days">20</duration>
+	  <place>Ies Garcia Lorca</place>
+	  <practices>No</practices>
+	  <price pay="days">100</price>
+    </course>
+  </courses>

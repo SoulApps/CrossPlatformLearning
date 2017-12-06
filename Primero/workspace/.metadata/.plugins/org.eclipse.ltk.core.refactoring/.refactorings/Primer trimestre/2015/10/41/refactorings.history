@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;b&apos; in &apos;boletin2.EJER24.main(...)&apos; to &apos;comprobar&apos;&#x0D;&#x0A;- Original project: &apos;Primer trimestre&apos;&#x0D;&#x0A;- Original element: &apos;boletin2.EJER24.main(String[]).b&apos;&#x0D;&#x0A;- Renamed element: &apos;b&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;b&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;boletin2{EJER24.java[EJER24~main~\[QString;@b!176!193!184!184!Z!0!false" name="comprobar" references="true" stamp="1444289160433" version="1.0"/>
+</session>

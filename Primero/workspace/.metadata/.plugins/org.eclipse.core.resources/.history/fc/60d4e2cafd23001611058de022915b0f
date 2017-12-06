@@ -1,0 +1,8 @@
+
+public class MultiplicarParameter {
+	public Potencia potencia;
+
+	public MultiplicarParameter(Potencia potencia) {
+		this.potencia = potencia;
+	}
+}

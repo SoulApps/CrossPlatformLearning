@@ -1,0 +1,135 @@
+package jugadores;
+
+import excepciones.PosicionNoValidaException;
+import globalValues.GlobalValues;
+import materiales.Ficha;
+import materiales.Posicion;
+import materiales.Tablero;
+
+/**
+ * Clase que representa un jugador en una partida.
+ *
+ *
+ * Created by Alejandro on 15/04/2016.
+ */
+public class Jugador implements Colocar, Cloneable {
+    protected String nombre;
+
+    /**
+     * Crea un jugador con un nombre.
+     * @param nombre Es el nombre del jugador.
+     */
+    public Jugador(String nombre) {
+        this.nombre = nombre;
+    }
+
+    /**
+     * Este m&eacute;todo colocar&aacute; la ficha en la fila y columna pasada por par&aacute;metros.
+     * Funciona de la siguiente manera:
+     *      Teniendo una disposici&oacute;n tal que as&iacute; jugando con fichas negras: [posici&oacute;n libre deseada] B B N
+     *      1.- Mirar&aacute; en todas las direcciones si hay una ficha blanca.
+     *      1.1- Mirar&aacute; si a la derecha en este caso hay alguna ficha blanca
+     *      2.- Al haberla, seguir&aacute; buscando m&aacute;s a la derecha una ficha negra.
+     *      3.- Al haberla, colocar&aacute; la ficha en la posici&oacute;n deseada y voltear&aacute; las fichas blancas que hay entre ellas.
+     *      3.1.- Si no hay, entonces no har&aacute; nada.
+     * @param posicion Es la posici&oacute;n en la que se colocar&aacute; la ficha.
+     * @param tablero Es el tablero sobre el que se trabajar&aacute;.
+     * @param turnoBlancas Sirve para indicar el color de la ficha que se va a colocar.
+     * @return Devuelve un entero que usar&aacute; el m&eacute;todo colocarFichaBot() para elegir la mejor opci&oacute;n.
+     * @throws PosicionNoValidaException Lanzar&aacute; la excepci&oacute;n cuando se intente colocar una ficha en un lugar no v&aacute;lido,
+     * es decir, encima de otra ficha, o en un lugar donde no voltea.
+     */
+    public int colocarFicha(Posicion posicion, Tablero tablero, boolean turnoBlancas) throws PosicionNoValidaException {
+        int fila = posicion.getFila(), columna = posicion.getColumna();
+        int fichasVolteadas = 0;
+        boolean salir, apto, colocado = false;
+        int i, j, auxFila, auxColumna, k, l;
+
+        if (tablero.getFichas()[fila][columna] == null) { //Compruebo que la posici&oacute;n est&eacute; disponible
+
+            for (i = -1; i < 2; i++) {
+                for (j = -1; j < 2; j++) {
+                    if (fila + i >= 0 && columna + j >= 0 && fila + i < GlobalValues.CASILLAS && columna + j < GlobalValues.CASILLAS && !(fila == i && columna == j)) {
+                        if (tablero.getFichas()[fila + i][columna + j] != null) {
+                            if (tablero.getFichas()[fila + i][columna + j].isEsBlanca() != turnoBlancas) { //Compruebo que en la posici&oacute;n diagonal principal hacia arriba hay una ficha de otro color.
+                                auxFila = fila + i;
+                                auxColumna = columna + j;
+                                salir = false;
+                                apto = false;
+                                while (auxFila >= 0 && auxColumna >= 0 && auxFila < GlobalValues.CASILLAS && auxColumna < GlobalValues.CASILLAS && !salir && !apto) { //Si hay una ficha entonces compruebo si hay una de tu color siguiendo la trayectoria con este bucle.
+                                    if (tablero.getFichas()[auxFila][auxColumna] != null) {
+                                        if (tablero.getFichas()[auxFila][auxColumna].isEsBlanca() == turnoBlancas)
+                                            apto = true; //Si la hay cambio el booleano.
+                                        else {
+                                            auxFila = auxFila + i;
+                                            auxColumna = auxColumna + j;
+                                        }
+                                    } else
+                                        salir = true;
+                                }
+                                if (apto) {
+                                    tablero.getFichas()[fila][columna] = new Ficha(turnoBlancas);
+                                    k = auxFila - i;
+                                    l = auxColumna - j;
+                                    while (k != fila || l != columna) {
+                                        tablero.getFichas()[k][l].voltear(); //Cambio las fichas.
+                                        fichasVolteadas++;
+                                        k = k - i;
+                                        l = l - j;
+                                    }
+                                    colocado = true;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            if (!colocado) //Colocado se cambiar&aacute; si es posible colocar una ficha; si no, entonces lanzar&aacute; la excepci&oacute;n.
+                throw new PosicionNoValidaException(GlobalValues.MENSAJE_ERROR);
+
+        } else
+            throw new PosicionNoValidaException(GlobalValues.MENSAJE_ERROR);
+
+        return fichasVolteadas;
+    }
+
+    /**
+     * Clone.
+     * @return Devuelve el jugador clonado.
+     */
+    public Object clone() {
+        Jugador j;
+
+        try {
+            j = (Jugador) super.clone();
+        } catch (CloneNotSupportedException e) {
+            j = null;
+        }
+
+        return j;
+    }
+
+    /**
+     * Equals.
+     * @param o Es el otro objeto a comparar.
+     * @return Devuelve un valor booleano dependiendo de su igualdad.
+     */
+    public boolean equals(Object o) {
+        boolean igual = false;
+
+        if (o instanceof Jugador)
+            if (nombre.equals(((Jugador) o).nombre))
+                igual = true;
+
+        return igual;
+    }
+
+    /**
+     * ToString.
+     * @return Deuvelve una cadena con el nombre del jugador.
+     */
+    public String toString() {
+        return nombre;
+    }
+}

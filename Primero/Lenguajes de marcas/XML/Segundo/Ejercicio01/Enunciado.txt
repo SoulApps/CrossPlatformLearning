@@ -1,0 +1,8 @@
+DTD para XML:
+Recoger info de una factura: numFactura, fecha, nombreEmpresa, cliente, producto
+
+El numero de factura numero de cliente y numero de pedido son valores unicos, por cada factura, cliente y pedido distinto, y son obligatorios.
+Los numeros de telefono y fax de la empresa no tiene por que aparecer en la factura, pero siempre que lo hagan deberan tener los mismos valores(tfno: 917776688, fax: 917776699).
+La forma de pago puede tomar los valores efectivo, tarjeta y plazos.
+La moneda tiene que aparecer siempre y siempre debe tomar el valor euro.
+El iva tiene que aparecer siempre y su valor no puede contener caracteres especiales.

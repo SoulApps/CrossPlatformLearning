@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imagen_default"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/lblNombrePersonaje" />
+
+    <TextView
+        android:id="@+id/lblNombrePersonaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/imagen"
+        app:layout_constraintBottom_toTopOf="@+id/lblNombreActor"
+        app:layout_constraintLeft_toLeftOf="@+id/imagen"
+        app:layout_constraintRight_toRightOf="@+id/imagen"
+        tools:text="aaaaaaa" />
+
+    <ImageView
+        android:id="@+id/botones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/puntos"
+        app:layout_constraintTop_toTopOf="@+id/lblNombrePersonaje"
+        app:layout_constraintRight_toRightOf="@+id/imagen" />
+
+    <TextView
+        android:id="@+id/lblNombreActor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/lblNombrePersonaje"
+        app:layout_constraintLeft_toLeftOf="@+id/imagen"
+        app:layout_constraintRight_toRightOf="@+id/imagen"
+        tools:text="aaaaaa" />
+
+</android.support.constraint.ConstraintLayout>

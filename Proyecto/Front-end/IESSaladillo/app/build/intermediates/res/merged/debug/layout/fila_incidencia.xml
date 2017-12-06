@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/altura_fila_incidencia">
+
+    <View
+        android:id="@+id/colorEstado"
+        android:layout_width="@dimen/ancho_linea_estado_incidencia"
+        android:layout_height="0dp"
+        android:layout_marginRight="@dimen/margen_linea_estado_incidencia"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/lblUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        app:layout_constraintBottom_toTopOf="@+id/lblCodigo"
+        app:layout_constraintLeft_toRightOf="@+id/colorEstado"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Alejandro Sánchez" />
+
+    <TextView
+        android:id="@+id/lblCodigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        app:layout_constraintLeft_toLeftOf="@id/lblUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/lblUsuario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text="0.15.4513" />
+
+    <TextView
+        android:id="@+id/lblFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_marginEnd="@dimen/margen_lateral_incidencia"
+        android:layout_marginRight="@dimen/margen_lateral_incidencia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="20/06/2017 12:00" />
+
+</android.support.constraint.ConstraintLayout>

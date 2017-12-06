@@ -1,0 +1,16 @@
+package Examenes;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Examen {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		int i;
+		String Programacion="";
+		Programacion.getBytes();
+		System.out.println(Programacion);
+		
+	}
+}

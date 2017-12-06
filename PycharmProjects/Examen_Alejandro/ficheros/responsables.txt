@@ -1,0 +1,3 @@
+1, Carmen, Jurado, 1, 1, 1
+2, Domingo, Pérez, 2, 2, 2
+3, Javier, Graña, 3, 3, 3

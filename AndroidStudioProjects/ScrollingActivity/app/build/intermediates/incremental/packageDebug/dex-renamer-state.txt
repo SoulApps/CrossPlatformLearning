@@ -1,0 +1,7 @@
+#Tue Jan 17 10:59:45 CET 2017
+base.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\ScrollingActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c4a79cdaa421f0ea31c3751b1bc357b0a37df79b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\ScrollingActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4280803f9378bb10831dcb5fa5cff4f41a9b02d7\\classes.dex
+base.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\ScrollingActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4280803f9378bb10831dcb5fa5cff4f41a9b02d7
+file.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\ScrollingActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c4a79cdaa421f0ea31c3751b1bc357b0a37df79b\\classes.dex

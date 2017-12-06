@@ -1,0 +1,75 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.uniovi.es/alumnos" xmlns="http://www.uniovi.es/alumnos">
+	<xs:element name="persona">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="nombre" type="xs:string"/>
+				<xs:element name="nacimiento">
+					<xs:complexType>
+						<xs:attribute name="dia" type="xs:integer">
+							<xs:simpleType>
+								<xs:restriction base="xs:integer">
+								  <xs:minInclusive value="1"/>
+								  <xs:maxInclusive value="31"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="mes" type="xs:string">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:enumeration value="Enero"/>
+									<xs:enumeration value="Febrero"/>
+									<xs:enumeration value="Marzo"/>
+									<xs:enumeration value="Abril"/>
+									<xs:enumeration value="Mayo"/>
+									<xs:enumeration value="Junio"/>
+									<xs:enumeration value="Julio"/>
+									<xs:enumeration value="Agosto"/>
+									<xs:enumeration value="Septiembre"/>
+									<xs:enumeration value="Octubre"/>
+									<xs:enumeration value="Noviembre"/>
+									<xs:enumeration value="Diciembre"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="anyo" type="xs:integer">
+							<xs:simpleType>
+								<xs:restriction base="xs:integer">
+								  <xs:minInclusive value="1900"/>
+								  <xs:maxInclusive value="2011"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="direccion">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Calle" type="cad"/>
+							<xs:element name="Poblacion" type="cad"/>
+							<xs:element name="Provincia" type="cad"/>
+							<xs:element name="cPostal" type="xs:string">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+									   <xs:length value="8"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="genero">
+				  <xs:simpleType>
+					<xs:restriction base="xs:string">
+					  <xs:pattern value="varon|mujer"/>
+					</xs:restriction>
+				  </xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="cad">
+		<xs:restriction base="xs:string">
+		   <xs:maxLength value="50"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

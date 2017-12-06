@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\Firebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\Firebase\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\Firebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\Firebase\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    }
+]

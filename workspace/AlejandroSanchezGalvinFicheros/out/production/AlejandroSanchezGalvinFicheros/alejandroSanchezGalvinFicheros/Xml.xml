@@ -1,0 +1,26 @@
+<listaempleados>
+  <empleado>
+    <codigo>RJ1</codigo>
+    <nombre>Rafael Jiménez Pérez</nombre>
+    <edad>40</edad>
+    <salario>1789.45</salario>
+  </empleado>
+  <empleado>
+    <codigo>PM2</codigo>
+    <nombre>Paco Márquez Romero</nombre>
+    <edad>38</edad>
+    <salario>1900.34</salario>
+  </empleado>
+  <empleado>
+    <codigo>AG3</codigo>
+    <nombre>Ana González Martín</nombre>
+    <edad>45</edad>
+    <salario>1467.23</salario>
+  </empleado>
+  <empleado>
+    <codigo>TV4</codigo>
+    <nombre>Tomás Vera Gutiérrez</nombre>
+    <edad>39</edad>
+    <salario>1780.36</salario>
+  </empleado>
+</listaempleados>

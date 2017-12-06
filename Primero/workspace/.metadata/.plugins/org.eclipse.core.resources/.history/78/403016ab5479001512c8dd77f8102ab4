@@ -1,0 +1,109 @@
+package estructurada;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Blackjack {
+
+	public static final String ANSI_RED = "\u001B[31m";
+	public static final String ANSI_BLACK = "\u001B[30m";
+	public static final String ANSI_BLUE = "\u001B[34m";
+	public static final String ANSI_GREEN = "\u001B[32m";
+	public static final String ANSI_RESET = "\u001B[0m";
+	
+	public static Scanner teclado = new Scanner(System.in);
+
+	public static void main(String[] args) {
+
+		final int DINERO = 100;
+		int jugador1, jugador2;
+		
+		sumarCartas();
+
+	}
+
+	static int darCartas() {
+		int palo = 0;
+		int carta = 0;
+		String figura = "";
+		String mensaje = "";
+		String p = "";
+		
+		Random rnd = new Random();
+
+		carta = rnd.nextInt(13) + 1;
+		palo = rnd.nextInt(4) + 1;
+		
+		switch (palo) {
+		case 1:
+			if (palo == 1)
+				mensaje = "de picas";
+			p = ANSI_BLACK + "♠" + ANSI_RESET;
+			break;
+		case 2:
+			if (palo == 2)
+				mensaje = "de corazones";
+			p = ANSI_RED + "♥" + ANSI_RESET;
+			break;
+		case 3:
+			if (palo == 3)
+				mensaje = "de diamantes";
+			p = ANSI_BLUE + "♦" + ANSI_RESET;
+			break;
+		case 4:
+			if (palo == 4)
+				mensaje = "de tréboles";
+			p = ANSI_GREEN + "♣" + ANSI_RESET;
+			break;
+
+		}
+
+		
+		switch (carta) {
+		case 1:
+			if (carta == 1)
+				figura = "As";
+			break;
+		case 11:
+			if (carta == 11)
+				figura = "Jota";
+			break;
+		case 12:
+			if (carta == 12)
+				figura = "Reina";
+			break;
+		case 13:
+			if (carta == 13)
+				figura = "Rey";
+			break;
+		}
+
+		if (carta > 10 || carta == 1)
+			System.out.printf("%s %s %s\n", figura, mensaje, p);
+		else
+			System.out.printf("%d %s %s\n", carta, mensaje, p);
+		
+		return carta;
+	}
+	
+	static int sumarCartas() {
+		final int BLACKJACK = 21;
+		boolean otraCarta = false, bj = false;
+		int carta1, carta2 = 0, sumaCartas;
+		do {
+			carta1 = Blackjack.darCartas();
+			sumaCartas = carta1 + carta2;
+			System.out.printf("%d\n", sumaCartas);
+			carta2 = sumaCartas;
+			System.out.println("¿Quieres otra carta?");
+			otraCarta = teclado.nextBoolean();
+			if (sumaCartas == BLACKJACK) {
+				System.out.println("¡Blackjack!");
+				bj = true;
+			}
+		} while (bj == false || otraCarta == true);
+		
+		
+		return sumaCartas;
+	}
+}

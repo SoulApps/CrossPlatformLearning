@@ -1,0 +1,19 @@
+package excepciones;
+
+/**
+ * Excepción que se lanza cuando se intenta colocar una ficha en una posición no válida.
+ *
+ *
+ * Created by Alejandro on 09/04/2016.
+ */
+public class PosicionNoValidaException extends Exception {
+    private static final long serialVersionUID = 1L;
+
+    /**
+     * Excepción que se activa cuando se intenta colocar una ficha en una posición no válida.
+     * @param mensaje Mensaje a mostrar.
+     */
+    public PosicionNoValidaException(String mensaje) {
+        super(mensaje);
+    }
+}

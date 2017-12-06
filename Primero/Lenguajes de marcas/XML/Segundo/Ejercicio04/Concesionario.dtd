@@ -1,0 +1,13 @@
+<!ELEMENT concesionario(coche)>
+<!ELEMENT coche(descripcion?, motorrelacionado)>
+<!ELEMENT descripcion((#PCDATA)|combustible?)|potencia?|consumomedio*)>
+<!ELEMENT combustible(#PCDATA)>
+<!ELEMENT potencia(#PCDATA)>
+<!ELEMENT consumomedio(#PCDATA)>
+<|ELEMENT motor EMPTY>
+
+
+<!ATTLIST coche modelo ID #REQUIRED>
+<!ATTLIST coche modelorelacinado IDREFS #IMPLIED>
+<!ATTLIST motor motorrelacionado IDREFS #REQUIRED>
+<!ATTLIST consumomedio velocidad CDATA "">

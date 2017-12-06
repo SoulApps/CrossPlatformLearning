@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#007A33</color>
+    <color name="colorPrimaryDark">#007840</color>
+    <color name="colorAccent">#d29f27</color>
+
+    <color name="negro">#000000</color>
+    <color name="fondo_nav">#007A33</color>
+
+    <!-- Colores estado incidencia -->
+    <color name="colorSolucionado">#1FC554</color>
+    <color name="colorRevisado">#D3D418</color>
+    <color name="colorNuevo">#C51F1F</color>
+</resources>

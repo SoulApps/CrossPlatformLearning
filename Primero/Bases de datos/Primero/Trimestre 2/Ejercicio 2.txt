@@ -1,0 +1,18 @@
+EJERCICIO 1:
+
+INSERT INTO empleado(numemp, nombre, codoficina, cargo) VALUES (104, 'Adzuar Cascales, Concepción', 10, 'jefe');
+	INSERT INTO empleado VALUES (111, 'Galvín Palacios, José Luis', NULL, NULL, 'representante', DATE(NOW()), 104, NULL, NULL;
+INSERT empleado(numemp, nombre, codoficina, cargo) VALUES ( );
+INSERT producto(precio, descripcion, idproducto, existencias VALUES ( );
+
+INSERT INTO cliente VALUES ( );
+insert into pedido values ( );
+insert into produto values ( );
+insert into lineaspedido values ( );
+
+------------------------------------------------------------------
+
+EJERCICIO 2:
+
+INSERT INTO empleado(numemp, nombre, cargo, codoficina) VALUES ( );
+insert into empleado( ) FROM empleado WHERE nombre=' ';

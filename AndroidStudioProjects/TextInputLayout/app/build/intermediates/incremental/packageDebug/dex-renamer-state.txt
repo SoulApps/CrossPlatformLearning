@@ -1,0 +1,7 @@
+#Tue Oct 11 12:41:14 CEST 2016
+base.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\TextInputLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ca660f7abd3391b22110c75a89a7bb69abc0817b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\TextInputLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2b0057a6441916802bb35cfce2192d7885f38d03\\classes.dex
+base.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\TextInputLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2b0057a6441916802bb35cfce2192d7885f38d03
+file.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\TextInputLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ca660f7abd3391b22110c75a89a7bb69abc0817b\\classes.dex

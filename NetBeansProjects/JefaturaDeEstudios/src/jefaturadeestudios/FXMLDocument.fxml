@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="255.0" prefWidth="641.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jefaturadeestudios.FXMLDocumentController">
+    <children>
+        <RadioButton id="rbHoy" fx:id="rbDiario" layoutX="389.0" layoutY="18.0" mnemonicParsing="false" selected="true" text="Diario">
+            <toggleGroup>
+                <ToggleGroup fx:id="tipo" />
+            </toggleGroup>
+        </RadioButton>
+        <RadioButton id="semana" fx:id="rbSemanal" layoutX="454.0" layoutY="18.0" mnemonicParsing="false" text="Semanal" toggleGroup="$tipo" />
+        <ComboBox fx:id="cbProfesor" layoutX="20.0" layoutY="14.0" prefWidth="150.0" promptText="Profesores" />
+        <TableView fx:id="semana" layoutX="20.0" layoutY="58.0" prefHeight="185.0" prefWidth="600" visible="true">
+            <columns>
+                <TableColumn fx:id="colHoras" prefWidth="100.0" text="Horas" />
+                <TableColumn fx:id="colLunes" prefWidth="100.0" text="Lunes" />
+                <TableColumn fx:id="colMartes" prefWidth="100.0" text="Martes" />
+                <TableColumn fx:id="colMiercoles" prefWidth="100.0" text="Miércoles" />
+                <TableColumn fx:id="colJueves" prefWidth="100.0" text="Jueves" />
+                <TableColumn fx:id="colViernes" prefWidth="100.0" text="Viernes" />
+            </columns>
+        </TableView>
+        <ListView fx:id="hoy" layoutX="20.0" layoutY="58.0" prefHeight="185.0" prefWidth="600.0" />
+    </children>
+</AnchorPane>

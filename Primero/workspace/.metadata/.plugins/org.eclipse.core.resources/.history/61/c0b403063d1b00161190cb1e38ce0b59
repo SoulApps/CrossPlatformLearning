@@ -1,0 +1,28 @@
+package jugadores;
+
+import excepciones.PosicionNoValidaException;
+import materiales.Posicion;
+import materiales.Tablero;
+
+/**
+ * Created by Alejandro on 15/04/2016.
+ */
+public interface Colocar {
+    /**
+     * Este método colocará la ficha en la fila y columna pasada por parámetros.
+     * Funciona de la siguiente manera:
+     *      Teniendo una disposición tal que así jugando con fichas negras: [posición libre deseada] B B N
+     *      1.- Mirará en todas las direcciones si hay una ficha blanca.
+     *      1.1- Mirará si a la derecha en este caso hay alguna ficha blanca
+     *      2.- Al haberla, seguirá buscando más a la derecha una ficha negra.
+     *      3.- Al haberla, colocará la ficha en la posición deseada y volteará las fichas blancas que hay entre ellas.
+     *      3.1.- Si no hay, entonces no hará nada.
+     * @param posicion Es la posición en la que se colocará la ficha.
+     * @param tablero Es el tablero sobre el que se trabajará.
+     * @param turnoBlancas Sirve para indicar el color de la ficha que se va a colocar.
+     * @return Devuelve un entero que usará el método colocarFichaBot() para elegir la mejor opción.
+     * @throws PosicionNoValidaException Lanzará la excepción cuando se intente colocar una ficha en un lugar no válido,
+     * es decir, encima de otra ficha, o en un lugar donde no voltea.
+     */
+    int colocarFicha(Posicion posicion, Tablero tablero, boolean turnoBlancas) throws PosicionNoValidaException;
+}

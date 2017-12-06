@@ -1,0 +1,77 @@
+SE PUEDE INSERTAR:
+	1.-En línea(dentro de la etiqueta)
+		<p style="font-family:Verdana;font-size:medium;>Hòla</p>
+
+
+	2.-En la cabecera
+		<head>
+			<style type="text/css"(tal cual)>
+			body{background-color:blue;}
+			p{font-family:Verdana;}
+			</style>
+		</head>
+
+
+	3.-Externo
+		Fichero con .css y añadir en la cabecera:
+		<head>
+		Opción1.-- <link rel="stylesheet" type="text/css" href="estilo.css">
+		Opción2.-- <style type="text/css"> @import "estilo.css";</style>	
+		</head>
+
+		
+		Fichero:
+			body{background-color:blue;}
+			p{font-family:Verdana;}
+
+
+REGLA:
+	selector{propiedad:Valor;}
+
+		En el selector se indican qué etiquetas tendrán ese diseño y se indican con comas: p,h1,etiquetas{:;} y para todas se pone asterisco(*) *{:;},
+		para los descendentes se pone: p a{:;}(EJEMPLO: <p><span><a>)
+
+
+SELECTOR DE CLASE:
+	h3.grande{font-size:8px;}
+	.grande{:;}
+	<h3 class="grande">
+	
+	#cabecera{font-size:8px;}
+	<h3 id="cabecera"> id se usa solo una vez
+
+
+PSEUDO-CLASES(ver EjemploCSS2):
+	:link(Se aplica para los enlances que nunca se han visitado)
+	:visited(Se aplica para los enlances visitados)
+	p:hover(Se aplica al elemento seleccionado por el usuario pero sin hacerle click, pasando el ratón)
+	:active(Se aplica a los elementos que están siempre activados)
+	:focus(Se aplica para marcar el elemento en el que se encuentra)
+	
+MODELO DE CAJAS:
+	Contenido
+	Relleno(padding):Espacio entre el contenido y el borde. Es transparente.
+	Borde:Es transparente
+	Imagen de fondo(background-image)
+	Color de fondo(background-color)
+	Márgen(margin)
+	
+	Propiedades: width y height y se pueden expresar con px, %, heredados(inherit) o auto.
+	Para especificar uno de los márgenes se usa: margin, margin-top, margin-right, margin-left y margin-bottom.
+	Los padding tambien se puden especificar como los márgenes: padding, padding-top, padding-left, padding-right y padding-bottom.	
+	Border-width y se pueden especificar los lados (border-width, border-top-width) y ademas de px e inherit, no tiene % y sí tiene thin, medium y thick
+	y se le puede añadir color(defecto transparente). Para el estilo (border-top-style, etc) los atributos son dotted, dashed, solid, double, groove,
+	ridge, inset, outset, hidden, inherit,none.
+	Background-color: transparente o color.
+	Background-image: con la ruta.
+	Background-repead: repite la imagen muchas veces.
+		repeat, repeat-x(horizontal), repeat-y(vertical), no-repeat.
+	Background-position (vertical-horizontal): Para desplazar la imagen. medida, %, top, center, bottom, left, center, right.
+	Background-attachment: Barra de desplazamiento.
+		fired, scroll
+	Position: static, relative, absolute, fixed, inherit.
+
+	top, bottom, right, left.
+	
+	Float: left, right, none, inherit.
+	

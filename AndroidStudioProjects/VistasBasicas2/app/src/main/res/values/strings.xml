@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Vistas basicas</string>
+    <string name="edad">Edad*</string>
+    <string name="h">H</string>
+    <string name="m">M</string>
+    <string name="jamon">Jamón</string>
+    <string name="aceptado">Aceptado</string>
+    <string name="casado">Casado</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="sexo">Sexo</string>
+    <string name="baldomero">Baldomero</string>
+    <string name="repetidor">Repetidor</string>
+    <string name="email">Email*</string>
+    <string name="pareja">Pareja</string>
+    <string name="desc_imagen_de_baldomero">Imagen de Baldomero</string>
+</resources>

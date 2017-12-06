@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lista de la compra</string>
+    <string name="agregar">+</string>
+    <string name="listaVacia">Lista vacía</string>
+</resources>

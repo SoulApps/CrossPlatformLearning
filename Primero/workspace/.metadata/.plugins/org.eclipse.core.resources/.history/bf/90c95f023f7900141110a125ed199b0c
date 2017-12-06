@@ -1,0 +1,145 @@
+package Examenes;
+
+public class Ex02AlejandroSanchez {
+	
+	/*Sánchez Galvín, Alejandro
+	 * 
+	 * PLANTEAMIENTO:
+	 * 1.- Creamos la función crearSopaLetras.
+	 * 	1.1.-Se crea la tabla mediante un array de 16x16.
+	 *  1.2.- Creamos un bucle que vaya recorriendo el array 
+	 * 2.-Creamos las funciones que indican las posiciones
+	 * 3.-Creamos la función mostrarSopaLetras que nos mostrará las sopa de letras.
+	 */
+
+	public static void main(String[] args) {
+		
+		int fila,columna;
+		/*String[] palabras = new String [11];
+			palabras[0]="Programacion";
+			palabras[1]="BaseDeDatos";
+			palabras[2]="DesarrolloInterfaces";
+			palabras[3]="Marcas";
+			palabras[4]="Acceso A Datos";
+			palabras[5]="Fol";
+			palabras[6]="Entornos";
+			palabras[7]="Hlc";
+			palabras[8]="Android";
+			palabras[9]="Sistemas";
+			palabras[10]="Multihilo";
+			*/
+		String Programacion;
+		
+	}
+	
+	
+	public static String crearSopaLetras(String[] palabras,int derecha){
+		
+		String sopa[][]= new String[17][17];
+		palabras[6]=derecha;
+			
+		return sopa;
+		
+	}
+	
+	public static String mostarSopaLetras(String crearSopaLetras){
+		
+		System.out.println("----------------");
+		System.out.println("");
+		
+	}
+	
+	public static int izquierda(String[]array,int fila){
+		
+		
+		for(fila=0;fila<array.length;fila--){
+		System.out.println(array[1]);
+		
+		}
+	
+		return fila;
+	}
+	
+	
+	public static int derecha(String[]array,int fila){
+		
+		
+		for(fila=0;fila<array.length;fila++){
+		System.out.println(array[1]);
+		
+		}
+	
+		return fila;
+	}
+	
+	
+	public static int arriba(String[]array,int columna){
+		
+		
+		for(columna=0;columna<array.length;columna--){
+		System.out.println(array[1]);
+		
+		}
+	
+		return columna;
+	}
+	
+	
+	public static int abajo(String[]array,int columna){
+	
+	
+		for(columna=0;columna<array.length;columna++){
+		System.out.println(array[1]);
+		
+		}
+	
+		return columna;
+	}
+	
+	public static int abajoDerecha(String[]array,int fila,int columna){
+		
+		
+		for(fila=0;fila<array.length;fila++){
+			for(columna=0;columna<array.length;columna++){
+				
+			}
+		}
+	
+		return fila;
+	}
+	
+	public static int arribaDerecha(String[]array,int fila,int columna){
+		
+		
+		for(fila=0;fila<array.length;fila++){
+			for(columna=0;columna<array.length;columna--){
+				
+			}
+		}
+	
+		return fila;
+	}
+	public static int abajoIzquierda(String[]array,int fila,int columna){
+	
+	
+		for(fila=0;fila<array.length;fila--){
+			for(columna=0;columna<array.length;columna++){
+			
+			}
+		}
+
+		return fila;
+	}
+	public static int arribaIzquierda(String[]array,int fila,int columna){
+		
+		
+			for(fila=0;fila<array.length;fila--){
+				for(columna=0;columna<array.length;columna--){
+				
+				}
+		}
+			
+		return fila;
+	}
+}
+

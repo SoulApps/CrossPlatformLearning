@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+		<title>Formulario</title>
+		<style type="text/css">
+			.a{float:left; width:48%;}
+			.b{float:left; width:30%}
+			.c{float:left; width:53%; position:absolute;}
+			.d{float:right; width:40%;}
+			.d2{float:right;}
+			.d3{float:left;}
+		</style>
+	</head>
+	<body>
+		<h2>INDUSTRIAS FUERTES</h2>
+		<form action="null.html" method="post">
+			<fieldset>
+				<legend>FORMULARIO DE PEDIDO</legend>
+				<p><b>Paso 1. Identificaci&oacute;n</b></p>
+				<fieldset class="a">
+					<legend>Datos del cliente</legend>				
+					Correo Electr&oacute;nico<input type="text">
+					<br>Contrase&ntilde;a<input type="password">			
+				</fieldset>
+				<fieldset>
+					<legend>Tipo de Cliente</legend>
+					<table>
+						<tr>
+							<td><input type="radio" name="cliente" value="particular">Particular</td>
+							<td><input type="radio" name="cliente" value="asociacion">Asociaci&oacute;n</td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="cliente" value="empresa">Empresa</td>
+						</tr>
+					</table>
+				</fieldset>
+				<p><b>Paso 2. Pedido</b></p>
+				<fieldset class="b">
+					<legend>Datos del Producto</legend>
+					<p>Producto</p>
+					<select size="7">
+						<option value="#"><p><b>Armaduras</b></p></option>
+						<option value="ar001">AR001 Oro Reluciente</option>
+						<option value="ar002">AR002 Plata Pulida</option>
+						<option value="ar003">AR003 Bronce Reforzado</option>
+						<option value="#">Extras</option>
+						<option value="ex001">EX001 Escudo</option>
+						<option value="ex002">EX002 Invisibilidad</option>
+					</select>
+				</fieldset>
+				<fieldset>
+					<legend>Informaci&oacute;n de inter&eacute;s</legend>
+					<p>Comentarios</p>
+					<textarea rows="6" cols="100" placeholder="Escriba aqu&iacute; sus comentarios"></textarea>
+					<input type="text">Acepto recibir informaci&oacute;n publicitaria
+				</fieldset>
+				<fieldset class="c">
+					<legend>Datos de Env&iacute;o</legend>
+					<table>
+						<tr>
+							<td colspan="2">Direcci&oacute;n<input type="text" size="40"></td>
+						</tr>
+						<tr>
+							<td>Ciudad<input type="text"></td>
+							<td>C&oacute;digo Postal<input type="text" size="5"></td>
+						</tr>
+					</table>
+				</fieldset>
+				<fieldset class="d">
+					<legend>Datos Bancarios</legend>
+					Nombre de la entidad<input type="text">
+					<br>Nº de cuenta<input type="text">
+				</fieldset>
+			</fieldset>	
+			<button value="submit">ENVIAR PEDIDO</button>
+			<button value="reset" class="d2">RESET</button>			
+		</form>
+	</body>
+</html>

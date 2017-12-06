@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_contenido">10dp</dimen>
+    <dimen name="margen_superior">25dp</dimen>
+    <dimen name="margen_superior_mini">5dp</dimen>
+    <dimen name="ancho_linea_estado_incidencia">10dp</dimen>
+    <dimen name="margen_linea_estado_incidencia">5dp</dimen>
+    <dimen name="margen_lateral_incidencia">10dp</dimen>
+    <dimen name="altura_fila_incidencia">70dp</dimen>
+    <dimen name="padding_fila_inventario">5dp</dimen>
+    <dimen name="tamanho_progressbar_reserva">50dp</dimen>
+    <dimen name="tamanho_letra_reservado_por">15sp</dimen>
+    <dimen name="margen_superior_spn_aulas">20dp</dimen>
+    <dimen name="tamanho_btn_reintentar">16sp</dimen>
+    <dimen name="padding_reportar_incidencia">15dp</dimen>
+    <dimen name="margen_btn_ver_materiales">12dp</dimen>
+    <dimen name="tamanho_foto">64dp</dimen>
+</resources>

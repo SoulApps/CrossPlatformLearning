@@ -1,0 +1,9 @@
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaCheckBox2\PracticaCheckBox2\bin\Debug\PracticaCheckBox2.exe.config
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaCheckBox2\PracticaCheckBox2\bin\Debug\PracticaCheckBox2.exe
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaCheckBox2\PracticaCheckBox2\bin\Debug\PracticaCheckBox2.pdb
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaCheckBox2\PracticaCheckBox2\obj\Debug\PracticaCheckBox2.csprojResolveAssemblyReference.cache
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaCheckBox2\PracticaCheckBox2\obj\Debug\PracticaCheckBox2.Form1.resources
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaCheckBox2\PracticaCheckBox2\obj\Debug\PracticaCheckBox2.Properties.Resources.resources
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaCheckBox2\PracticaCheckBox2\obj\Debug\PracticaCheckBox2.csproj.GenerateResource.Cache
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaCheckBox2\PracticaCheckBox2\obj\Debug\PracticaCheckBox2.exe
+C:\Users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaCheckBox2\PracticaCheckBox2\obj\Debug\PracticaCheckBox2.pdb

@@ -1,0 +1,29 @@
+package estructurada;
+
+import java.util.Scanner;
+
+public class Blackjack2 {
+
+	public static void main(String[] args) {
+
+		final int DINERO = 100, BLACKJACK = 21;
+		boolean plantar = false, bj = false , otraCarta;
+		int carta1 = 0, carta2 = 0, sumaCartas = 0;
+		int jugador1, jugador2;
+		Scanner teclado = new Scanner(System.in);
+
+		do {
+			carta1 = Blackjack.darCartas();
+			sumaCartas = carta1 + carta2;
+			System.out.printf("%d\n", sumaCartas);
+			System.out.println("¿Quieres otra carta?");
+			otraCarta = teclado.nextBoolean();
+		} while (plantar == true || bj == true || otraCarta == true);
+		
+		if (sumaCartas == BLACKJACK) {
+			System.out.println("¡Blackjack!");
+		}
+
+	}
+
+}

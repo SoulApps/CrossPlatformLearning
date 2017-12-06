@@ -1,0 +1,3 @@
+Taller1, T1, Nada, Algeciras, 1
+Taller2, T2, Fasitidiar, Los Barrios, 2
+Taller3, T3, Nananananan, La Línea, 3

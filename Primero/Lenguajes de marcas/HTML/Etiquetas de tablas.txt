@@ -1,0 +1,29 @@
+Etiquetas de tablas
+
+<table border="2"(borde opcional,,,cuanto más grande es el número, más grande es el borde)>
+	<tr> (Fila de tabla)
+		<th>Igual que td pero para remarcar </td>
+		<td>(Columna de tabla) Contenido </td>
+		<td rowspan="2">Para conseguir una fila en una</td>
+	</tr>
+	<tr>
+		<td colspan="2">Para conseguir dos columnas en una</td>
+		<td></td>
+	</tr>
+</table>
+
+
+<table> (Tabla de 3x3)
+	<tr>
+		<td colspan="2" rowspan="2"> Dos columnas y dos filas</td>	
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>

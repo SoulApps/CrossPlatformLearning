@@ -1,0 +1,7 @@
+#Tue Dec 13 17:36:02 CET 2016
+base.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\ArrayAdapterCompra\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c6c0e9d641bf1ed167a2f27b5aaaf3caf64e8ee1
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\ArrayAdapterCompra\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_35780c1ad7aae1aba18c7266aa2100842e3236e6\\classes.dex
+base.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\ArrayAdapterCompra\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_35780c1ad7aae1aba18c7266aa2100842e3236e6
+file.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\ArrayAdapterCompra\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c6c0e9d641bf1ed167a2f27b5aaaf3caf64e8ee1\\classes.dex

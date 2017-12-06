@@ -1,0 +1,18 @@
+1431514735467	Move folder
+1431514736810	Move folder
+1431514737994	Move folder
+1431516101871	Move folder
+1431516117660	Delete element
+1431516534491	Rename type 'Action'
+1431516557471	Rename type 'CerrarCuentaAction'
+1431516563630	Rename type 'CrearCuentaAction'
+1431516570599	Rename type 'IngresarDineroAction'
+1431516585616	Rename type 'TransferirDineroAction'
+1431516607891	Rename method 'execute'
+1431516639367	Move compilation unit
+1431516677368	Move compilation unit
+1431516860388	Extract local variable 'variableLocal'
+1431516923485	Extract constant 'FICHERO_CONFIGURACION'
+1431516995398	Extract constant 'FACHADA_MODELO'
+1431517158109	Convert local variable 'micuenta' to field
+1431517657708	Extract constant 'FACHADA_MODELO'

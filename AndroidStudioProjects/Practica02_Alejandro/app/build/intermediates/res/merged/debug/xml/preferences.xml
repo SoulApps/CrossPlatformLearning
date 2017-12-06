@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/pantalla_inicial_default"
+        android:id="@string/pantalla_inicial"
+        android:entries="@array/pantalla_inicial"
+        android:entryValues="@array/pantalla_inicial"
+        android:title="@string/pantalla_inicial"
+        android:key="@string/pantalla_inicial" />
+
+</PreferenceScreen>

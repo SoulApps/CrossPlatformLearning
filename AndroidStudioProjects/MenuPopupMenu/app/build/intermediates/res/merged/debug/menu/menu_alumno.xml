@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nmuLlamar"
+        android:title="@string/llamar"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/nmuEnviarEmail"
+        android:title="@string/enviar_email"
+        app:showAsAction="never" />
+
+</menu>

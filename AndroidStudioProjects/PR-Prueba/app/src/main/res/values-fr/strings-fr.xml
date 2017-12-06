@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PR-Prueba</string>
+    <string name="nombre">Nombre</string>
+    <string name="saludar">Saludar</string>
+    <string name="hola">Hola %1$s</string>
+    <string name="insultar">Insultar</string>
+    <string name="me_acuerdo">Me acuerdo de tu familia %1$s</string>
+    <string name="vacio" />
+</resources>

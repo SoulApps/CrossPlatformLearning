@@ -1,0 +1,11 @@
+1431948206333	Extract method 'esBaseIgual'
+1431948424594	Extract method 'sumaExponente'
+1431948572408	Extract interface 'Multiplicable'
+1431948699224	Introduce Parameter Object
+1431948750506	Change method 'multiplicar'
+1431948866419	Extract superclass 'PotenciaSimple'
+1431951053967	Move compilation units
+1431951106331	Rename package 'Anonima.src'
+1431951137602	Delete element
+1431951861457	Convert anonymous class to nested
+1431952751418	Move type 'Punto' to new file

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">root</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost/horario</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.search.autoregister_listeners">false</property>
+        <mapping resource="clases/Tramohorario.hbm.xml" />
+        <mapping resource="clases/Asignatura.hbm.xml" />
+        <mapping resource="clases/Ofertaeducativa.hbm.xml" />
+        <mapping resource="clases/Reparto.hbm.xml" />
+        <mapping resource="clases/Profesor.hbm.xml" />
+        <mapping resource="clases/Historico.hbm.xml" />
+        <mapping resource="clases/Horario.hbm.xml" />
+        <mapping resource="clases/Curso.hbm.xml" />
+    </session-factory>
+</hibernate-configuration>

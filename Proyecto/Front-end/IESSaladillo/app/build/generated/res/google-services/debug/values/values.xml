@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">495875706906-9asp438n4d3h7veocnjfp261rmea7qpg.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">495875706906</string>
+    <string name="google_api_key" translatable="false">AIzaSyAxoyDojrbuxCfT6GOFYVNdqRE_FqAFf4g</string>
+    <string name="google_app_id" translatable="false">1:495875706906:android:20b0e8eb6bb23c03</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAxoyDojrbuxCfT6GOFYVNdqRE_FqAFf4g</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.saladillo.alejandro.listaalumnos.FormularioActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblNombre"
+        android:text="@string/nombre"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toTopOf="@+id/txtNombre"
+        app:layout_constraintRight_toLeftOf="@+id/txtNombre"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/lblEdad" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/txtNombre"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lblNombre"
+        app:layout_constraintLeft_toRightOf="@+id/lblNombre"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        tools:text="Nombre"
+        app:layout_constraintHorizontal_bias="0.05" />
+
+    <TextView
+        android:text="@string/edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblEdad"
+        app:layout_constraintLeft_toLeftOf="@+id/lblNombre"
+        app:layout_constraintTop_toBottomOf="@+id/lblNombre"
+        app:layout_constraintBottom_toTopOf="@+id/chkRepetidor"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:text="@string/repetidor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/lblEdad"
+        android:id="@+id/chkRepetidor"
+        app:layout_constraintLeft_toLeftOf="@+id/lblNombre" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        tools:text="20"
+        android:ems="3"
+        app:layout_constraintLeft_toLeftOf="@+id/txtNombre"
+        android:id="@+id/txtEdad"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lblEdad" />
+
+    <!-- <ImageView
+        android:layout_width="249dp"
+        android:layout_height="229dp"
+        app:srcCompat="@drawable/kappa"
+        android:id="@+id/imageView"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnGuardar"
+        android:layout_marginBottom="8dp" /> -->
+
+    <Button
+        android:text="@string/guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGuardar"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp" />
+
+</android.support.constraint.ConstraintLayout>

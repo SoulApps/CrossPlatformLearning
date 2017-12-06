@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_2a317f21ad154393ab1b62e2e3a7007fa182bf65\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_2a317f21ad154393ab1b62e2e3a7007fa182bf65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_4919326863c52fabb39b06eb9e09641229ec8901.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_c05f93c908735fccdfc329c68bf02a6201be5080.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_20853ce457be6a7c5379cadb8349f47ff48d525a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_20853ce457be6a7c5379cadb8349f47ff48d525a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_4919326863c52fabb39b06eb9e09641229ec8901\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_fda628eb7543c6a03ceece96239b862e1cefc356.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_ac43a6261723d4cbe042b61fd5bb7ecfaea206a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_9e5f947abc0b59751c6bdd3517f05fbab0b26f36.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9936d5be1f18fe4a58db1866ebcab7ff1638134a">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e1c1269662e8fbeacfee131a37ead7209c2b8bc1\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_bcec3a0c14af14aa39f58ad857f6ded050247052.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_668fc0c3f8e9ad22ff2dde0deebb3ac3a85577da.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9e5f947abc0b59751c6bdd3517f05fbab0b26f36\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_668fc0c3f8e9ad22ff2dde0deebb3ac3a85577da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_ac43a6261723d4cbe042b61fd5bb7ecfaea206a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_bcec3a0c14af14aa39f58ad857f6ded050247052\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_fda628eb7543c6a03ceece96239b862e1cefc356\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_06791536cfe27d56825a6481190098f208dc608e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_06791536cfe27d56825a6481190098f208dc608e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="42021912d00dc141d6c917f5e7b218f3f2383f63">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fb1bf559053e725af96a97f32edc7b9473189fda\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8d5349fcd047d2d0206f8bbf5880f97d85fe88a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_7bea72f8681f8240d892ae39b0fdfbc7d9a7e324.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_7bea72f8681f8240d892ae39b0fdfbc7d9a7e324\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_c05f93c908735fccdfc329c68bf02a6201be5080\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_1a79786ee1f7986cc667dce0a3e98f2078e28643.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_8d5349fcd047d2d0206f8bbf5880f97d85fe88a6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_1a79786ee1f7986cc667dce0a3e98f2078e28643\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_cfb0f83fd4d42bf27ca5ffdeaf92474ed3f5f1fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_0bb5744a372311280e49584fcf253ba856117fe2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_cfb0f83fd4d42bf27ca5ffdeaf92474ed3f5f1fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\ale_z\AndroidStudioProjects\GridView\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_0bb5744a372311280e49584fcf253ba856117fe2\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="249dp"
+        android:layout_marginStart="249dp"
+        android:id="@+id/lblEdad"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/lblNombre"
+        android:layout_toEndOf="@+id/lblNombre" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblNombre"
+        android:layout_alignBaseline="@+id/lblEdad"
+        android:layout_alignBottom="@+id/lblEdad" />
+</RelativeLayout>

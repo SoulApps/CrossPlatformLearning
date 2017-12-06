@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Progreso</string>
+    <string name="num_tarea">Tarea %1$d de 10</string>
+    <string name="trabajo">Trabajando...</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="terminado">Todo terminado</string>
+</resources>

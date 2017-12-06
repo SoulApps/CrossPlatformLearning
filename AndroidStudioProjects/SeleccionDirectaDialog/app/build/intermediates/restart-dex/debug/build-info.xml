@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="127948332014447"
+    token="6450074244012637834"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="208" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="37" />
+    <task
+        name="verifier"
+        duration="3" />
+
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\SeleccionDirectaDialog\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="121643807804945"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\SeleccionDirectaDialog\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="126160804842157"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\SeleccionDirectaDialog\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\SeleccionDirectaDialog\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="127948332014447"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\SeleccionDirectaDialog\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,36 @@
+package Examenes;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Examen {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		int num[][] = new int[4][4];
+		boolean suma = true;
+		int fila = 0, columna = 0, diagonal1 = 0, diagonal2 = 0, resultado = 0;
+		int i, j;
+		boolean error = false;
+		
+		for (i = 0; i < num.length; i++) {
+			for (j = 0; j < num[i].length; j++) {
+				do {
+					try {
+						
+						System.out.printf("%nIntroduce un número en la posición %d,%d: ",i,j);
+						num[i][j] = teclado.nextInt();
+						error = false;
+					} catch (InputMismatchException e) {
+						teclado.nextLine();
+						error = true;
+						System.out.println(" Error ");
+					}
+				} while (error);
+			}
+		}
+
+	}
+
+}

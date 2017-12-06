@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\chuck_ic_share_white_24dp.png",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\exploded-aar\\com.readystatesoftware.chuck\\library\\1.0.2\\res\\drawable-ldpi-v4\\chuck_ic_share_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\chuck_ic_search_white_24dp.png",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\exploded-aar\\com.readystatesoftware.chuck\\library\\1.0.2\\res\\drawable-ldpi-v4\\chuck_ic_search_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\chuck_ic_delete_white_24dp.png",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\exploded-aar\\com.readystatesoftware.chuck\\library\\1.0.2\\res\\drawable-ldpi-v4\\chuck_ic_delete_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\chuck_ic_https_grey_24dp.png",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\exploded-aar\\com.readystatesoftware.chuck\\library\\1.0.2\\res\\drawable-ldpi-v4\\chuck_ic_https_grey_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\chuck_ic_notification_white_24dp.png",
+        "source": "C:\\Users\\ale_z\\AndroidStudioProjects\\StarWars\\app\\build\\intermediates\\exploded-aar\\com.readystatesoftware.chuck\\library\\1.0.2\\res\\drawable-ldpi-v4\\chuck_ic_notification_white_24dp.png"
+    }
+]

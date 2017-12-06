@@ -1,0 +1,23 @@
+<eventos>
+	<evento n="1">
+		<senaldeobras>obras.gif</senaldeobras>
+		<puntokilometrico medida="km">42</puntokilometrico>
+		<nombredelavia>A-49</nombredelavia>
+		<sentido>Huelva</sentido>
+		<cortedelavia>1</cortedelavia>
+		<fecha>2012-03-12</fecha>
+		<hora>12:53</hora>
+		<retencion>SI</retencion>
+		<kilometrosderetencion medida="km">8</kilometrosderetencion>
+	</evento>
+	<evento n="2">
+		<senalderetencion>retencion.gif</senalderetencion>
+		<puntokilometrico medida="km">550</puntokilometrico>
+		<nombredelavia>A-4</nombredelavia>
+		<sentido>Sevilla</sentido>
+		<fecha>2012-02-29</fecha>
+		<hora>18:38</hora>
+		<retencion>SI</retencion>
+		<kilometrosderetencion medida="km">3</kilometrosderetencion>
+		</evento>
+</eventos>

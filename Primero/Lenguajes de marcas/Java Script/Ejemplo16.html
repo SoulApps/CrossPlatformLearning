@@ -1,0 +1,18 @@
+<HTML>
+<SCRIPT LANGUAGE="JavaScript">
+// PROG017.HTM
+var nom;
+var indice=1;
+var num;
+var respuesta=" ";
+nom=prompt("Escribe tu nombre","");
+num=prompt("Cuántas veces quieres que lo repita","");
+num=parseInt(num,10); // era una cadena y ahora es un número
+while (indice <= num)
+{
+respuesta=respuesta+nom+"\n";
+indice++;
+}
+alert(respuesta);
+</SCRIPT>
+</HTML>

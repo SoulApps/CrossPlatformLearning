@@ -1,0 +1,12 @@
+
+
+
+Lenguaje de Marcas
+
+Un lenguaje de marcado o lenguaje de marcas es una forma de codificar un documento que, junto con el texto,incorpora etiquetas o marcas que contienen información adicional acerca de la estructura del texto o su presentacion. El lenguaje de marcas mas extendido es el HTML, fundamento del World Wide Web. Los lenguajes de marcado suelen confundirse con los lenguajes de programación. Sin embargo, no son lo mismo, ya que el lenguaje de marcado no tiene funciones aritméticas o variables, como si poseen los lenguajes de programación. Historicamenta el marcado se usaba y se usa en la industria editorial y de la comunicación, así como entre autores, editores e impresores.
+La generalización de los lenguajes de marcas
+
+La iniciativa que sentaría las bases de los actuales lenguajes, partiría de la empres IBM, que buscaba nuevas soluciones para mantener grandes cantidades de documentos. El trabajo fue encomendado a Charles F. Goldfarb, que junto con Edward Mosher y Raymond Lorie, diseño el Generalized Markup Languaje o GML (nótese que también son las iniciales de sus creadores).
+Este lenguaje heredó del proyecto GenCode la idea de que la presentación debe separarse del contenido. El marcado, por tanto, se centra en definir la estructura del texto y no su presentación visual.
+
+El lenguaje GML fué un gran éxito y pronto se extendió a tros ambitos, siendo adoptado por el gobierno de Estados Unidos, con lo que surgió la necesidad de estandarizrlo.

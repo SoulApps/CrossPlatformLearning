@@ -1,0 +1,17 @@
+<agenda orden="alfabetico">
+	<letra alfabeto="a">
+		<nombre>Alejandro</nombre>
+		<apellidos>Alvarez Andrades</apellidos>
+		<direccion>
+			<calle>Falsa</calle>
+			<numero>123</numero>
+			<codigopostal>11207</codigopostal>
+			<poblacion>Algeciras</poblacion>
+		</direccion>
+		<telefonos>
+			<casa>123456789</casa>
+			<movil>987654321</movil>
+			<trabajo>567483921</trabajo>
+		</telefonos>
+	</letra>
+</agenda>

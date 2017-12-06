@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/drawer_nav"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_reservar"
+            android:title="@string/reservar" />
+        <item
+            android:id="@+id/nav_reportar"
+            android:title="@string/reportar_incidencia" />
+    </group>
+
+    <group
+        android:id="@+id/otros_nav"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_cerrar_sesion"
+            android:title="@string/cerrar_sesion" />
+    </group>
+</menu>

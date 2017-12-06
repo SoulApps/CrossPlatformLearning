@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "245197561083",
+    "firebase_url": "https://pruebaalumnos-a0d1d.firebaseio.com",
+    "project_id": "pruebaalumnos-a0d1d",
+    "storage_bucket": "pruebaalumnos-a0d1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245197561083:android:ee5053d759fd213a",
+        "android_client_info": {
+          "package_name": "es.saladillo.alejandro.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245197561083-9dbpge4vfbkrrjqlev8j3kcnallkjti3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "es.saladillo.alejandro.firebase",
+            "certificate_hash": "fbe427085acd3f5939e0ce915cef593e9f2bd97d"
+          }
+        },
+        {
+          "client_id": "245197561083-vasbkk78abodip75guoq9e6kia53g0me.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAObLYMTp-t8pqIHS1GRWQvd6MhWhYXOAQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245197561083-vasbkk78abodip75guoq9e6kia53g0me.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+package estructurada;
+
+public class Ejercicio31 {
+
+	public static void main(String[] args) {
+
+		int i, j;
+		String n = "N", b = "B";
+		
+		for (i = 1, j = 1; i <= 8 && j <= 8; i++) {
+			if ((i + j) %2 == 0) {
+				System.out.println(n);
+			}
+			else if ((i + j) %2 == 0) {
+				System.out.println(b);
+			}
+		}
+	}
+
+}

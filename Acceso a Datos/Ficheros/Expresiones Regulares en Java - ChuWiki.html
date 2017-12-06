@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java -->
+<html lang="es" dir="ltr" class="client-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Expresiones Regulares en Java - ChuWiki</title>
+<script async="" src="http://www.google-analytics.com/analytics.js"></script><script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>window.RLQ = window.RLQ || []; window.RLQ.push( function () {
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Expresiones_Regulares_en_Java","wgTitle":"Expresiones Regulares en Java","wgCurRevisionId":4553,"wgRevisionId":4553,"wgArticleId":1676,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Java:Básico"],"wgBreakFrames":!1,"wgPageContentLanguage":"es","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"],"wgMonthNamesShort":["","ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"],"wgRelevantPageName":"Expresiones_Regulares_en_Java","wgRelevantArticleId":1676,"wgIsProbablyEditable":!1,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"variant":"es"});});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits"]);
+} );</script>
+<link rel="stylesheet" href="./Expresiones Regulares en Java - ChuWiki_files/load.php">
+<!--[if IE 6]><link rel="stylesheet" href="/skins/MonoBook/IE60Fixes.css?303" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/skins/MonoBook/IE70Fixes.css?303" media="screen" /><![endif]-->
+<style>
+.mw-collapsible-toggle{float:right;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}  .mw-content-ltr .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr .mw-collapsible-toggle{float:right} .mw-content-rtl .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl .mw-collapsible-toggle{float:left}.mw-customtoggle,.mw-collapsible-toggle{cursor:pointer} caption .mw-collapsible-toggle,.mw-content-ltr caption .mw-collapsible-toggle,.mw-content-rtl caption .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr caption .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl caption .mw-collapsible-toggle{float:none} li .mw-collapsible-toggle,.mw-content-ltr li .mw-collapsible-toggle,.mw-content-rtl li .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr li .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl li .mw-collapsible-toggle{float:none} .mw-collapsible-toggle-li{list-style:none}
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:none;z-index:1099;padding:0;margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0}.suggestions-result{color:black;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#4C59A6;color:white}.suggestions-special .special-label{color:gray;text-align:left}.suggestions-special .special-query{color:black;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:silver}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:white}.highlight{font-weight:bold}
+.postedit-container{margin:0 auto;position:fixed;top:0;height:0;left:50%;z-index:1000;font-size:13px}.postedit-container:hover{cursor:pointer}.postedit{position:relative;top:0.6em;left:-50%;padding:.6em 3.6em .6em 1.1em;line-height:1.5625em;color:#626465;background-color:#f4f4f4;border:1px solid #dcd9d9;text-shadow:0 0.0625em 0 rgba(255,255,255,0.5);border-radius:5px;box-shadow:0 2px 5px 0 #ccc;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.skin-monobook .postedit{top:6em !important}.postedit-faded{opacity:0}.postedit-icon{padding-left:41px;  line-height:25px;background-repeat:no-repeat;background-position:8px 50%}.postedit-icon-checkmark{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABblBMVEUAAAD///////9PfTf///80aRdTgjn///9Feij///////////9Rfzf///////////9PfjZRgDh1o1xOfTb///////+bwYqLtnj///////9PfTa82K////9WhT6YxIL///9QgDdTgzr////////j7uDl7eLq8efi693k7OH///////9UhjuBr2rp9uRUhjr///9YljVKgir///9WiTlYjT3////9/v57vFlbkT5PjC9dlD/5/fhuq09stUTs9uhxuElctCpfnT1huDFloEZloUZmpENmvDZpvDxpvTxqvjxrvT5rvT9rwTxsqktswD5uwkBvuUdxw0NztFBztU9ztVBzwkp0tlJ1xkd2t1R3uVR4w1F4xk54x014yE15uVZ5v1R5xVB6v1R7yFJ8wVh9xVl9yFR9yVd9ylN+xVh+yFd/x1l/yFeAylmEx1+Ny2uY0Hqe04Wj1Ymv3Ze33qLD47TJ5L3O6cPU7Mrq9eb2+/Q4j37OAAAAQHRSTlMAAQIEBAUFBQwPFB4fJCUoKiosQEhJS01RUlZZXmdydXaChYuSlJSWmJmoq6uur8LExcvM19fg5ejt8fX2+Pr7SljgewAAAKpJREFUGBkFwQNCAwAAAMDLtl3LtrG4rWXbtvX77gAgZ6grFwC0bhwNVgKgdPZx8b0dgLi+s7Wn0VoAqpfOI9+BNADZI7fLrz2pSEwGHZuH+78lSK8ZLkLezF3ooyUG3VPXq2USei9WngeyoG195yBYWDF3E/2pAhl1e9Gr8bGT+bfOFCC2fnvh4X7rcqIAQNNu+HT6sxkAjceTL/2ZAIhv+PorBwBJxfkA//dFHSCBy/UTAAAAAElFTkSuQmCC);background-image:url(/resources/src/mediawiki.action/images/green-checkmark.png?9048a)!ie;background-position:left}.postedit-close{position:absolute;padding:0 .8em;right:0;top:0;font-size:1.25em;font-weight:bold;line-height:2.3em;color:black;text-shadow:0 0.0625em 0 white;text-decoration:none;opacity:0.2;filter:alpha(opacity=20)}.postedit-close:hover{color:black;text-decoration:none;opacity:0.4;filter:alpha(opacity=40)}</style><style>
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:black;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:white}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}</style><meta name="ResourceLoaderDynamicStyles" content="">
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script async="" src="./Expresiones Regulares en Java - ChuWiki_files/load(1).php"></script>
+<meta name="generator" content="MediaWiki 1.26.2">
+<link rel="shortcut icon" href="http://chuwiki.chuidiang.org/favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="http://chuwiki.chuidiang.org/opensearch_desc.php" title="ChuWiki (es)">
+<link rel="EditURI" type="application/rsd+xml" href="http://chuwiki.chuidiang.org/api.php?action=rsd">
+<link rel="alternate" type="application/atom+xml" title="Canal Atom de ChuWiki" href="http://chuwiki.chuidiang.org/index.php?title=Especial:CambiosRecientes&amp;feed=atom">
+<style type="text/css">:root #content > #center > .dose > .dosesingle,
+:root #content > #right > .dose > .dosesingle,
+:root .addthis_toolbox
+{display:none !important;}</style><script src="./Expresiones Regulares en Java - ChuWiki_files/load(2).php"></script></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Expresiones_Regulares_en_Java skin-monobook action-view">
+<div id="globalWrapper">
+		<div id="column-content">
+			<div id="content" class="mw-body" role="main">
+				<a id="top"></a>
+				
+				<div class="mw-indicators">
+</div>
+				<h1 id="firstHeading" class="firstHeading" lang="es">Expresiones Regulares en Java</h1>
+				
+				<div id="bodyContent" class="mw-body-content">
+					<div id="siteSub">De ChuWiki</div>
+					<div id="contentSub"></div>
+										<div id="jump-to-nav" class="mw-jump">Saltar a: <a href="http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java#column-one">navegación</a>, <a href="http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java#searchInput">buscar</a></div>
+
+					<!-- start content -->
+					<div id="mw-content-text" lang="es" dir="ltr" class="mw-content-ltr"><!-- AddThis Button BEGIN -->
+			<div class="addthis_toolbox addthis_default_style" id="addthistoolbar" style="background:#f6f6f6; border-color:#a7d7f9;">
+			<a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=" class="addthis_button_compact">&nbsp;Compartir</a><span class="addthis_separator">&nbsp;</span><a class="addthis_button_facebook"></a><a class="addthis_button_twitter"></a><a class="addthis_button_google_plusone" g:plusone:count="false" style="margin-top:1px;"></a><a class="addthis_button_linkedin"></a><a class="addthis_button_tumblr"></a><a class="addthis_button_stumbleupon"></a><a class="addthis_button_reddit"></a><a class="addthis_button_email"></a></div>
+			<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script><div id="toc" class="toc"><div id="toctitle"><h2>Contenido</h2><span class="toctoggle">&nbsp;[<a href="http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java#" id="togglelink">ocultar</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java#Una_peque.C3.B1a_introducci.C3.B3n"><span class="tocnumber">1</span> <span class="toctext">Una pequeña introducción</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java#Extraer_partes_de_la_cadena"><span class="tocnumber">2</span> <span class="toctext">Extraer partes de la cadena</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java#Buscar_a_lo_largo_de_la_cadena"><span class="tocnumber">2.1</span> <span class="toctext">Buscar a lo largo de la cadena</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java#Un_ejemplo_para_extraer_direcciones_de_email"><span class="tocnumber">2.2</span> <span class="toctext">Un ejemplo para extraer direcciones de email</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java#Greedy.2C_reluctant_y_possesive"><span class="tocnumber">2.3</span> <span class="toctext">Greedy, reluctant y possesive</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Una_peque.C3.B1a_introducci.C3.B3n">Una pequeña introducción</span></h2>
+<p>A veces es necesario que nuestro código analice una cadena de caracteres para buscar algo o bien para comprobar que cumple un determinado patrón. Por ejemplo, si pedimos por teclado una fecha dd/mm/yy, necesitamos comprobar si la cadena leída cumple ese patrón: dos cifras, una barra, dos cifras, otra barra y otras dos cifras.
+</p><p>Las expresiones regulares de <a href="http://chuwiki.chuidiang.org/index.php?title=Categor%C3%ADa:Java" title="Categoría:Java">java</a> nos ayudan a hacer estos análisis. No vamos a dar aquí una lista detallada de todas las posibilidades, pero sí una pequeña introducción.
+</p><p>Para el ejemplo anterior, si queremos comprobar que una cadena leída por teclado cumple ese patrón, podemos usar la clase <i>Pattern</i>. A la clase <i>Pattern</i> le decimos el patrón que queremos que cumpla nuestra cadena y nos dice si la cumple o no.
+</p><p>El siguiente ejemplo comrpueba si la cadena cumple
+</p>
+<pre>String fechaLeida = "11/22/07";
+// Lo siguiente devuelve true
+boolean cumplePatron = Pattern.matches("\\d\\d/\\d\\d/\\d\\d", fechaLeida);
+
+fechaLeida="2/3/4";
+// Lo siguiente devuelve false
+cumplePatron = Pattern.matches("\\d\\d/\\d\\d/\\d\\d", fechaLeida);
+</pre>
+<p>En el primer caso, fechaLeida tiene una fecha en el formato que la esperamos -aunque es incorrecta, no hay mes 22-. El patrón es el primer parámetro del método matches(), ese que tiene tantas \ y tantas d. En un patrón de estos, \\d representa un dígito. Así, nuestro patrón dice que debe haber dos dígitos, una /, dos dígitos, una barra y otros dos dígitos.
+</p><p>El primer matches(), con fechaLeida="11/22/07" cumple el patrón, así que matches() devuelve true.
+</p><p>En el segundo caso, la fechaLeida sólo tiene un dígito en cada caso, así que no cumple el patrón y devulve false.
+</p><p>Si queremos algo más sofisticado, para que se admitan los días y meses con uno o dos dígitos, podemos usar el siguiente patrón
+</p>
+<pre>String fechaLeida = "11/22/07";
+// devuelve true
+cumplePatron = Pattern.matches("\\d{1,2}/\\d{1,2}/\\d{1,2}", fechaLeida);
+
+fechaLeida="2/3/4";
+// devuelve true
+cumplePatron = Pattern.matches("\\d{1,2}/\\d{1,2}/\\d{1,2}", fechaLeida);
+</pre>
+<p>Ahora, la expresión \\d{1,2} indica un dígito entre 1 y 2 veces, es decir, uno o dos dígitos.
+</p><p>Hay muchas más opciones. Una vez que entendemos el concepto, no te costará entender la lista completa en la <a rel="nofollow" class="external text" href="http://java.sun.com/javase/6/docs/api/java/util/regex/Pattern.html">API de Pattern</a>.
+</p>
+<h2><span class="mw-headline" id="Extraer_partes_de_la_cadena">Extraer partes de la cadena</span></h2>
+<p>Una vez que vemos la forma de ver si una cadena cumple el patrón dd/mm/yy, podemos querer extraer esas cifras. Nuevamente las expresiones regulares de java nos ayudan. Cambiemos el ejemplo. Queremos extraer los sumandos y el resultado de una cadena así "xxxx+yyyy=zzzzz" donde x, y y z representan dígitos y pueden ser en cualquier número.
+</p><p>Con \\d+ indicamos uno o más dígitos. La expresión regular para ver si una cadena cumple ese patrón puede ser "\\d+\\+\\d+=\\d+". Puesto que el + tiene un sentido especial en los patrones -indica uno o más-, para ver si hay un + en la cadena, tenemos que "escaparlo", por eso el \\+
+</p><p>Las partes que queramos extraer, debemos meterlas entre paréntesis. Así, la expresión regular quedaría "(\\d+)\\+(\\d+)=(\\d+)".
+</p><p>El código para extraer los sumandos y el resultado puede ser así
+</p>
+<pre>// La cadena a analizar
+String cadena = "23+12=35";
+
+// Obtenemos un Pattern con la expresión regular, y de él
+// un Matcher, para extraer los trozos de interés.
+Pattern patron = Pattern.compile("(\\d+)\\+(\\d+)=(\\d+)");
+Matcher matcher = patron.matcher(cadena);
+
+// Hace que Matcher busque los trozos.
+matcher.find();
+
+// Va devolviendo los trozos. El primer paréntesis es el 1,
+// el segundo el 2 y el tercero el 3
+System.out.println(matcher.group(1));
+System.out.println(matcher.group(2));
+System.out.println(matcher.group(3));
+
+// La salida de este programa es
+// 23
+// 12
+// 35
+</pre>
+<h3><span class="mw-headline" id="Buscar_a_lo_largo_de_la_cadena">Buscar a lo largo de la cadena</span></h3>
+<p>Supongamos la siguiente cadena de text &lt;a&gt;uno&lt;/a&gt;&lt;b&gt;dos&lt;/b&gt;&lt;c&gt;tres&lt;/c&gt; y que queremos extraer usando expresiones regulares los trozos que hay entre los tags &lt;a&gt;, &lt;b&gt; y &lt;c&gt;, es decir, "uno", "dos" y "tres".
+</p><p>No es necesario que la cadena coincida exactamente con el patrón en su longitud total. Es posible tener una cadena larga, por ejemplo &lt;a&gt;uno&lt;/a&gt;&lt;b&gt;dos&lt;/b&gt;&lt;c&gt;tres&lt;/c&gt; y un patrón que sólo coincida con parte de la cadena, por ejemplo, &lt;[^&gt;]*&gt;([^&lt;]*)&lt;/[^&gt;]*&gt;. Es decir
+</p>
+<ul><li> &lt;[^&gt;]*&gt; Este trozo busca los tags encerrados entre los símbolos mayor y menor. El [^&gt;] indica cualquier caracter que no sea &gt;. El * detrás indica que puede estar 0 o más veces.</li>
+<li> ([^&lt;]*) Busca lo que hay entre tags, es decir, cualquier caracter que no sea "menor que". Como es lo que queremos extraer de la cadena, lo ponemos entre paréntesis, de forma que el método find() será lo que nos vaya devolviendo en sucesivas llamadas.</li>
+<li> &lt;/[^&gt;]*&gt; Buscamos la finalización del tag, es decir, un menor qué, seguido de una barra / y todos los caracteres que no sean "mayor qué".</li></ul>
+<p>Esa expresión regular extraería de la cadena el "uno" en una primera llamada a find(). Tendríamos que hacer un bucle para repetir tantas veces como sea necesario. El bucle sería como el siguiente
+</p>
+<pre>String cadena = "&lt;a&gt;uno&lt;/a&gt;&lt;b&gt;dos&lt;/b&gt;&lt;c&gt;tres&lt;/c&gt;";
+Pattern pattern1 = Pattern.compile("&lt;[^&gt;]*&gt;([^&lt;]*)&lt;/[^&gt;]*&gt;");
+Matcher matcher1 = pattern1.matcher(cadena);
+
+for (int i = 0; i &lt; 1; i++) {
+   while (matcher1.find()) {
+      System.out.println(matcher1.group(1));
+   }
+}
+</pre>
+<p>Es decir, una vez construído el Matcher, vamos haciendo sucesivas llamadas a find() para obtener el contenido de cada uno de los tags. Como en nuestro patrón sólo hay un paréntesis, el group() siempre será el 1.
+</p>
+<h3><span class="mw-headline" id="Un_ejemplo_para_extraer_direcciones_de_email">Un ejemplo para extraer direcciones de email</span></h3>
+<p>El siguiente ejemplo extrae las direcciones de email existentes en un String
+</p>
+<pre class="sh_java">
+package com.chuidiang.ejemplos;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class ExtractorEmails {
+
+    public static void main(String[] args) {
+        String entrada = "&lt;p&gt;hola@pedro.com&lt;/p&gt;&lt;br&gt;\n";
+        entrada += "kk@tres.tris///pepe@eso.es";
+
+        Pattern limpiar = Pattern
+                .compile("([_A-Za-z0-9-]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,}))");
+        Matcher buscar = limpiar.matcher(entrada);
+        while (buscar.find())
+            System.out.println(buscar.group(1));
+    }
+}
+</pre>
+<p>La salida de este código será
+</p>
+<pre>hola@pedro.com
+kk@tres.tris
+pepe@eso.es
+</pre>
+<p>La expresión regular que hemos usado para el correo [_A-Za-z0-9-]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,}) la he extraído de aquí <a rel="nofollow" class="external free" href="http://www.mkyong.com/regular-expressions/how-to-validate-email-address-with-regular-expression/">http://www.mkyong.com/regular-expressions/how-to-validate-email-address-with-regular-expression/</a> Básicamente dice que el correo
+</p>
+<ul><li> <b>[_A-Za-z0-9-]+</b> debe empezar por alguno de los caracteres entre los corchetes ( _ - mayúscula, minúscula o número), una o más veces (el +)</li>
+<li> <b>(\\.[_A-Za-z0-9-]+)*</b> seguido de 0 o más (el * del final) de cualquiera de los caracteres entre paréntesis, que son los mismos de antes más el punto, pero no puede haber dos puntos seguidos (el + detrás de los corchetes indica que después de un punto debe haber al menos una letra o cifra. Es decir, este chorizo representa que puede haber un punto seguido de al una o más letras/dígitos, todas las veces que queramos.</li>
+<li> <b>@</b> este es fácil, una @</li>
+<li> <b>[A-Za-z0-9]+</b> Una o más letras, mayúsculas, minúsculas o dígitos</li>
+<li> <b>(\\.[A-Za-z]{2,})</b> Un punto y al menos dos letras mayúsculas o minúsculas, sin dígitos.</li></ul>
+<h3><span class="mw-headline" id="Greedy.2C_reluctant_y_possesive">Greedy, reluctant y possesive</span></h3>
+<p>Cuando java intenta encajar un patrón en una cadena, puede haber varias posibles coincidencias. Por ejemplo, si la cadena es "aaaaa" y el patrón es "a*", podría considerarse que el patrón se cumple 5 veces (es decir, el * se tomaría como 1 ocurrencia y a* se interpretaría como "a"), o bien podría interpretarse que el patrón sólo se cumple una vez, es deicr, el * sería 5 ocurrencias y "a*" sería "aaaaa". Java nos permite elegir cómo queremos que se haga.
+</p><p>Una forma de resolver el ejemplo del punto anterior sería con el patrón &lt;.*&gt;(.*)&lt;/.*&gt;, es decir, buscamos
+</p>
+<ul><li> &lt;.*&gt; Una apertura de tag</li>
+<li> (.*) Lo que hay entre tags</li>
+<li> &lt;/.*&gt; El cierre de tag</li></ul>
+<p>Y el código java sería
+</p>
+<pre>String cadena = "&lt;a&gt;uno&lt;/a&gt;&lt;b&gt;dos&lt;/b&gt;&lt;c&gt;tres&lt;/tres&gt;";
+
+Pattern pattern1 = Pattern.compile("&lt;.*&gt;(.*)&lt;/.*&gt;");
+
+Matcher matcher1 = pattern1.matcher(cadena);
+while (matcher1.find()) {
+   System.out.println("1 " + matcher1.group(1));
+}
+</pre>
+<p>Estamos buscando cualquier cosas entre &lt;.*&gt; y &lt;/.*&gt;, es decir, entre cualquier tag delimintado por &lt; y &gt;, tenga lo que tenga dentro y &lt;/ y &gt;. Nos quedamos con lo que hay entre ellos (el (.*)). Metiendo el Matcher correspondiente en un bucle con find(), esperamos encontrar las tres cadenas buscadas.
+</p><p>Pero esto no funciona, sólo nos da la última. ¿Por qué?. La búsqueda empieza con un &lt;.*&gt;, es decir, busca un &lt; (el que está al principio de la cadena) y luego va saltando caracteres, todos los que puede, hasta que encuentre algo que puda casar con el resto del matcher. Y lo que encuentra es que el primero &lt;.*&gt; casa perfectamente con &lt;a&gt;uno&lt;/a&gt;&lt;b&gt;dos&lt;/b&gt;&lt;c&gt;. Luego el (.*) casa con el "tres" (y es lo que nos va a devolver la llamada al group(1) y el último &lt;/.*&gt; casa con &lt;/c&gt;.
+</p><p>Este comportamiento, que no es el que queremos, se conocd como "greedy" (glotón), en el que cada uno de los trozos del patrón que ponemos trata de coger lo máximo posible de la cadena. El primer trozo del patrón &lt;.*&gt; casa perfectamente con el primero &lt;a&gt;, pero también con &lt;a&gt;uno&lt;/a&gt;, con &lt;a&gt;uno&lt;/a&gt;&lt;b&gt;, con .... y con la cadena completa &lt;a&gt;uno&lt;/a&gt;&lt;b&gt;dos&lt;/b&gt;&lt;c&gt;tres&lt;/c&gt;. El comportamiento greedy trata de coger lo máximo posible, pero siempre intentando que el patrón completo se cumpla. Por ello, el primero &lt;nowikwi&gt;&lt;.*&gt;&lt;/nowiki&gt; coge &lt;a&gt;uno&lt;/a&gt;&lt;b&gt;dos&lt;/b&gt;&lt;c&gt;, que es lo máximo que puede coger haciendo que el patrón completo se cumpla.
+</p><p>Otro posible comportamiento es "reluctant" o perezoso. Este comportamiento es el contrario de greedy. Tratará de coger lo menos posible, pero siempre intentando que se cumpla el pattrón. Para este comportamiento, añadimos un&nbsp;? detrás. Así, el siguiente código
+</p>
+<pre>Pattern pattern2 = Pattern.compile("&lt;.*?&gt;(.*?)&lt;/.*?&gt;");
+
+Matcher matcher2 = pattern2.matcher(cadena);
+while (matcher2.find()) {
+   System.out.println("2 " + matcher2.group(1));
+}
+</pre>
+<p>funcionará según lo esperado, ya que &lt;.*?&gt; intentará coger lo menos posible que cumpla el patrón, es decir, la &lt;a&gt;. El (.*?) hará lo mismo, es decir el "uno" (si no pusieramos el interrogante, este trozo de patrón cogería todo hasta el &lt;/c&gt;&lt;/nowwiki&gt; final, excluyéndolo. Por último, el último &lt;nowiki&gt;&lt;/.*?&gt; casará sólo con el &lt;/a&gt; y si no pusieramos el interrogante, casaría con todo el resto de la cadena.
+</p><p>Finalmente, existe otra forma llamada "possesive" o posesiva. Funciona exacamtente igual que greedy (es decir, trata de coger lo máximo posible), pero a diferencia de greedy no se preocupa de hacer que se cumpla el patrón. Para este modo se pone un más en vez de un interrogante y el patrón quedaría &lt;.*+&gt;(.*+)&lt;/.*+&gt;. No funcionaría nunca ni encontraría nada, porque el primer &lt; casaría con el primer &lt; de la cadena y el .*+ se "comería" el resto de la cadena hasta el final. La forma correcta de usar este cuantificador para este tipo de cadena podría ser &lt;[^&gt;]*+&gt;([^&lt;]*+)&lt;/[^&gt;]*+&gt; de forma que
+</p>
+<ul><li> &lt;[^&gt;]*+&gt; Busca el "mayor que", luego se salta todos los caracteres que no sean "menor que" y busca el "menor que", es decir, lo que sería un tag.</li>
+<li> ([^&lt;]*+) Va leyendo todo lo que no sea "menor que", es decir, lo que hay entre la apertura del tag y el principio del cierre.</li>
+<li> &lt;/[^&gt;]*+&gt; El "menor que", la /, todo lo que haya que no sea "menor que" y el "menor que".</li></ul>
+<p>De esta forma, los possessive se irían "comiendo" todo hasta encontrar un "mayor que" o "menor que", según el caso.
+</p><p>¿Para qué se usa este modo entonces?. Unicamente por motivos de eficiencia. Si en la cadena hay un trozo que queramos quitar y que podamos distinguir con una expresión regular, podemos ponerlo con este modo possesive. De esta forma, el possesive se comerá directamente ese trozo de cadena y no perderá el tiempo tratando de hacer casar ese trozo con el patrón de alguna u otra forma. En el ejemplo anterior, si la cadena fuera larga y no hubiera ningún "menor que", el primer trozo de [^&gt;]*+ se "comería" toda la cadena dando fallo en la búsqueda directamente, mientras que los otros dos cuantificadores (greedy y reluctant), tras ver el fallo, tratarían de retroceder en la cadena a ver si "comiendo" más o menos caracteres pueden hacerla "casar" de alguna forma.
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20161110063043
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.040 seconds
+Real time usage: 0.041 seconds
+Preprocessor visited node count: 223/1000000
+Preprocessor generated node count: 824/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 - -total
+-->
+
+<!-- Saved in parser cache with key chuidia_chuwiki-ChuWiki:pcache:idhash:1676-0!*!0!!es!*!* and timestamp 20161110063043 and revision id 4553
+ -->
+</div><div class="printfooter">
+Obtenido de «<a dir="ltr" href="http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java&amp;oldid=4553">http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java&amp;oldid=4553</a>»</div>
+					<div id="catlinks" class="catlinks"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://chuwiki.chuidiang.org/index.php?title=Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="http://chuwiki.chuidiang.org/index.php?title=Categor%C3%ADa:Java:B%C3%A1sico" title="Categoría:Java:Básico">Java:Básico</a></li></ul></div></div>					<!-- end content -->
+										<div class="visualClear"></div>
+				</div>
+			</div>
+		</div>
+		<div id="column-one">
+			<h2>Menú de navegación</h2>
+					<div id="p-cactions" class="portlet" role="navigation">
+			<h3>Vistas</h3>
+
+			<div class="pBody">
+				<ul>
+				<li id="ca-nstab-main" class="selected"><a href="http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java" title="Ver la página de contenido [alt-shift-c]" accesskey="c">Página</a></li>
+				<li id="ca-talk" class="new"><a href="http://chuwiki.chuidiang.org/index.php?title=Discusi%C3%B3n:Expresiones_Regulares_en_Java&amp;action=edit&amp;redlink=1" rel="discussion" title="Discusión acerca de la página de contenido [alt-shift-t]" accesskey="t">Discusión</a></li>
+				<li id="ca-viewsource"><a href="http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java&amp;action=edit" title="Esta página está protegida.
+Puedes ver su código fuente [alt-shift-e]" accesskey="e">Ver código</a></li>
+				<li id="ca-history"><a href="http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java&amp;action=history" title="Versiones anteriores de esta página [alt-shift-h]" accesskey="h">Historial</a></li>
+				</ul>
+							</div>
+		</div>
+				<div class="portlet" id="p-personal" role="navigation">
+				<h3>Herramientas personales</h3>
+
+				<div class="pBody">
+					<ul>
+													<li id="pt-login"><a href="http://chuwiki.chuidiang.org/index.php?title=Especial:Entrar&amp;returnto=Expresiones+Regulares+en+Java" title="Te recomendamos iniciar sesión, aunque no es obligatorio [alt-shift-o]" accesskey="o">Acceder</a></li>
+											</ul>
+				</div>
+			</div>
+			<div class="portlet" id="p-logo" role="banner">
+				<a href="http://chuwiki.chuidiang.org/index.php?title=Chuwiki" class="mw-wiki-logo" title="Visitar la página principal"></a>
+			</div>
+				<div class="generated-sidebar portlet" id="p-navigation" role="navigation">
+		<h3>Navegación</h3>
+		<div class="pBody">
+							<ul>
+											<li id="n-mainpage"><a href="http://chuwiki.chuidiang.org/index.php?title=Chuwiki" title="Visitar la página principal [alt-shift-z]" accesskey="z">Chuwiki</a></li>
+											<li id="n-portal"><a href="http://chuwiki.chuidiang.org/index.php?title=ChuWiki:Portal_de_la_comunidad" title="Acerca del proyecto, lo que puedes hacer, dónde encontrar información">Portal de la comunidad</a></li>
+											<li id="n-recentchanges"><a href="http://chuwiki.chuidiang.org/index.php?title=Especial:CambiosRecientes" title="Lista de cambios recientes en el wiki [alt-shift-r]" accesskey="r">Cambios recientes</a></li>
+											<li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="El lugar para aprender">Ayuda</a></li>
+									</ul>
+					</div>
+		</div>
+		<div class="generated-sidebar portlet" id="p-Enlaces" role="navigation">
+		<h3>Enlaces</h3>
+		<div class="pBody">
+							<ul>
+											<li id="n-Foro-de-Programaci.C3.B3n"><a href="http://foro.chuidiang.com/" rel="nofollow">Foro de Programación</a></li>
+											<li id="n-Blog-de-Programaci.C3.B3n"><a href="http://blog.chuidiang.com/" rel="nofollow">Blog de Programación</a></li>
+											<li id="n-Apuntes-de-Programaci.C3.B3n"><a href="http://www.chuidiang.com/" rel="nofollow">Apuntes de Programación</a></li>
+											<li id="n-Proyectos-Java"><a href="http://proyectos.chuidiang.com/" rel="nofollow">Proyectos Java</a></li>
+									</ul>
+					</div>
+		</div>
+		<div class="generated-sidebar portlet" id="p-Redes_sociales" role="navigation">
+		<h3>Redes sociales</h3>
+		<div class="pBody">
+							<ul>
+											<li id="n-.40Chuidiang-en-Twitter"><a href="https://twitter.com/chuidiang" rel="nofollow">@Chuidiang en Twitter</a></li>
+											<li id="n-Facebook"><a href="https://www.facebook.com/chuidiang" rel="nofollow">Facebook</a></li>
+											<li id="n-Linkedin"><a href="https://www.linkedin.com/in/chuidiang" rel="nofollow">Linkedin</a></li>
+									</ul>
+					</div>
+		</div>
+		<div class="generated-sidebar portlet" id="p-Repositorios_C.C3.B3digo" role="navigation">
+		<h3>Repositorios Código</h3>
+		<div class="pBody">
+							<ul>
+											<li id="n-Github"><a href="https://github.com/chuidiang" rel="nofollow">Github</a></li>
+											<li id="n-Google-Code-en-Github"><a href="https://github.com/chuidiang/chuidiang-ejemplos-google-code" rel="nofollow">Google Code en Github</a></li>
+									</ul>
+					</div>
+		</div>
+		<div class="generated-sidebar portlet" id="p-addthis" role="navigation">
+		<h3>Compartir</h3>
+		<div class="pBody">
+			<!-- AddThis Button BEGIN -->
+			<div class="addthis_toolbox addthis_default_style" id="addthissidebar"><a class="addthis_button_compact"></a><a class="addthis_button_facebook"></a><a class="addthis_button_twitter"></a><a class="addthis_button_google_plusone" g:plusone:count="false" style="margin-top:1px;"></a><a class="addthis_button_email"></a></div>
+			<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>		</div>
+		</div>
+			<div id="p-search" class="portlet" role="search">
+			<h3><label for="searchInput">Buscar</label></h3>
+
+			<div id="searchBody" class="pBody">
+				<form action="http://chuwiki.chuidiang.org/index.php" id="searchform">
+					<input type="hidden" name="title" value="Especial:Buscar">
+					<input type="search" name="search" placeholder="Buscar" title="Buscar en ChuWiki [alt-shift-f]" accesskey="f" id="searchInput" autocomplete="off">
+					<input type="submit" name="go" value="Ir" title="Ir a la página con este nombre exacto si existe" id="searchGoButton" class="searchButton">&nbsp;
+						<input type="submit" name="fulltext" value="Buscar" title="Buscar este texto en las páginas" id="mw-searchButton" class="searchButton">
+				</form>
+
+							</div>
+		</div>
+			<div class="portlet" id="p-tb" role="navigation">
+			<h3>Herramientas</h3>
+
+			<div class="pBody">
+				<ul>
+											<li id="t-whatlinkshere"><a href="http://chuwiki.chuidiang.org/index.php?title=Especial:LoQueEnlazaAqu%C3%AD/Expresiones_Regulares_en_Java" title="Lista de todas las páginas del wiki que enlazan aquí [alt-shift-j]" accesskey="j">Lo que enlaza aquí</a></li>
+											<li id="t-recentchangeslinked"><a href="http://chuwiki.chuidiang.org/index.php?title=Especial:CambiosEnEnlazadas/Expresiones_Regulares_en_Java" title="Cambios recientes en las páginas que enlazan con esta [alt-shift-k]" accesskey="k">Cambios relacionados</a></li>
+											<li id="t-specialpages"><a href="http://chuwiki.chuidiang.org/index.php?title=Especial:P%C3%A1ginasEspeciales" title="Lista de todas las páginas especiales [alt-shift-q]" accesskey="q">Páginas especiales</a></li>
+											<li id="t-print"><a href="http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java&amp;printable=yes" rel="alternate" title="Versión imprimible de esta página [alt-shift-p]" accesskey="p">Versión para imprimir</a></li>
+											<li id="t-permalink"><a href="http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java&amp;oldid=4553" title="Enlace permanente a esta versión de la página">Enlace permanente</a></li>
+											<li id="t-info"><a href="http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java&amp;action=info" title="Más información sobre esta página">Información de la página</a></li>
+									</ul>
+							</div>
+		</div>
+			</div><!-- end of the left (by default at least) column -->
+		<div class="visualClear"></div>
+					<div id="footer" role="contentinfo">
+						<div id="f-poweredbyico">
+									<a href="http://www.mediawiki.org/"><img src="./Expresiones Regulares en Java - ChuWiki_files/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"></a>
+							</div>
+					<ul id="f-list">
+									<li id="lastmod"> Esta página fue modificada por última vez el 7 jul 2012 a las 22:31.</li>
+									<li id="privacy"><a href="http://chuwiki.chuidiang.org/index.php?title=ChuWiki:Pol%C3%ADtica_de_privacidad" title="ChuWiki:Política de privacidad">Política de privacidad</a></li>
+									<li id="about"><a href="http://chuwiki.chuidiang.org/index.php?title=ChuWiki:Acerca_de" title="ChuWiki:Acerca de">Acerca de ChuWiki</a></li>
+									<li id="disclaimer"><a href="http://chuwiki.chuidiang.org/index.php?title=ChuWiki:Limitaci%C3%B3n_general_de_responsabilidad" title="ChuWiki:Limitación general de responsabilidad">Aviso legal</a></li>
+									<li id="mobileview"><a href="http://chuwiki.chuidiang.org/index.php?title=Expresiones_Regulares_en_Java&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Versión para móviles</a></li>
+							</ul>
+		</div>
+		</div>
+		<script>window.RLQ = window.RLQ || []; window.RLQ.push( function () {
+mw.loader.state({"user":"ready","user.groups":"ready"});
+} );</script>
+<link rel="stylesheet" href="./Expresiones Regulares en Java - ChuWiki_files/load(3).php">
+<script>window.RLQ = window.RLQ || []; window.RLQ.push( function () {
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);
+} );</script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-256265-5', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
+<script>window.RLQ = window.RLQ || []; window.RLQ.push( function () {
+mw.config.set({"wgBackendResponseTime":1522});
+} );</script>
+<div class="suggestions" style="display: none; font-size: 11.4617px;"><div class="suggestions-results"></div><div class="suggestions-special"></div></div></body></html>

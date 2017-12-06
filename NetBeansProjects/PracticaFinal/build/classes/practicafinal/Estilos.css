@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-feb-2017, 12:02:49
+    Author     : Alejandro
+*/
+
+.root {
+    -fx-background-color: #436A3E;
+}
+
+.button {
+    -fx-background-color: #B4C3B1;
+}
+
+.label, #btnAcceder, #chkConexion, #btnCambiarVista, .table-cell {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+#titulo {
+    -fx-font-size: 40px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #818181;
+}
+
+#paneVer, #paneVisita, #paneInfo, #paneInspector, .table-view, .table-row-cell, .tab-header-background {
+    -fx-background-color: #567951;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #698864;
+}
+
+#btnVisita {
+    -fx-background-color: #436A3E;
+    -fx-background-image: url("visita.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 70 70;
+    -fx-background-position: center center;
+}
+
+#btnGuardar {
+    -fx-background-color: #567951;
+    -fx-background-image: url("guardar.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 70 70;
+    -fx-background-position: center center;
+}

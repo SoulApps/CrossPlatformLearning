@@ -1,0 +1,271 @@
+package partida;
+
+import jugadores.Bot;
+import jugadores.Jugador;
+import excepciones.PosicionNoValidaException;
+import globalValues.GlobalValues;
+import materiales.Posicion;
+import materiales.Tablero;
+import teclado.EnumRango;
+import teclado.Teclado;
+
+/**
+ * Created by Alejandro on 08/04/2016.
+ */
+public class Partida implements Cloneable {
+    private boolean turnoBlancas;
+    private boolean turnoBot;
+    private boolean gananBlancas;
+    private boolean finPartida;
+    private int fichasBlancas;
+    private int fichasNegras;
+    private int numTurno;
+    private Tablero tablero;
+    private Jugador jugador;
+    private Bot bot;
+
+    /**
+     * Crea una partida e inicia los valores necesarios de los atributos.
+     */
+    public Partida() {
+        bot = new Bot(); //Creo el bot.
+        turnoBlancas = false; //Empezarán las negras.
+        numTurno = 1;
+        tablero = new Tablero();
+    }
+
+    /**
+     * Este método es el que hace posible jugar, y por lo tanto es el que se ejecutará en el main.
+     */
+    public void comenzarPartida() {
+        char columnaChar;
+        boolean error = false;
+        String nombre;
+        Posicion posicion = new Posicion(0, 0);
+
+        //Petición de datos.
+        nombre = Teclado.next("¿Cómo te llamas?");
+        turnoBot = Teclado.nextBoolean("Hola " + nombre + " ¿Qué color quieres?", "Blanco", "Negro");
+
+        //Creo el jugador.
+        jugador = new Jugador(nombre);
+
+        do {
+            contarFichas();
+            System.out.printf("%s%n%s", GlobalValues.DELIMITADOR_TURNOS, toString());
+            if (!pasarTurno()) {
+                do {
+                    if (!turnoBot) {
+                        error = false;
+                        System.out.println(GlobalValues.MENSAJE_PETICION);
+                        columnaChar = Teclado.nextChar(GlobalValues.MENSAJE_COLUMNA, 'A', 'H', EnumRango.AMBOSINCLUIDOS);
+                        posicion.setFila(Teclado.nextInt(GlobalValues.MENSAJE_FILA, 1, 8, EnumRango.AMBOSINCLUIDOS ) - 1);
+                        posicion.setColumna(interpretarLetra(columnaChar));
+                        try {
+                            jugador.colocarFicha(posicion, tablero, turnoBlancas);
+                        } catch (PosicionNoValidaException e) {
+                            System.out.println(e.getMessage());
+                            error = true;
+                        }
+                    } else
+                        bot.colocarFichaBot(tablero, turnoBlancas);
+                } while (error);
+                cambiarTurno();
+                comprobarFinPartida(); //Compruebo si se puede seguir jugando en el siguiente turno.
+            }
+            else {
+                System.out.printf(GlobalValues.PASAR_TURNO, turnoBlancas?"blancas":"negras");
+                cambiarTurno();
+            }
+            numTurno++;
+        } while (!finPartida);
+
+        //Muestro el resultado.
+        contarFichas();
+        System.out.println(GlobalValues.DELIMITADOR_TURNOS);
+        if (gananBlancas)
+            System.out.printf(GlobalValues.MENSAJE_GANAN_BLANCAS, tablero, fichasBlancas, fichasNegras); //Muestro los resultados si ganan las blancas.
+        else
+            System.out.printf(GlobalValues.MENSAJE_GANAN_NEGRAS, tablero, fichasNegras, fichasBlancas); //Muestro los resultados si ganan las negras.
+        Teclado.close();
+    }
+
+    /**
+     * Este método convierte la letra introducida por el usuario en el número correspondiente de la columna.
+     * @param columnaChar Es la letra entre la A y la H introducida por el usuario.
+     * @return El número entre 0 y 7 correspondiente a esa letra.
+     */
+    private int interpretarLetra(char columnaChar) {
+        int columna = 0;
+
+        switch (columnaChar) {
+            case 'A':
+                columna = 0;
+                break;
+            case 'B':
+                columna = 1;
+                break;
+            case 'C':
+                columna = 2;
+                break;
+            case 'D':
+                columna = 3;
+                break;
+            case 'E':
+                columna = 4;
+                break;
+            case 'F':
+                columna = 5;
+                break;
+            case 'G':
+                columna = 6;
+                break;
+            case 'H':
+                columna = 7;
+                break;
+        }
+
+        return columna;
+    }
+
+    /**
+     * Cambia el turno tanto del bot como del color para saber quién mueve y con qué color.
+     */
+    public void cambiarTurno() {
+        if (turnoBlancas)
+            turnoBlancas = false;
+        else
+            turnoBlancas = true;
+        if (turnoBot)
+            turnoBot = false;
+        else
+            turnoBot = true;
+    }
+
+    /**
+     * Este método se encarga tanto de comprobar si el jugador actual puede colocar.
+     * @return Devuelve un valor booleano dependiendo del resultado.
+     */
+    public boolean pasarTurno() {
+        boolean fin = true;
+        boolean auxiliarJ, auxiliarB = true;
+        Tablero clonTablero = (Tablero) tablero.clone();
+
+        if (!turnoBot) {
+            auxiliarJ = bot.colocarFichaBot( clonTablero, turnoBlancas); //Compruebo si puede colocar el jugador.
+            if (auxiliarJ)
+                fin = false;
+        }
+        else {
+            auxiliarB = bot.colocarFichaBot(clonTablero, turnoBlancas); //Compruebo si puede colocar el bot.
+            if (auxiliarB)
+                fin = false;
+        }
+
+        return fin;
+    }
+
+    /**
+     * Este método se encarga de comprobar si se puede seguir jugando.
+     */
+    private void comprobarFinPartida() {
+        boolean noTurnoJugador, noTurnoBot;
+
+        if (!turnoBot) {
+            noTurnoJugador = pasarTurno();
+            cambiarTurno(); //Cambio el turno para comprobar el otro jugador.
+            noTurnoBot = pasarTurno();
+        } else {
+            noTurnoBot = pasarTurno();
+            cambiarTurno(); //Cambio el turno para comprobar el otro jugador.
+            noTurnoJugador = pasarTurno();
+        }
+
+        cambiarTurno(); //Dejo el turno como estaba.
+
+        if (noTurnoJugador && noTurnoBot)
+            finPartida = true;
+    }
+
+    /**
+     * Este método cuenta el número de fichas blancas y negras y las casillas vacías.
+     * @return Devuelve el número de casillas vacías.
+     */
+    private int contarFichas() {
+        int casillasVacias = 0;
+        int i, j;
+
+        fichasBlancas = 0;
+        fichasNegras = 0;
+        for (i = 0; i < GlobalValues.CASILLAS; i++) {
+            for (j = 0; j < GlobalValues.CASILLAS; j++) {
+                if (tablero.getFichas()[i][j] != null) {
+                    if (tablero.getFichas()[i][j].isEsBlanca())
+                        fichasBlancas++;
+                    else if (!tablero.getFichas()[i][j].isEsBlanca())
+                        fichasNegras++;
+                } else
+                    casillasVacias++;
+            }
+        }
+
+        //Si la partida no puede seguir entonces se suman las casiilas vacías al ganador.
+        if (finPartida) {
+            //Si ganan las blancas.
+            if (fichasBlancas > fichasNegras) {
+                fichasBlancas += casillasVacias;
+                gananBlancas = true;
+            }
+
+            //Si ganan las negras.
+            else
+                fichasNegras += casillasVacias;
+        }
+
+        return casillasVacias;
+    }
+
+    /**
+     * Clon.
+     * @return Devuelve la partida clonada.
+     */
+    public Object clone() {
+        Partida p;
+
+        try {
+            p = (Partida) super.clone();
+            p.tablero = (Tablero) tablero.clone();
+            p.jugador = (Jugador) jugador.clone();
+            p.bot = (Bot) bot.clone();
+        } catch (CloneNotSupportedException e) {
+            p = null;
+        }
+
+        return p;
+    }
+
+    /**
+     * Equals.
+     * @param o Es el otro objeto a comparar.
+     * @return Devuelve un valor booleano dependiendo de su igualdad.
+     */
+    public boolean equals(Object o) {
+        boolean igual = false;
+
+        if (o instanceof Partida)
+            if (turnoBlancas == ((Partida) o).turnoBlancas && turnoBot == ((Partida) o).turnoBot && gananBlancas == ((Partida) o).gananBlancas &&
+                    fichasBlancas == ((Partida) o).fichasBlancas && fichasNegras == ((Partida) o).fichasNegras && numTurno == ((Partida) o).numTurno &&
+                    tablero.equals(((Partida) o).tablero) && jugador.equals(((Partida) o).jugador) && bot.equals(((Partida) o).bot))
+                igual = true;
+
+        return igual;
+    }
+
+    /**
+     * ToString.
+     * @return Devuelve en una cadena el número de turno, color que coloca, número de fichas blancas y negras y el tablero con las fichas.
+     */
+    public String toString() {
+        return String.format("Turno: %d%nEs el turno de %s%nColocan: %s%nBlancas: %-10dNegras: %d%n%s%n", numTurno, turnoBot ? bot : jugador, turnoBlancas ? "blancas" : "negras", fichasBlancas, fichasNegras, tablero);
+    }
+}

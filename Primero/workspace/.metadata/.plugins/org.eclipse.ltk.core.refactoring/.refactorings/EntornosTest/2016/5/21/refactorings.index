@@ -1,0 +1,23 @@
+1464078789104	Rename package 'src.actions'
+1464078838449	Rename package 'src.banco'
+1464078849835	Rename package 'src.facade'
+1464079004917	Rename type 'Action'
+1464079024084	Rename type 'CerrarCuentaAction'
+1464079034023	Rename type 'CrearCuentaAction'
+1464079042915	Rename type 'IngresarDineroAction'
+1464079067599	Rename type 'TransferirDineroAction'
+1464079119632	Rename method 'execute'
+1464079173538	Move compilation unit
+1464079286933	Delete element
+1464079289056	Delete element
+1464079290891	Delete element
+1464079317596	Move compilation unit
+1464079425492	Extract local variable 'variableLocal'
+1464079490649	Extract constant 'CONSTANTE'
+1464079672519	Extract constant 'FACHADA_MODELO'
+1464079943189	Convert local variable 'micuenta' to field
+1464348245372	Extract method 'esBaseIgual'
+1464348266891	Extract method 'sumaExponente'
+1464348318352	Extract interface 'Multiplicable'
+1464348410713	Change method 'multiplicar'
+1464348590278	Extract superclass 'PotenciaSimple'

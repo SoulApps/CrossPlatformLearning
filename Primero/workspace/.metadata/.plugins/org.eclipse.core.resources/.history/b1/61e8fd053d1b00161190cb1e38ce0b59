@@ -1,0 +1,105 @@
+package materiales;
+
+import globalValues.GlobalValues;
+import java.util.Arrays;
+
+/**
+ * Created by Alejandro on 15/04/2016.
+ */
+public class Tablero implements Cloneable {
+    private Ficha fichas[][] = new Ficha[GlobalValues.CASILLAS][GlobalValues.CASILLAS];
+
+    /**
+     * Crea un tablero con las fichas iniciales colocadas.
+     */
+    public Tablero() {
+        iniciarTablero();
+    }
+
+    /**
+     * Coloca las fichas en las posiciones iniciales.
+     */
+    private void iniciarTablero() {
+        //Posiciones iniciales
+        fichas[3][3] = new Ficha(true);
+        fichas[4][4] = new Ficha(true);
+        fichas[3][4] = new Ficha(false);
+        fichas[4][3] = new Ficha(false);
+    }
+
+    /**
+     * GetFichas.
+     * @return Devuelve el array de fichas.
+     */
+    public Ficha[][] getFichas() {
+        return fichas;
+    }
+
+    /**
+     * Clon.
+     * @return Devuelve el tablero clonado.
+     */
+    public Object clone() {
+        Tablero t;
+        int i, j;
+
+        try {
+            t = (Tablero) super.clone();
+            t.fichas = fichas.clone();
+            for (i = 0; i < GlobalValues.CASILLAS; i++) {
+                t.fichas[i] = fichas[i].clone();
+                for (j = 0; j < GlobalValues.CASILLAS; j++)
+                    if  (fichas[i][j] != null)
+                        t.fichas[i][j] = (Ficha) fichas[i][j].clone();
+            }
+        } catch (CloneNotSupportedException e) {
+            t = null;
+        }
+
+        return t;
+    }
+
+    /**
+     * Equals.
+     * @param o Es el otro objeto a comparar.
+     * @return Devuelve un valor booleano dependiendo de su igualdad.
+     */
+    public boolean equals(Object o) {
+        boolean igual = true;
+        int i;
+
+        if (o instanceof Tablero)
+            for (i = 0; i < GlobalValues.CASILLAS; i++)
+                if (!Arrays.equals(fichas[i], ((Tablero) o).fichas[i]))
+                    igual = false;
+
+        return igual;
+    }
+
+    /**
+     * ToString.
+     * @return Devuelve una cadena con el tablero.
+     */
+    public String toString() {
+        String cadena = "";
+        int i, j;
+        cadena += GlobalValues.LETRAS + "\n";
+        cadena += GlobalValues.TABLERO_SUPERIOR;
+        for (i = 0; i < fichas.length; i++) {
+            cadena += i + 1 + " " + "│" ;
+            for (j = 0; j < fichas[i].length; j++) {
+                if (fichas[i][j] != null)
+                    cadena += String.format(GlobalValues.TABLERO_FICHA, fichas[i][j]);
+                else
+                    cadena += GlobalValues.TABLERO_VACIA;
+            }
+            cadena += "\n";
+            if (i != 7)
+                cadena += GlobalValues.TABLERO_MEDIO;
+        }
+        cadena += GlobalValues.TABLERO_INFERIOR;
+        cadena += GlobalValues.LETRAS + "\n";
+
+        return cadena;
+    }
+}

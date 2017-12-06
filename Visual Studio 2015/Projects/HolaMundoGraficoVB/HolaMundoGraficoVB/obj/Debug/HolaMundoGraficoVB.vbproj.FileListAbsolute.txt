@@ -1,0 +1,15 @@
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGraficoVB\HolaMundoGraficoVB\bin\Debug\HolaMundoGraficoVB.exe.config
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGraficoVB\HolaMundoGraficoVB\bin\Debug\HolaMundoGraficoVB.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGraficoVB\HolaMundoGraficoVB\bin\Debug\HolaMundoGraficoVB.pdb
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGraficoVB\HolaMundoGraficoVB\bin\Debug\HolaMundoGraficoVB.xml
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGraficoVB\HolaMundoGraficoVB\obj\Debug\HolaMundoGraficoVB.Form1.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGraficoVB\HolaMundoGraficoVB\obj\Debug\HolaMundoGraficoVB.Resources.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGraficoVB\HolaMundoGraficoVB\obj\Debug\HolaMundoGraficoVB.vbproj.GenerateResource.Cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGraficoVB\HolaMundoGraficoVB\obj\Debug\HolaMundoGraficoVB.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGraficoVB\HolaMundoGraficoVB\obj\Debug\HolaMundoGraficoVB.xml
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGraficoVB\HolaMundoGraficoVB\obj\Debug\HolaMundoGraficoVB.pdb
+C:\Users\ale_z\OneDrive\Documentos\Visual Studio 2015\Projects\HolaMundoGraficoVB\HolaMundoGraficoVB\obj\Debug\HolaMundoGraficoVB.vbprojResolveAssemblyReference.cache
+C:\Users\ale_z\GitHub\Visual Studio 2015\Projects\HolaMundoGraficoVB\HolaMundoGraficoVB\bin\Debug\HolaMundoGraficoVB.exe.config
+C:\Users\ale_z\GitHub\Visual Studio 2015\Projects\HolaMundoGraficoVB\HolaMundoGraficoVB\obj\Debug\HolaMundoGraficoVB.exe
+C:\Users\ale_z\GitHub\Visual Studio 2015\Projects\HolaMundoGraficoVB\HolaMundoGraficoVB\obj\Debug\HolaMundoGraficoVB.xml
+C:\Users\ale_z\GitHub\Visual Studio 2015\Projects\HolaMundoGraficoVB\HolaMundoGraficoVB\obj\Debug\HolaMundoGraficoVB.pdb

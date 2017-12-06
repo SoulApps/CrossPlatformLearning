@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE MENSAJE SYSTEM "mensajes.dtd">
+<MENSAJE prioridad="maxima">
+	<CABECERA>
+		<FECHA fd="09" fm="01" fa="2008"/>
+		<DE>Tomas Nogales</DE>
+		<A>Menchu Arekkabi</A>
+		<ASUNTO>Reunion Proyecto</ASUNTO>
+	</CABECERA>
+	<CUERPO>
+		<SALUDO>Hola de nuevo</SALUDO>
+		<P>En relacion a tu mensaje:</P>
+		<CITA>tendria que ser una tarde de esta semana</CITA>
+		<P>Yo solo podria el viernes</P>
+		<DESPEDIDA>Saludos</DESPEDIDA>
+		<FIRMANTE>Tomas</FIRMANTE>
+	</CUERPO>
+</MENSAJE>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="71754172832230"
+    token="815507392491811006"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="2145" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="439" />
+    <task
+        name="verifier"
+        duration="30" />
+
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d2028fae1db58e058334463710fd3db21b4a69b0\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_98591600b55b57eccd4f1015f4cc80efe21bf6dc\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.1_01fa65272c4cffadfa08c213d5a4fefcc524158b\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0_14517f6d7819c198cca5b4194d944c03fd80eae1\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_365e35cca58b42b547633b0c85c89208dba31fa4\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_13b4fa18059c71e3441caef4ab30524ecb36b972\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ac6639525620af6ff11848d15194582ccb765046\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.0_2904d85140eb028abf75bf6f46fce168a3cfefd8\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_2b69f57c763d29020d279ede4546818fb5f34ea0\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_2a9927117a2d1e713a65c4e742986de36c4ae340\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_533c229a0e6df656a8dc1f02b42a01af934215be\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_453e7d2d97093c1ae28b6baf587e8782ff4650e9\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_0ad10b9dde61dc13aaa6b9c1ee4583b364e52509\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_6b054e98c3abad4e5820132b64c38791c68318d3\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_8ca4cf30399ee5b8ecd1056e56149a46e02791f4\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_222bccda9185c5d93d3617540b7308a7f55fffa3\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_989921084856ab55de55101c2fa5fc4e3d49c6e8\classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="70149888289840"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="71754172832230"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d2028fae1db58e058334463710fd3db21b4a69b0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_98591600b55b57eccd4f1015f4cc80efe21bf6dc\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.1_01fa65272c4cffadfa08c213d5a4fefcc524158b\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0_14517f6d7819c198cca5b4194d944c03fd80eae1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_365e35cca58b42b547633b0c85c89208dba31fa4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_13b4fa18059c71e3441caef4ab30524ecb36b972\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ac6639525620af6ff11848d15194582ccb765046\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.0_2904d85140eb028abf75bf6f46fce168a3cfefd8\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_2b69f57c763d29020d279ede4546818fb5f34ea0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_2a9927117a2d1e713a65c4e742986de36c4ae340\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_533c229a0e6df656a8dc1f02b42a01af934215be\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_453e7d2d97093c1ae28b6baf587e8782ff4650e9\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_0ad10b9dde61dc13aaa6b9c1ee4583b364e52509\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_6b054e98c3abad4e5820132b64c38791c68318d3\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_8ca4cf30399ee5b8ecd1056e56149a46e02791f4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_222bccda9185c5d93d3617540b7308a7f55fffa3\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ale_z\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_989921084856ab55de55101c2fa5fc4e3d49c6e8\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

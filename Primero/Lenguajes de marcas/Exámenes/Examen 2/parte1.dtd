@@ -1,0 +1,27 @@
+<!--Declaración de elementos-->
+
+<!ELEMENT viajes (cruceros, viajeros)>
+<!ELEMENT cruceros(crucero)>
+<!ELEMENT crucero(nombre, fecha+, escalas)>
+<!ELEMENT escalas(escala)>
+<!ELEMENT escala(#PCDATA)>
+
+<!ELEMENT viajeros(viajero)>
+<!ELEMENT viajero(nombre, fnac, fcom, puntuacion, descripcion)>
+<!ELEMENT nombre(#PCDATA)>
+<!ELEMENT fnac(#PCDATA)>
+<!ELEMENT fcom(#PCDATA)>
+<!ELEMENT puntuacion(#PCDATA)>
+<!ELEMENT descripcion(#PCDATA)>
+
+
+<!--Declaración de atributos-->
+
+<!ATTLIST crucero id ID #REQUIRED>
+<!ATTLIST crucero tipo (mediterraneo | caribe | america) #REQUIRED>
+<!ATTLIST fecha precio CDATA #REQUIRED>
+<!ATTLIST escala dia (1 | 2 | 3 | 4 | 5 | 6 | 7) #REQUIRED>
+<!ATTLIST duracion (1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30) #IMPLIED>
+
+<!ATTLIST n ID #REQUIRED>
+<!ATTLIST crucero IDREF #IMPLIED>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE FACTURA SYSTEM "dtd.dtd">
+
+<facturas>
+	<factura numerofactura="">
+		<empresa>
+			<cif></cif>
+			<nombre></nombre>
+			<telefono num_tel=""></telefono>
+			<fax num_fax=""></fax>
+			<direccion></direccion>
+		</empresa>
+		<cliente numcliente="">
+			<dni></dni>
+			<nombre></nombre>
+			<telefono></telefono>
+			<direccion></direccion>
+		</cliente>
+		<productos>
+			<producto id="">
+				<nombre></nombre>
+				<cantidad></cantidad>
+				<precio_unitario moneda="euro"></precio_unitario>
+			</producto>
+		</productos>
+		<fecha></fecha>
+		<iva tipo="%"></iva>
+		<forma_pago></forma_pago>
+		<total moneda="euro"></total>
+	</factura>
+</facturas>

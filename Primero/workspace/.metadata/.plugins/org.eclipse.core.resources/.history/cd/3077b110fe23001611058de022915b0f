@@ -1,0 +1,66 @@
+
+public class Potencia implements Multiplicable {
+
+	int base;
+	int exponente;
+	
+
+
+	public Potencia(int base, int exponente){
+		this.base = base;
+		this.exponente = exponente;
+		
+	}
+
+	public int getBase() {
+		return base;
+	}
+
+	public void setBase(int base) {
+		this.base = base;
+	}
+
+	public int getExponente() {
+		return exponente;
+	}
+
+	public void setExponente(int exponente) {
+		this.exponente = exponente;
+	}
+	
+	/* (non-Javadoc)
+	 * @see Multiplicable#multiplicar(Potencia)
+	 */
+	@Override
+	public Multiplicable multiplicar(Object potencia)throws NiIdeaDeMatesException{
+		Multiplicable resultado= null;
+		if (esBaseIgual(potencia)){
+			resultado = new Potencia(this.getBase(), sumaExponente(potencia));
+		} else throw new NiIdeaDeMatesException("La base debe de ser igual");	
+		return resultado;
+			
+	}
+
+	private int sumaExponente(Potencia potencia) {
+		return this.getExponente()+potencia.getExponente();
+	}
+
+	private boolean esBaseIgual(Potencia potencia) {
+		return this.getBase()==potencia.getBase();
+	}
+	
+	/** Calcula la potencia de una potencia
+	 * 
+	 * @param exponente
+	 * @return
+	 */
+	
+	public Multiplicable potenciaDePotencia(int exponente){
+		return new Potencia(this.getBase(), this.getExponente()*exponente);
+	}
+	
+	@Override
+	public String toString() {
+		return "Potencia [base=" + base + ", exponente=" + exponente + "]";
+	}
+	}

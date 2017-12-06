@@ -1,0 +1,7 @@
+#Tue Jan 10 13:25:21 CET 2017
+base.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\RelojMultihilo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_7f421871b63c9ad6fd38d5511c313df457f2efb6
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\RelojMultihilo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_06aefccaf269a8b0cf5dcfb1b05d78f3c139954f\\classes.dex
+base.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\RelojMultihilo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_06aefccaf269a8b0cf5dcfb1b05d78f3c139954f
+file.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\RelojMultihilo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_7f421871b63c9ad6fd38d5511c313df457f2efb6\\classes.dex

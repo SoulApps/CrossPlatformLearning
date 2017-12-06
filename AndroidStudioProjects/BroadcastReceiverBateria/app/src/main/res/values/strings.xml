@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BroadcastReceiverBateria</string>
+    <string name="porcentaje">%1$d</string>
+    <string name="cargando">Cargando</string>
+    <string name="por_usb">por usb</string>
+    <string name="conectado">por enchufe</string>
+</resources>

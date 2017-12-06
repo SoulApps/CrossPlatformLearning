@@ -1,0 +1,32 @@
+package estructurada;
+
+public class Ejercicio31 {
+
+	public static void main(String[] args) {
+
+		int i, j, k, x = 1, y = 1;
+		String n = "N", b = "B";
+		
+		for (i = 1, j = 1; i <= 8; i++) {
+			for (j = 0; j < 8; j++) {
+				if (i == x && j == y) {
+					System.out.print("A");
+					for (k = 0; k > x && k < 8; k++) {
+						System.out.println("*");
+					}
+				}
+				else if ((i + j) %2 == 0) {
+					System.out.print(n);
+				}
+				else if ((i + j) %2 != 0) {
+					System.out.print(b);
+				}	
+				else if (i == x && j == y) {
+					System.out.print("A");
+				}
+			}
+			System.out.println();
+		}
+	}
+
+}

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">osu!Quiz</string>
+    <string name="jugar">JUGAR</string>
+    <string name="verPuntuaciones">RECORDS</string>
+    <string name="comprobar">COMPROBAR</string>
+    <string name="puntuaciones">Puntuaciones</string>
+    <string name="de">Pregunta %1$s de %2$s</string>
+    <string name="fecha">Fecha</string>
+    <string name="puntos">Puntos</string>
+    <string name="listaVacia">No hay puntuaciones</string>
+</resources>

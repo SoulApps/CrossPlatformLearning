@@ -1,0 +1,18 @@
+package actions;
+
+import banco.Cuenta;
+
+public class CrearCuentaAction implements Accion{
+
+	double saldoInicial;
+	
+	public CrearCuentaAction(double saldoInicial){
+		this.saldoInicial=saldoInicial;
+	}
+	
+	public Object execute() {
+		Cuenta micuenta=new Cuenta ();
+		micuenta.setSaldo(saldoInicial);
+		return micuenta;
+	}
+}

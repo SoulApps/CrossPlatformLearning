@@ -1,0 +1,56 @@
+package estructurada;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Ejercicio19 {
+
+	public static void main(String[] args) {
+		// Declaraci�n
+		int x = 0, y = 0, i = 0, cifras = 0, contador;
+		boolean error = false;
+		String mensaje = "Introduzca un n�mero positivo.";
+		String mensajeError = "�El dato introducido debe ser un n�mero positivo!";
+
+		Scanner teclado = new Scanner(System.in);
+
+		// Petici�n de datos
+		do {
+			try {
+				System.out.println(mensaje);
+				x = teclado.nextInt();
+
+				if (x < 0)
+					System.out.println(mensajeError);
+				error = true;
+			} catch (InputMismatchException e) {
+				System.out.println(mensajeError);
+				error = true;
+			}
+		} while (!error);
+
+		contador = x;
+
+		//Cuento el número de cifras del número introducido dividiéndolo entre 10 hasta que el resto sea 0
+		//123/10=12 , cifras=1  |||| 12/10=1 cifras=2	||| 1/10=0 cifras=3
+		while (contador != 0) {
+			contador /= 10;
+			cifras++;
+		}
+
+		// Operaciones
+		// El resto del n�mero dividido entre 10 es igual al �ltimo n�mero de x
+		// y se contin�a esta operaci�n con el cociente.
+		/*
+		 * 123%10=3 && 123/10=12 12%10=2 && 12/10=1 1%10=1;
+		 */
+		for (i = 0; i < cifras; i++) {
+			y = x % 10;
+			x = x / 10;
+			System.out.print("\u001B[7m"+y);
+		}
+
+		teclado.close();
+	}
+
+}

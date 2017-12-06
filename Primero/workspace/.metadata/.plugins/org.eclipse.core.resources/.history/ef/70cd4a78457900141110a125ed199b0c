@@ -1,0 +1,58 @@
+package Examenes;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Examen {
+public static void main(String[] args) {
+		
+		int fila,columna;
+		String[] palabras = new String [11];
+			palabras[0]="Programacion";
+			palabras[1]="BaseDeDatos";
+			palabras[2]="DesarrolloInterfaces";
+			palabras[3]="Marcas";
+			palabras[4]="Acceso A Datos";
+			palabras[5]="Fol";
+			palabras[6]="Entornos";
+			palabras[7]="Hlc";
+			palabras[8]="Android";
+			palabras[9]="Sistemas";
+			palabras[10]="Multihilo";
+			}
+
+	
+public static String crearSopaLetras(String[] palabras,int derecha){
+		
+		String sopa[][]= new String[17][17];
+		palabras[6]=derecha;
+			
+		
+		
+	}
+	
+	public static String mostarSopaLetras(String crearSopaLetras){
+		
+		int i;
+		int j;
+		
+		System.out.println("Sopa:");
+		for(i=0 ; i<crearSopaLetras.length ; i++){
+			for(j=0 ; j<crearSopaLetras[i].length; j++){
+				System.out.print(" "+crearSopaLetras[i][j]);
+			}
+			System.out.println();
+		}
+		
+	}
+public static int derecha(String[]array,int fila){
+		
+		
+		for(fila=0;fila<array.length;fila++){
+		
+		
+		}
+	
+		return fila;
+	}
+}

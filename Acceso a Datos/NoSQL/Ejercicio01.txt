@@ -1,0 +1,16 @@
+emp1={emp_no:1, dep:10, salario:1000, fechaAlta:"10/10/1999"}
+db.empleados.save(emp1)
+emp2={emp_no:2, nombre:"Alicia", dep:10, salario:1400, fechaAlta:"07/08/2000", oficio:"Profesora"}
+db.empleados.save(emp2)
+emp3={emp_no:3, nombre:"María Jesús", dep:20, salario:1500, fechaAlta:"05/01/2015", oficio:"Analista", comision:100}
+db.empleados.save(emp3)
+emp4={emp_no:4, nombre:"Alberto", dep:20, salario:1100, fechaAlta:"15/11/2001"}
+db.empleados.save(emp4)
+emp5={emp_no:5, nombre:"Fernando", dep:30, salario:1400, fechaAlta:"20/11/1999", comision:200, oficio:"Analista"}
+db.empleados.save(emp5)
+
+db.empleados.find({dep:10})
+db.empleados.find({$or:[{dep:10}, {dep:20}]})
+db.empleados.find({salario:{$gt:1300}, oficio:"Profesora"})
+db.empleados.update({oficio:"Analista"}, {$inc:{salario:100}}, {multi:true})
+db.empleados.update({comision:{$exists:true}}, {$inc:{comision:-20}}, {multi:true})

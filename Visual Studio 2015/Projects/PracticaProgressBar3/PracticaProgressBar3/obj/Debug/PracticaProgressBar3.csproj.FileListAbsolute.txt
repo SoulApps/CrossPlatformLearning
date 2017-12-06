@@ -1,0 +1,9 @@
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaProgressBar3\PracticaProgressBar3\bin\Debug\PracticaProgressBar3.exe.config
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaProgressBar3\PracticaProgressBar3\bin\Debug\PracticaProgressBar3.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaProgressBar3\PracticaProgressBar3\bin\Debug\PracticaProgressBar3.pdb
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaProgressBar3\PracticaProgressBar3\obj\Debug\PracticaProgressBar3.csprojResolveAssemblyReference.cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaProgressBar3\PracticaProgressBar3\obj\Debug\PracticaProgressBar3.Form1.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaProgressBar3\PracticaProgressBar3\obj\Debug\PracticaProgressBar3.Properties.Resources.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaProgressBar3\PracticaProgressBar3\obj\Debug\PracticaProgressBar3.csproj.GenerateResource.Cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaProgressBar3\PracticaProgressBar3\obj\Debug\PracticaProgressBar3.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\PracticaProgressBar3\PracticaProgressBar3\obj\Debug\PracticaProgressBar3.pdb

@@ -1,0 +1,9 @@
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\DragNDrop\DragNDrop\bin\Debug\DragNDrop.exe.config
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\DragNDrop\DragNDrop\bin\Debug\DragNDrop.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\DragNDrop\DragNDrop\bin\Debug\DragNDrop.pdb
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\DragNDrop\DragNDrop\obj\Debug\DragNDrop.csprojResolveAssemblyReference.cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\DragNDrop\DragNDrop\obj\Debug\DragNDrop.Form1.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\DragNDrop\DragNDrop\obj\Debug\DragNDrop.Properties.Resources.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\DragNDrop\DragNDrop\obj\Debug\DragNDrop.csproj.GenerateResource.Cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\DragNDrop\DragNDrop\obj\Debug\DragNDrop.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\DragNDrop\DragNDrop\obj\Debug\DragNDrop.pdb

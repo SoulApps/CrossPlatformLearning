@@ -1,0 +1,13 @@
+Nombre: A
+Apellidos: A
+Dirección: a
+Tipo de cliente Normal
+Facturas: 18.45
+
+Nombre: V
+Apellidos: V
+Dirección: v
+Tipo de cliente Preferente
+Facturas: 13.5
+
+Total: 31.95

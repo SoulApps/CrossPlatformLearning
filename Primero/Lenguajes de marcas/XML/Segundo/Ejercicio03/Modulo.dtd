@@ -1,0 +1,25 @@
+<!ELEMENT modulocicloformativoasir (modulo)>
+<!ELEMENT modulo (nombremodulo, horassemanales, caracter, fechainicio, fechafin, alumnosmatriculados)>
+<!ELEMENT nombremodulo (#PCDATA)>
+<!ELEMENT horassemanales (#PCDATA)>
+<!ELEMENT caracter (#PCDATA)>
+<!ELEMENT fechainicio (#PCDATA)>
+<!ELEMENT fechafin (#PCDATA)>
+<!ELEMENT alumnosmatriculados (alumno)>
+<!ELEMENT alumno (nombre, nif, telefono, email, direccion, asistencias?, notas?)>
+<!ELEMENT direccion (calle, numero, poblacion, codigopostal)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nif (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT asistencias (#PCDATA)>
+<!ELEMENT notas (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT codigopostal (#PCDATA)>
+
+<!ATTLIST horassemanales medida CDATA"">
+<!ATTLIST alumno n ID #REQUIRED>
+<!ATTLIST modulo caracter (Obligatorio|Opcional) Obligatorio>

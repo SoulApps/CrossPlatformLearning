@@ -1,0 +1,10 @@
+FRAMESET(no tiene body)
+
+<html>
+<frameset>Son los nºs de abajo indican los pixeles y el asterisco indica que el resto es para otra-se puede poner también con porcentajes % <frameset>
+<frameset cols="100,100*">Especifica los marcos verticales-columnas</frameset>
+	<frame src="http://marca.com" name="marco1">Contenido</frame>
+	<frame src="" name="" frameborder="0" noresize scrolling="yes/no/auto"></frame>
+	<frame src="pagina3.html">
+<frameset rows="100,100*">Crea filas</frameset>
+</html>

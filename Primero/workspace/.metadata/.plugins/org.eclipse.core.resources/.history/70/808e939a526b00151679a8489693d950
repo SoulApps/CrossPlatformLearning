@@ -1,0 +1,31 @@
+package boletin2;
+
+public class Ejercicio27 {
+
+	public static final String ANSI_RESET = "\u001B[0m";
+	public static final String ANSI_BLACK = "\u001B[30m";
+
+	public static void main(String[] args) {
+		// contar metiendo 2 nums para que luego con un bucle
+		//las busque, compare y cambie.
+
+		final byte LIMITE = 8;
+		int i = 0, j = 0;
+		String N = ANSI_BLACK + "██" + ANSI_RESET, B = "██";
+
+		for (i = 0; i < LIMITE; i++) {
+			System.out.println("");
+			if (i % 2 == 0) {
+				for (j = 0; j < LIMITE / 2; j++) {
+					System.out.printf("%s%s", N, B);
+				}
+			} else {
+				for (j = 0; j < LIMITE / 2; j++) {
+					System.out.printf("%s%s", B, N);
+				}
+			}
+
+		}
+	}
+
+}

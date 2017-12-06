@@ -1,0 +1,206 @@
+/*@import url('https://fonts.googleapis.com/css?family=Fjalla+One');*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #888;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+/*LOGIN*/
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    box-shadow: 0px 1px 1px black;
+    padding: 5px;
+    height: 73px;
+}
+header a{
+    
+    color: black;
+}
+.activo{
+    border-bottom: 1px solid red;
+    color: red;
+}
+header figure{
+    display: none;
+    position:absolute;
+    top: 0px;
+    right: 10px;
+}
+
+header figure figcaption{
+    display: none;
+}
+
+header nav ul{
+    width: 60%;
+    float: left;
+    list-style: none;
+    margin-top: 5px;
+    position: relative;
+   
+}
+header nav ul li{
+    display: inline-block;
+    font-size: .75em;
+}
+header nav ul li#ocul {
+    display: none;
+}
+.der{
+    text-align: right;
+    width: 15%;
+    float: right;
+}
+div#registro{
+    margin: 68px auto;
+    width: 100%;
+    
+    padding: 1%;
+    
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+}
+div#login{
+    margin: 30% auto;
+    width: 80%;
+    border: 1px black solid;
+    padding: 1%;
+    
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+    
+}
+div#login form label, div#registro form label{
+    display: inline-block;
+    width: 40%; 
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+
+div#login form input,div#registro form input{
+    width: 98%;
+    padding: 2px 3px 2px 6px;
+   
+}
+
+div#login form input#boton, div#registro form input#boton{
+    width: 40%;
+    border-radius: 2px;    
+    background-color: rgba(0,0,0,.3);
+    margin:10px 0px 10px 30%;
+    box-shadow: 0px 0px 3px black;
+}
+div#login span{
+    display: none;
+}
+span#nickErr{
+    display: inline-block;
+    width: 50%;
+    margin-right: 5px;
+    
+}
+div#login a, div#registro a{
+    
+    font-size: 0.8em;
+    
+}
+section{
+    margin-top: 85px;
+}
+section article{
+    vertical-align: middle;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+section article img{
+    display: inline-block;
+    border-radius: 50%;
+    width: 15%;
+    box-shadow: 1px 1px 2px black;
+    margin: 5px 10px 5px 15px;
+    
+    
+}
+section article span{
+    display: inline-block;
+    margin: 0px 10px 5px 15px;
+    font-weight: 1.2em;
+    word-spacing: 1.2;
+    position: absolute;
+    top: 11px;
+    left: 65px; 
+    
+}
+
+section article a{
+    text-decoration: none;
+    float: right;
+    margin: 13px 5px 0px 0px;
+    color:black;
+    
+}
+.favorito{
+    //background-color: yellow;
+    color: yellow;
+}
+footer{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    bottom: 0px;
+    background-color: white;
+    box-shadow: -1px 0px 3px black;
+}
+
+.rojo{
+    color: red;
+    
+}
+
+.verde{
+    color: green;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

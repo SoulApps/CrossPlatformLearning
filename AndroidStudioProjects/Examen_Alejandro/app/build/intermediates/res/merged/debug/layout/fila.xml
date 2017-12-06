@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/imgPortada"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:contentDescription="@string/portada_del_libro"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/imgPortada"
+        app:layout_constraintLeft_toRightOf="@+id/imgPortada"
+        app:layout_constraintBottom_toTopOf="@+id/lblAutor"
+        tools:text="Título" />
+
+    <TextView
+        android:id="@+id/lblAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/lblTitulo"
+        app:layout_constraintBottom_toBottomOf="@+id/imgPortada"
+        app:layout_constraintLeft_toLeftOf="@+id/lblTitulo"
+        tools:text="Autor" />
+
+    <TextView
+        android:id="@+id/lblPublicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/imgPortada"
+        app:layout_constraintBottom_toTopOf="@+id/imgPortada"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="2017" />
+</android.support.constraint.ConstraintLayout>

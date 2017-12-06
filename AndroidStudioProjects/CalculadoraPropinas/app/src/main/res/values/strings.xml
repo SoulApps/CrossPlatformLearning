@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CalculadoraPropinas</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="porcentaje">%</string>
+    <string name="prop">%Prop.</string>
+    <string name="propina">Propina</string>
+    <string name="total">Total</string>
+    <string name="por_comensal">Por comensal</string>
+    <string name="comensales">Comensales</string>
+    <string name="redondear">REDONDEAR</string>
+    <string name="limpiar">LIMPIAR</string>
+    <string name="euro">€</string>
+</resources>

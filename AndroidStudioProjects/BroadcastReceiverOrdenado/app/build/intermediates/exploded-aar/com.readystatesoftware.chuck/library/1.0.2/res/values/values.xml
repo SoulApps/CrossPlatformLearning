@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="chuck_colorAccent">#FF9800</color>
+    <color name="chuck_colorPrimary">#00BCD4</color>
+    <color name="chuck_colorPrimaryDark">#0097A7</color>
+    <color name="chuck_status_300">#0D47A1</color>
+    <color name="chuck_status_400">#FF9800</color>
+    <color name="chuck_status_500">#B71C1C</color>
+    <color name="chuck_status_default">#212121</color>
+    <color name="chuck_status_error">#F44336</color>
+    <color name="chuck_status_requested">#9E9E9E</color>
+    <string name="chuck_body_omitted">(encoded or binary body omitted)</string>
+    <string name="chuck_browse_sql_database">Browse SQLite database</string>
+    <string name="chuck_clear">Clear</string>
+    <string name="chuck_duration">Duration</string>
+    <string name="chuck_method">Method</string>
+    <string name="chuck_name">Chuck</string>
+    <string name="chuck_no">No</string>
+    <string name="chuck_notification_title">Recording HTTP activity</string>
+    <string name="chuck_overview">Overview</string>
+    <string name="chuck_protocol">Protocol</string>
+    <string name="chuck_request">Request</string>
+    <string name="chuck_request_size">Request size</string>
+    <string name="chuck_request_time">Request time</string>
+    <string name="chuck_response">Response</string>
+    <string name="chuck_response_size">Response size</string>
+    <string name="chuck_response_time">Response time</string>
+    <string name="chuck_search">Search</string>
+    <string name="chuck_share">Share</string>
+    <string name="chuck_share_as_curl">Share as curl command</string>
+    <string name="chuck_share_as_text">Share as text</string>
+    <string name="chuck_ssl">SSL</string>
+    <string name="chuck_status">Status</string>
+    <string name="chuck_total_size">Total size</string>
+    <string name="chuck_url">URL</string>
+    <string name="chuck_yes">Yes</string>
+    <style name="Chuck.TextAppearance.Label" parent="android:TextAppearance.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Chuck.TextAppearance.ListItem" parent="android:TextAppearance">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Chuck.TextAppearance.TransactionTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:gravity">top</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="Chuck.TextAppearance.Value" parent="android:TextAppearance.Small">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textIsSelectable">true</item>
+    </style>
+    <style name="Chuck.Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/chuck_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/chuck_colorPrimaryDark</item>
+        <item name="colorAccent">@color/chuck_colorAccent</item>
+    </style>
+</resources>

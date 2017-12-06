@@ -1,0 +1,6 @@
+1|Sánchez Galvín|Alejandro|2|
+2|Jurado Cano|Carmen|1|
+3|Peralta Macías|Eva|4|
+4|Gutiérrez Lozano|Ana|2|
+5|Acha Aller|Santiago Xácome|3|
+6|Joya Máñez|Pedro|1|

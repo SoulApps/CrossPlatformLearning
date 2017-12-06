@@ -1,0 +1,10 @@
+
+public interface Multiplicable {
+
+	/**
+	 * Multiplica potencias de la misma base
+	 * @param potencia
+	 */
+	Multiplicable multiplicar(Potencia potencia) throws NiIdeaDeMatesException;
+
+}

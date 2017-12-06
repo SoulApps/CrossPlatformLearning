@@ -1,0 +1,85 @@
+package materiales;
+
+/**
+ * Created by Alejandro on 11/05/2016.
+ */
+public class Posicion {
+    private int fila;
+    private int columna;
+
+    public Posicion(int fila, int columna) {
+        this.fila = fila;
+        this.columna = columna;
+    }
+
+    /**
+     * GetFila.
+     * @return Devuelve la fila.
+     */
+    public int getFila() {
+        return fila;
+    }
+
+    /**
+     * SetFila.
+     * @param fila Es la fila nueva.
+     */
+    public void setFila(int fila) {
+        this.fila = fila;
+    }
+
+    /**
+     * GetColumna.
+     * @return Devuelve la columna.
+     */
+    public int getColumna() {
+        return columna;
+    }
+
+    /**
+     * SetColumna.
+     * @param columna Es la columna nueva.
+     */
+    public void setColumna(int columna) {
+        this.columna = columna;
+    }
+
+    /**
+     * Clon.
+     * @return Devuelve la posición clonada.
+     */
+    public Object clone() {
+        Posicion p;
+
+        try {
+            p = (Posicion) super.clone();
+        } catch (CloneNotSupportedException e) {
+            p = null;
+        }
+
+        return p;
+    }
+
+    /**
+     * Equals.
+     * @param o Es el otro objeto a comparar.
+     * @return Devuelve un valor booleano dependiendo de su igualdad.
+     */
+    public boolean equals(Object o) {
+        boolean igual = false;
+
+        if (o instanceof Posicion)
+            if (fila == ((Posicion) o).fila && columna == ((Posicion) o).columna)
+                igual = true;
+
+        return igual;
+    }
+
+    /**
+     * ToString.
+     * @return Devuelve una cadena con la fila y la columna.
+     */
+    public String toString() {
+        return String.format("[Fila: %d] [Columna: %d]", fila, columna);
+    }
+}

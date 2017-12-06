@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TextInputLayout</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="aceptado">Aceptado</string>
+</resources>

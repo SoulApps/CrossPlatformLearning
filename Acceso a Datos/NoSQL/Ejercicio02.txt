@@ -1,0 +1,7 @@
+db.libros.insert({codigo:1, nombre:"Acceso a datos", pvp:35, editorial:"Garceta", temas:["Base de datos", "Hibernate", "Neodatis"]})
+db.libros.insert({codigo:2, nombre:"Entornos de desarrollo", pvp:27, editorial:"Garceta", temas:["UML", "Subversión", "ERMaster"]})
+db.libros.insert({codigo:3, nombre:"Programación de Servicios", pvp:25, editorial:"Garceta", temas:["SOCKET", "Multihilo"]})
+
+db.libros.find({pvp:{$gte:20, $lte:25}, temas:"SOCKET"})
+db.libros.update({temas:{$exists:true}}, {$addToSet:{temas:"SOCKET"}}, {multi:true})
+db.libros.update({editorial:"Garceta"}, {$set:{pvp:5}}, {multi:true})

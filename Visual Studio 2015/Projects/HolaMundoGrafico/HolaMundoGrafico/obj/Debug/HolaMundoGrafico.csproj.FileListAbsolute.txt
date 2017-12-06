@@ -1,0 +1,12 @@
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGrafico\HolaMundoGrafico\bin\Debug\HolaMundoGrafico.exe.config
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGrafico\HolaMundoGrafico\bin\Debug\HolaMundoGrafico.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGrafico\HolaMundoGrafico\bin\Debug\HolaMundoGrafico.pdb
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGrafico\HolaMundoGrafico\obj\Debug\HolaMundoGrafico.csprojResolveAssemblyReference.cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGrafico\HolaMundoGrafico\obj\Debug\HolaMundoGrafico.Form1.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGrafico\HolaMundoGrafico\obj\Debug\HolaMundoGrafico.Properties.Resources.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGrafico\HolaMundoGrafico\obj\Debug\HolaMundoGrafico.csproj.GenerateResource.Cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGrafico\HolaMundoGrafico\obj\Debug\HolaMundoGrafico.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\HolaMundoGrafico\HolaMundoGrafico\obj\Debug\HolaMundoGrafico.pdb
+C:\Users\ale_z\GitHub\Visual Studio 2015\Projects\HolaMundoGrafico\HolaMundoGrafico\bin\Debug\HolaMundoGrafico.exe.config
+C:\Users\ale_z\GitHub\Visual Studio 2015\Projects\HolaMundoGrafico\HolaMundoGrafico\obj\Debug\HolaMundoGrafico.exe
+C:\Users\ale_z\GitHub\Visual Studio 2015\Projects\HolaMundoGrafico\HolaMundoGrafico\obj\Debug\HolaMundoGrafico.pdb

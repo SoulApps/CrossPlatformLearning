@@ -1,0 +1,7 @@
+#Fri Feb 10 09:36:29 CET 2017
+base.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\Retrofit\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d2028fae1db58e058334463710fd3db21b4a69b0
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\Retrofit\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_ac6639525620af6ff11848d15194582ccb765046\\classes.dex
+base.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\Retrofit\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_ac6639525620af6ff11848d15194582ccb765046
+file.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\Retrofit\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d2028fae1db58e058334463710fd3db21b4a69b0\\classes.dex

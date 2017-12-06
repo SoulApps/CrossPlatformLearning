@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:title="Insultar"
+        android:key="prefInsultar" />
+    <EditTextPreference
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Nombre por defecto"
+        android:key="prefNombre" />
+    <ListPreference
+        android:defaultValue="1"
+        android:title="Equipos favoritos"
+        android:entries="@array/equipos"
+        android:entryValues="@array/equipos"
+        android:key="prefEquipo" />
+</PreferenceScreen>

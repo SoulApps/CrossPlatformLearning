@@ -1,0 +1,22 @@
+Nombre: A
+Apellidos: A
+Dirección: a
+Tipo de cliente Normal
+Facturas: 
+	Concepto: kj
+	Importe: 4.75
+	Fecha: 13/02/2017 15:17:21
+
+	Concepto: a
+	Importe: 4.75
+	Fecha: 13/02/2017 15:21:13
+
+	Concepto: a
+	Importe: 4.95
+	Fecha: 13/02/2017 15:29:23
+
+	Concepto: a
+	Importe: 4.0
+	Fecha: 13/02/2017 15:30:28
+
+Total: 18.45

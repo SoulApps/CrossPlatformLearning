@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane id="AnchorPane" prefHeight="377.0" prefWidth="561.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="practicafinal.Inspeccion">
+    <children>
+      <Label fx:id="lblInspector" layoutX="18.0" layoutY="98.0" text="Inspector" />
+      <ComboBox fx:id="cbInspector" layoutX="78.0" layoutY="94.0" onAction="#handleCbInspectorOnAction" prefHeight="25.0" prefWidth="205.0" promptText="Elige uno..." />
+      <TabPane fx:id="tabsSemanas" layoutX="18.0" layoutY="141.0" prefHeight="222.0" prefWidth="321.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="tab1" text="04/01">
+               <content>
+                  <TableView fx:id="table1" onMouseClicked="#handleElementClicked" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="colFecha1" prefWidth="90.0" text="C1" />
+                      <TableColumn fx:id="colInstituto1" prefWidth="231.0" text="C2" />
+                    </columns>
+                  </TableView>
+               </content>
+          </Tab>
+          <Tab fx:id="tab2" text="03/01">
+               <content>
+                  <TableView fx:id="table2" onMouseClicked="#handleElementClicked" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="colFecha2" prefWidth="90.0" text="C1" />
+                      <TableColumn fx:id="colInstituto2" prefWidth="231.0" text="C2" />
+                    </columns>
+                  </TableView>
+               </content>
+          </Tab>
+            <Tab fx:id="tab3" text="02/01">
+               <content>
+                  <TableView fx:id="table3" onMouseClicked="#handleElementClicked" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="colFecha3" prefWidth="90.0" text="C1" />
+                      <TableColumn fx:id="colInstituto3" prefWidth="231.0" text="C2" />
+                    </columns>
+                  </TableView>
+               </content>
+            </Tab>
+            <Tab fx:id="tab4" text="01/01">
+               <content>
+                  <TableView fx:id="table4" onMouseClicked="#handleElementClicked" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="colFecha4" prefWidth="90.0" text="C1" />
+                      <TableColumn fx:id="colInstituto4" prefWidth="231.0" text="C2" />
+                    </columns>
+                  </TableView>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Pane id="paneInspector" layoutX="342.0" layoutY="141.0" prefHeight="222.0" prefWidth="205.0">
+         <children>
+            <Label fx:id="lblInfo" layoutX="5.0" layoutY="6.0" />
+            <Label fx:id="lblMotivo" layoutX="7.0" layoutY="27.0" text="Motivo" />
+            <Label fx:id="lblResolucion" layoutX="7.0" layoutY="122.0" text="Resolución" />
+            <WebView fx:id="webMotivo" layoutX="7.0" layoutY="44.0" prefHeight="73.0" prefWidth="176.0" />
+            <WebView fx:id="webResolucion" layoutX="7.0" layoutY="139.0" prefHeight="73.0" prefWidth="176.0" />
+         </children>
+      </Pane>
+      <Button id="btnCambiarVista" fx:id="btnCambiar" layoutX="453.0" layoutY="23.0" mnemonicParsing="false" onAction="#gotoCentros" prefHeight="39.0" prefWidth="92.0" text="Ir a centros" />
+      <Text id="titulo" layoutX="30.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inspección" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LinearLayout</string>
+    <string name="toastAceptar">Usuario %1$s aceptado</string>
+    <string name="txtVacio"></string>
+    <string name="error">Usuario o contraseña incorrectos</string>
+    <string name="conexion">CONEXIÓN</string>
+    <string name="usuario">Usuario</string>
+    <string name="clave">Clave</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="aceptar">ACEPTAR</string>
+</resources>

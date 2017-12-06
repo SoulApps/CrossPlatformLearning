@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<hojaPedido fechaPedido="1999-10-20">
+    <enviarA pais="EEUU">
+        <nombre>Alice Smith</nombre>
+        <calle>123 Maple Street</calle>
+        <ciudad>Mill Valley</ciudad>
+        <estado>CA</estado>
+        <zip>90952</zip>
+    </enviarA>
+    <facturarA pais="EEUU">
+        <nombre>Robert Smith</nombre>
+        <calle>8 Oak Avenue</calle>
+        <ciudad>Old Town</ciudad>
+        <estado>PA</estado>
+        <zip>95819</zip>
+    </facturarA>
+    
+    <elementos>
+        <elemento numProducto="872-AA">
+            <nombreProducto>Cortacesped</nombreProducto>
+            <cantidad>1</cantidad>
+            <precioEEUU>148.95</precioEEUU>
+            <comentario>Confirmar que es eléctrico</comentario>
+        </elemento>
+        <elemento numProducto="926-AA">
+            <nombreProducto>Monitor para bebes</nombreProducto>
+            <cantidad>1</cantidad>
+            <precioEEUU>39.98</precioEEUU>
+            <fechaEnvio>1999-05-21</fechaEnvio>
+        </elemento>
+    </elementos>
+</hojaPedido>

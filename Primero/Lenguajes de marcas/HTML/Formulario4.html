@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+		<title>Formulario4</title>
+	</head>
+	<body>
+		<form action="envio_datos_formularios.html" method="post">
+			<p>Nombre: <input type="text"></p>
+			<p>Apellidos: <input type="text"></p>
+			<p>Correo electr&oacute;nico: <input type="text" value="@"></p>
+			<p>Poblaci&oacute;n <input type="text"></p>
+			<p>Provincia <input type="text"></p>
+			<table>
+			<tr>
+				<td>Edad</td>
+				<td>&iquest;C&oacute;mo nos conociste?</td>
+			</tr>	
+			<tr>
+				<td><input type="radio" name="edad" value="0-20">0-20</td>
+				<td><input type="checkbox" name="edad" value="amigo">A trav&eacute;s de un amigo</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="edad" value="20-40">0-20</td>
+				<td><input type="checkbox" name="edad" value="buscador">A trav&eacute;s de un buscador</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="edad" value="40-60">0-20</td>
+				<td><input type="checkbox" name="edad" value="red">Navegando por la red</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="edad" value="60-100">0-20</td>
+				<td><input type="checkbox" name="edad" value="otros">Otros</td>
+			</tr>
+			</table>		
+			<p>Opini&oacute;n sobre nuestra p&aacute;gina web<br><textarea rows="10" cols="35" placeholder="Escriba aqu&iacute; su opini&oacute;n..."></textarea></p>
+			<p>Tiene alguna sugerencia<br><textarea rows="10" cols="35" placeholder="Escriba aqu&iacute; sus sugerencias..."></textarea></p>
+			<p>&iquest;Cu&aacute;nto navegas por internet?(Se&ntilde;ala la opci&oacute;n que m&aacute;s se acerque)</p>
+				<select size="4">
+					<option value="2">2 horas al dia.</option>
+					<option value="4">4 horas al dia.</option>
+					<option value="10">10 horas al semana.</option>
+					<option value="20">20 horas al mes.</option>
+				</select>	
+			<br><center>
+			<button type="submit">Enviar formulario</button>
+			<button type="reset">Borrar formulario</button>
+			</center>
+		</form>
+	</body>
+</html>	

@@ -1,0 +1,7 @@
+#Tue Sep 27 16:40:38 CEST 2016
+base.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\LinearLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_45dacb9158cff48bb32edb2d29b6e330a69da5b5
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\LinearLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5b51b629f84775ad6205cff29c4c99f5109c8eeb\\classes.dex
+base.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\LinearLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5b51b629f84775ad6205cff29c4c99f5109c8eeb
+file.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\LinearLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_45dacb9158cff48bb32edb2d29b6e330a69da5b5\\classes.dex

@@ -1,0 +1,162 @@
+package Examenes;
+
+public class Ex02AlejandroSanchez {
+	
+	/*Sánchez Galvín, Alejandro
+	 * 
+	 * (NOTA: EL PROGRAMA NO FUNCIONA)
+	 * PLANTEAMIENTO:
+	 * Creamos un array que contega las palabras que vamos a introducir en la sopa de letras.
+	 * 1.- Creamos la función crearSopaLetras.
+	 * 	1.1.-Se crea la tabla mediante un array de 16x16.
+	 *  1.2.- Creamos un bucle que vaya recorriendo el array 
+	 * 2.-Creamos las funciones que indican las posiciones
+	 * 3.-Creamos la función mostrarSopaLetras que nos mostrará las palabras de la sopa de letras.
+	 *  3.1.-Controlamos que las palabras que no entren dentro del rango no se muestren.
+	 *  3.2.-Rellenamos los huecos restantes con letras aleatorias.
+	 */
+
+	public static void main(String[] args) {
+		
+		int fila,columna;
+		char[] palabra1={'P','r','o','g','r','a','m','a','c','i','o','n'};
+		char[] palabra2={'B','a','s','e','D','e','D','a','t','o','s'};
+		char[] palabra3={'D','e','s','a','r','r','l','l','o','I','n','t','e','r','f','a','c','e','s'};
+		char[] palabra4={'M','a','r','c','a','s'};
+		char[] palabra5={'A','c','c','e','s','o',' ','A',' ','D','a','t','o','s'};
+		char[] palabra6={'F','o','l'};
+		char[] palabra7={'E','n','t','o','r','n','o','s'};
+		char[] palabra8={'H','l','c'};
+		char[] palabra9={'A','n','d','r','o','i','d'};
+		char[] palabra10={'S','i','s','t','e','m','a','s'};
+		char[] palabra11={'M','u','l','t','i','h','i','l','o'};
+			
+		
+		
+	}
+	
+	
+	public static String crearSopaLetras(String[] palabras,int derecha){
+		
+		String sopa[][]= new String[17][17];
+		
+		System.out.println("SOPA DE LETRAS");
+		System.out.print("0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15");
+		System.out.printf("%n1%n2%n3%n4%n5%n6%n7%n8%n9%n10%n11%n12%n13%n14%n15");
+			
+		return sopa;
+		
+	}
+	
+	public static String mostarSopaLetras(String crearSopaLetras){ //Entrada-salida.
+		
+		int i;
+		int j;
+		
+		System.out.println("Sopa:");
+		for(i=0 ; i<crearSopaLetras.length ; i++){
+			for(j=0 ; j<crearSopaLetras[i].length; j++){
+				System.out.print(" "+crearSopaLetras[i][j]);
+			}
+			System.out.println();
+		}
+		
+	}
+	
+	
+	
+	//Las funciones son de entrada-salida.
+	public static int izquierda(String[]array,int fila){
+		
+		
+		for(fila=0;fila<array.length;fila--){
+		
+		
+		}
+	
+		return fila;
+	}
+	
+	
+	public static int derecha(String[]array,int fila){
+		
+		
+		for(fila=0;fila<array.length;fila++){
+		
+		
+		}
+	
+		return fila;
+	}
+	
+	
+	public static int arriba(String[]array,int columna){
+		
+		
+		for(columna=0;columna<array.length;columna--){
+		System.out.println(array[1]);
+		
+		}
+	
+		return columna;
+	}
+	
+	
+	public static int abajo(String[]array,int columna){
+	
+	
+		for(columna=0;columna<array.length;columna++){
+		System.out.println(array[1]);
+		
+		}
+	
+		return columna;
+	}
+	
+	public static int abajoDerecha(String[]array,int fila,int columna){
+		
+		
+		for(fila=0;fila<array.length;fila++){
+			for(columna=0;columna<array.length;columna++){
+				
+			}
+		}
+	
+		return fila;
+	}
+	
+	public static int arribaDerecha(String[]array,int fila,int columna){
+		
+		
+		for(fila=0;fila<array.length;fila++){
+			for(columna=0;columna<array.length;columna--){
+				
+			}
+		}
+	
+		return fila;
+	}
+	public static int abajoIzquierda(String[]array,int fila,int columna){
+	
+	
+		for(fila=0;fila<array.length;fila--){
+			for(columna=0;columna<array.length;columna++){
+			
+			}
+		}
+
+		return fila;
+	}
+	public static int arribaIzquierda(String[]array,int fila,int columna){
+		
+		
+			for(fila=0;fila<array.length;fila--){
+				for(columna=0;columna<array.length;columna--){
+				
+				}
+		}
+			
+		return fila;
+	}
+}
+

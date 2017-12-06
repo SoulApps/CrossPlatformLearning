@@ -1,0 +1,33 @@
+<!ELEMENT universidad(persona, alumno, profesor)*>
+<!ELEMENT persona(dni, nombre, apellidos, nacimiento, direccion?, telefono?, email?, asignatura+)>
+<!ELEMENT dni(#PCDATA)>
+<!ELEMENT nombre(#PCDATA)>
+<!ELEMENT apellidos(#PCDATA)>
+<!ELEMENT nacimiento(#PCDATA)>
+<!ELEMENT direccion(nombre, numero, codigo_postal, poblacion)>
+<!ELEMENT nombre(#PCDATA)>
+<!ELEMENT numero(#PCDATA)>
+<!ELEMENT codigo_postal(#PCDATA)>
+<!ELEMENT poblacion(#PCDATA)>
+<!ELEMENT telefono(#PCDATA)>
+<!ELEMENT email(#PCDATA)>
+
+<!ELEMENT alumno(asignatura+, (matricula | no_matriculado)>
+<!ELEMENT asignatura(nombre, carrera, curso)>
+<!ELEMENT matriculado EMPTY>
+<!ELEMENT no_matriculado EMPTY>
+
+<!ELEMENT profesor
+
+<!ELEMENT asignatura(nota)>
+<!ELEMENT nota(#PCDATA)>
+
+
+
+<!ATTLIST persona tipo(alumno | profesor) #REQUIRED>
+<!ATTLIST alumno codalu ID #REQUIRED>
+<!ATTLIST telefono opcion ID #REQUIRED>
+<!ATTLIST email correo ID #REQUIRED>
+<!ATTLIST asignatura codasig IDREF #REQUIRED>
+
+<!ATTLIST profesor codprof ID #REQUIRED>

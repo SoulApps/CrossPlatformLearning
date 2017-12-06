@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/tamano_texto"
+    tools:context="com.example.alejandro.pr_prueba.MainActivity">
+
+    <TextView
+        android:id="@+id/lblSaludo"
+        android:text="@string/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saludar"
+        android:id="@+id/btnSaludar"
+        android:onClick="btnSaludarOnClick"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/insultar"
+        android:id="@+id/chkInsultar"
+        android:layout_alignBottom="@+id/txtNombre"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vacio"
+        android:id="@+id/txtMensaje"
+        android:textSize="23sp"
+        android:layout_alignTop="@+id/btnSaludar"
+        android:layout_toLeftOf="@+id/txtNombre"
+        android:layout_toStartOf="@+id/txtNombre" />/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/vacio"
+        android:ems="10"
+        android:id="@+id/txtNombre"
+        android:layout_below="@+id/lblSaludo"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

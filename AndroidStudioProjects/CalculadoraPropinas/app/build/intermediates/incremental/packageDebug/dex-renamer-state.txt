@@ -1,0 +1,7 @@
+#Thu Oct 20 19:35:18 CEST 2016
+base.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\CalculadoraPropinas\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_500ca0fca12ab0d02d4da68f71b03d464d25c4e4
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\CalculadoraPropinas\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_6f948c1b1943c023493bf5287c6001e89337aab5\\classes.dex
+base.1=C\:\\Users\\ale_z\\AndroidStudioProjects\\CalculadoraPropinas\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_6f948c1b1943c023493bf5287c6001e89337aab5
+file.0=C\:\\Users\\ale_z\\AndroidStudioProjects\\CalculadoraPropinas\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_500ca0fca12ab0d02d4da68f71b03d464d25c4e4\\classes.dex

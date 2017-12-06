@@ -1,0 +1,24 @@
+package test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import personajes.*;
+
+public class TestRPG {
+
+	@Before
+	public void setUp() throws Exception {
+		Personaje guerreroFuerte = new Guerrero("GerreroCachas", 50, 30);
+		Personaje guerreroDebil = new Guerrero("Guerrero", 10, 10);
+		
+	}
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

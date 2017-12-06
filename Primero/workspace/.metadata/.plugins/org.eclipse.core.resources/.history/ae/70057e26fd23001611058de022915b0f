@@ -1,0 +1,60 @@
+
+public class Potencia {
+
+	int base;
+	int exponente;
+	
+
+
+	public Potencia(int base, int exponente){
+		this.base = base;
+		this.exponente = exponente;
+		
+	}
+
+	public int getBase() {
+		return base;
+	}
+
+	public void setBase(int base) {
+		this.base = base;
+	}
+
+	public int getExponente() {
+		return exponente;
+	}
+
+	public void setExponente(int exponente) {
+		this.exponente = exponente;
+	}
+	
+	/**
+	 * Multiplica potencias de la misma base
+	 * @param potencia
+	 */
+	public Potencia multiplicar(Potencia potencia)throws NiIdeaDeMatesException{
+		Potencia resultado= null;
+		if (this.getBase()==potencia.getBase()){
+			resultado = new Potencia(this.getBase(), this.getExponente()+potencia.getExponente());
+		} else throw new NiIdeaDeMatesException("La base debe de ser igual");	
+		return resultado;
+			
+	}
+	
+	
+	
+	/** Calcula la potencia de una potencia
+	 * 
+	 * @param exponente
+	 * @return
+	 */
+	
+	public Potencia potenciaDePotencia(int exponente){
+		return new Potencia(this.getBase(), this.getExponente()*exponente);
+	}
+	
+	@Override
+	public String toString() {
+		return "Potencia [base=" + base + ", exponente=" + exponente + "]";
+	}
+	}

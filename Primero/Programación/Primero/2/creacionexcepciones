@@ -1,0 +1,18 @@
+Cuando quiero crear una excepción, basta con ponerla hija de Exception: 
+public class SocioFamiliarException extends Exception {
+	private static final long serialVersionUID = 1L; //Para quitar el warning
+	
+	/** Constructor */
+	public SocioFamiliarException(String mensaje){
+        super(mensaje);
+    }
+}
+
+Cuando expresamente quiero lanzar una excepción: 
+	throw new Exception("Error. El nif es incorrecto..");
+Si quiero que ese mensaje se muestre en el catch: 
+	try {
+		...
+	} catch (Exception e) {
+		System.out.println(e.getMessage());
+	}

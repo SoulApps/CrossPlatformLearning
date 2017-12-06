@@ -1,0 +1,29 @@
+*******************************************************************************
+							AGENDA TELEFONICA
+*******************************************************************************
+	Nombre:              Pipiolo1
+	Teléfono:            123456789
+	Dirección:           Calle Falsa 123
+	Código postal:       11200
+	Fecha de nacimiento: 01-01-2001
+	Le debo dinero:      No
+	Cuánto:              0,00
+*******************************************************************************
+	Nombre:              Pipiolo2
+	Teléfono:            223456789
+	Dirección:           Calle Falsa 123
+	Código postal:       11200
+	Fecha de nacimiento: 01-01-2001
+	Le debo dinero:      Sí
+	Cuánto:              0,00
+*******************************************************************************
+	Nombre:              Pipiolo3
+	Teléfono:            323456789
+	Dirección:           Calle Falsa 123
+	Código postal:       11200
+	Fecha de nacimiento: 01-01-2001
+	Le debo dinero:      No
+	Cuánto:              0,00
+*******************************************************************************
+							FIN DE LA AGENDA TELEFONICA
+*******************************************************************************

@@ -1,0 +1,11 @@
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoVB\BotonEscurridizoVB\bin\Debug\BotonEscurridizoVB.exe.config
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoVB\BotonEscurridizoVB\bin\Debug\BotonEscurridizoVB.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoVB\BotonEscurridizoVB\bin\Debug\BotonEscurridizoVB.pdb
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoVB\BotonEscurridizoVB\bin\Debug\BotonEscurridizoVB.xml
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoVB\BotonEscurridizoVB\obj\Debug\BotonEscurridizoVB.vbprojResolveAssemblyReference.cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoVB\BotonEscurridizoVB\obj\Debug\BotonEscurridizoVB.Form1.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoVB\BotonEscurridizoVB\obj\Debug\BotonEscurridizoVB.Resources.resources
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoVB\BotonEscurridizoVB\obj\Debug\BotonEscurridizoVB.vbproj.GenerateResource.Cache
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoVB\BotonEscurridizoVB\obj\Debug\BotonEscurridizoVB.exe
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoVB\BotonEscurridizoVB\obj\Debug\BotonEscurridizoVB.xml
+c:\users\ale_z\onedrive\documentos\visual studio 2015\Projects\BotonEscurridizoVB\BotonEscurridizoVB\obj\Debug\BotonEscurridizoVB.pdb

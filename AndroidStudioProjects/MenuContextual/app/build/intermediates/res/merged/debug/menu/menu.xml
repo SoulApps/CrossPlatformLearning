@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mnuInsultar"
+        android:title="@string/insultar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mnuEliminar"
+        android:title="@string/eliminar"
+        app:showAsAction="always" />
+</menu>

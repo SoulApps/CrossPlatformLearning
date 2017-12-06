@@ -1,0 +1,5 @@
+$_SESSION['id']
+$_SESSION['msg']
+
+$_SESSION['dir']='/nick/img'
+session_start();

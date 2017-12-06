@@ -1,0 +1,39 @@
+<facturas>
+	<factura codigo="1"> 
+	<fecha>1/3/2014</fecha>	
+	<cliente>
+		<dni>58435684A</dni>
+		<nombre>Juan Perez</nombre>
+		<codigopostal>11207</codigopostal>
+		<direccion>c/enero de febrero 16</direccion>
+		<poblacion>Algeciras</poblacion>
+	</cliente>
+	<producto>
+		<cantidad>1</cantidad>
+		<denominacion>consola</denominacion>
+		<preciounitario>100euros</preciounitario>
+		<moneda>euros</moneda>
+		<iva>21</iva>
+		<descuento>20</descuento>
+	</producto>
+	</factura>
+	<factura codigo="2">
+	<fecha>1/3/2014</fecha>
+	<cliente>
+		<dni>58435684A</dni>
+		<nombre>Norman Anormal</nombre>
+		<codigopostal>11207</codigopostal>
+		<direccion>c/enero de febrero 18</direccion>
+		<poblacion>Algeciras</poblacion>
+	</cliente>
+	<producto>
+		<cantidad>1</cantidad>
+		<denominacion>ordenador</denominacion>
+		<preciounitario>999euros</preciounitario>
+		<moneda>euros</moneda>
+		<iva>21</iva>
+		<descuento>20</descuento>
+	</producto>
+	</factura>
+</facturas>	
+	

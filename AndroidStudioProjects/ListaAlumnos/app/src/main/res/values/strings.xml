@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ListaAlumnos</string>
+    <string name="agregar">AGREGAR</string>
+    <string name="listaVacia">Lista vacía</string>
+    <string name="edad">Edad</string>
+    <string name="repetidor">Repetidor</string>
+    <string name="nombre">Nombre</string>
+    <string name="guardar">GUARDAR</string>
+</resources>

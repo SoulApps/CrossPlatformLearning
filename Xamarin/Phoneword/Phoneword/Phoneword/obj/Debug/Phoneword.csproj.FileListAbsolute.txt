@@ -1,0 +1,15 @@
+c:\users\aleja\documents\visual studio 2017\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Phoneword.dll
+c:\users\aleja\documents\visual studio 2017\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Phoneword.pdb
+c:\users\aleja\documents\visual studio 2017\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\aleja\documents\visual studio 2017\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\aleja\documents\visual studio 2017\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\aleja\documents\visual studio 2017\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Core.pdb
+c:\users\aleja\documents\visual studio 2017\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\aleja\documents\visual studio 2017\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Platform.pdb
+c:\users\aleja\documents\visual studio 2017\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\users\aleja\documents\visual studio 2017\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\aleja\documents\visual studio 2017\Projects\Phoneword\Phoneword\Phoneword\obj\Debug\Phoneword.csprojResolveAssemblyReference.cache
+c:\users\aleja\documents\visual studio 2017\Projects\Phoneword\Phoneword\Phoneword\obj\Debug\Phoneword.MainPage.xaml.g.cs
+c:\users\aleja\documents\visual studio 2017\Projects\Phoneword\Phoneword\Phoneword\obj\Debug\Phoneword.App.xaml.g.cs
+c:\users\aleja\documents\visual studio 2017\Projects\Phoneword\Phoneword\Phoneword\obj\Debug\Phoneword.dll
+c:\users\aleja\documents\visual studio 2017\Projects\Phoneword\Phoneword\Phoneword\obj\Debug\Phoneword.pdb
